@@ -405,9 +405,8 @@ nav{
   }
     
   html:not([data-scroll='0']) li a {
-    color: whitesmoke
+    color: whitesmoke;
   }
-  
   
   li a{
     color:black
@@ -566,6 +565,12 @@ p{
   border: black solid 1px;
   padding: .4em;
   border-radius: 25px;
+  transition:all .3s;
+}
+
+html:not([data-scroll='0']) .div-social-icons a{
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
 }
 
 .btn-receber-oferta{
@@ -576,4 +581,22 @@ p{
 .btn-receber-oferta:hover{
   background-color: black;
   color: white;
+}
+
+html:not([data-scroll='0']) .btn-receber-oferta{
+  background-color: white;
+  color: black;
+}
+html:not([data-scroll='0']) .btn-receber-oferta:hover{
+  background-color: black;
+  color: white;
+}
+
+#navbarResponsive{
+  margin-right: 3em;
+}
+
+.barra-enderecos{
+  margin-right: 3em;
+
 }

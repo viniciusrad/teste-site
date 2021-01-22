@@ -49,21 +49,15 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto barra-enderecos">
                     <li class="nav-item">
-                        <a class="" href="#"><i class="fas fa-camera"></i>
-                            <label for="icon-facebook" class='label-nav-icon'>Instagran</label>
-                        </a>
+                        Início
                     </li>
                     <li class="nav-item">
-                        <a class="" href="#"><i class="fab fa-facebook"></i>
-                            <label for="icon-facebook" class='label-nav-icon'>Facebook</label>
-                        </a>
+                        Contato
                     </li>
                     <li class="nav-item">
-                        <a class="" href="#"><i class="fas fa-phone-alt"></i>
-                            <label for="icon-facebook" class='label-nav-icon'>contato</label>
-                        </a>
+                        Blog
                     </li>
 
                 </ul>
