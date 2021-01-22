@@ -317,7 +317,7 @@ body{
       width: 100%;
       /* transform: scale(1.8); */
       overflow: hidden;
-      /* top: 30px; */
+      top: 30px;
       margin: 50px;
       margin-left: 0;
       margin-bottom: 70px;
@@ -357,9 +357,12 @@ body{
 
   .div-crm{
     display: flex;
+    margin: 5em 1em;
+
   }
   @media only screen and (max-width: 900px) {
     .div-crm{
+      margin: 0;
       display: block;
     }
   }
@@ -551,4 +554,26 @@ p{
   display: flex;
   justify-content: center;
   padding: 3em;
+}
+
+
+.div-social-icons{
+  color: black;
+  margin: 1em 3em;
+}
+.div-social-icons a{
+  color: black;
+  border: black solid 1px;
+  padding: .4em;
+  border-radius: 25px;
+}
+
+.btn-receber-oferta{
+  background-color: transparent;
+  border-radius: 10px;
+  transition: all .4s;;
+}
+.btn-receber-oferta:hover{
+  background-color: black;
+  color: white;
 }

@@ -65,10 +65,20 @@
                             <label for="icon-facebook" class='label-nav-icon'>contato</label>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="" href="#"><i class="fas fa-unlock-alt"></i> Área do cliente</a>
-                    </li>
+
                 </ul>
+
+                <button class="btn-receber-oferta">Receber oferta</button>
+
+                <div class="div-social-icons">
+                    <a class="" href="#"><i class="fas fa-camera"></i></a>
+                    <a class="" href="#"><i class="fab fa-facebook"></i></a>
+                    <a class="" href="#"><i class="fas fa-phone-alt"></i></a>
+
+
+                </div>
+
+
             </div>
         </div>
 
