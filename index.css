@@ -425,17 +425,23 @@ nav{
   }
 
   .div-fundo-cinza{
-    /* height: 120px;
-    background-color: gray;
-    margin: 60px 0px; */
-    /* display: flex; */
     justify-content: center;
     align-items: center;
-  }
-
-  .div-fundo-cinza{
     background-color: gray;
   }
+  
+  .div-fundo-verde{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    padding: 40px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: #00b495;
+  }
+
   .div-fundo-cinza p{
     padding: 4em;
     background-color: gray;
