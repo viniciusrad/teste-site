@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="imagem-principal-mobile">
-        <img src="img/corretorNuvem.png" alt="">
+        <img src="img/corretor-nuvem.png" alt="">
         <div>
             <h3>IMOBILIÁRIA NA NUVEM?</h3>
             <p>A Tecnologia Corporativa mais importante e inovadora disponível para Imobiliárias e Corretores.</p>
