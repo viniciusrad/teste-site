@@ -10,48 +10,164 @@
 
 
     <div class="div-fundo-verde">
-        <p>SITES COMPROVADAMENTE COM OS MELHORES POSICIONAMENTOS NA BUSCA ORGÂNICA (GRATUITA) DO GOOGLE</p>
+        <p>GERENCIE SEUS CORRETORES DE FORMA INTELIGENTE E AUMENTE SUAS VENDAS</p>
     </div>
 
     <div class="div-crm">
         <div class="div-img-crm">
-            <img src="img/crm-screen-shots.png" alt="">
+            <img src="img/celular-e-desktop-com-o-sistema-midas-aberto.jpg" alt="">
         </div>
-        <div class="lista-crm">
-            <h2>CRM EXCLUSIVO PARA IMOBILIÁRIAS E CORRETORES</h2>
-            <ul>
-                <li>Integração com Portais;</li>
-                <li>Integração Facebook e Whatsapp;</li>
-                <li>Funil de Vendas;</li>
-                <li>Análise de Retorno;</li>
-                <li>Transferência Automática de Clientes;</li>
-                <li>Gestão total da sua Equipe;</li>
-                <li>E-mails Automáticos.</li>
-            </ul>
-            <button class="btn-saiba-mais-black">Saiba mais</button>
+        <div class="texto-crm">
+            <p><strong>O sistema MIDAS atua facilitando de forma inteligente e automática as tarefas que mais tomam tempo dos seus corretores, permitindo assim o tempo de sua Equipe seja utilizado no que ela é insubstituível:</strong></p>
+            <p><strong>o atendimento</strong></p>
+            </br>
+            <p><strong>conheça algumas caracteristicas do sistema</strong></p>
 
         </div>
     </div>
 
-    <!-- area de depoimentos -->
-    <!-- <div class="div-depoimentos">
-        <div class="card-depoimentos">
-            <div class="depoimentos-header">
-                <img src="https://via.placeholder.com/150" alt="">
-                <div>
-                    <p>Miliete</p>
-                    <p>Corretora autônoma</p>
-                </div>
 
+    <!-- area de funcionalidades -->
+    <div class="div-funcionalidades">
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
-            <div class="depoimentos-body">
-                <p>Quando comecei a trabalhar como profissional autônoma, queria me profissionalizar, no ramo Imobiliário e estar nos melhores portais. Então não tive dúvidas, escolhi o melhor! Midas. Os profissionais desse sistema, são atenciosos e realmente resolvem sempre o que precisamos. Neste ramo, não podemos perder tempo e o Midas, nós dá um excelente suporte. Parabéns a equipe Midas. </p>
+            <div class="container container-check">
+                <p class="textos-icones-check">Controle e getão total da sua equipe de forma simples e rapida</p>
             </div>
         </div>
-    </div> -->
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Sua regra de negócio é aplicada ao sistema através de parâmetros</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Total segurança para seus dados com controles de acesso e logs de alterações</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Através do funil de vendas conheça e acompanhe seu cliente desde o primeiro contato até o fechamaento da venda</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Tenha todos seus imóveis em qualquer lugar através do aplicativo Midas</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Gestão de propostas, geração, armazenamento, negociações e contratos</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Controle de fila de atendimento personalizável, estabeleça parâmetros e estratégias de bonificação para estimular sua equipe</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Relatórios automáticos prestando contas aos proprietários sobre o trabalho que está sendo realizado.</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Emails automáticos com novos imóveis liberados para comercialização para cada cliente de acordo com o perfil feito pela empresa no MIDAS!</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Análise de investimentos em publicidade.</p>
+                <p class="textos-icones-check">Coneça as taxas de conversão e descubra as melhores mídias</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Total segurança na liberação do acesso ao sistema fora da imobiliária, restringindo informações de forma que esta liberação não cause nenhum prejuízo</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Análise de retorno através de taxas de conversão</p>
+            </div>
+        </div>
+    </div>
 
-    <!--  -->
-    <!--  -->
+    <!-- FIM da area de funcionalidades -->
+
+
+    <div class="div-fundo-verde">
+        <p>GANHE TEMPO E AUMENTE A SUA PRODUTIVIDADE COM AS NOSSAS INTEGRAÇÕES</p>
+    </div>
+
+    <div class="div-funcionalidades">
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Integração automática e leads dos portais, Instagran e Facebook.</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Divulgação de Imóveis no Facebook e Whatsapp.</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Integração com mais de 40 portais em apenas um clique.</p>
+            </div>
+        </div>
+    </div>
+    <div class="div-btn-proposta">
+        <button class="btn-saiba-mais-green">Quero uma demostração</button>
+    </div>
+
+
+    <!-- area de depoimentos -->
+
     <div class="area-depoimentos">
 
         <h3>Casos de sucesso</h3>
