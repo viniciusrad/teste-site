@@ -93,6 +93,8 @@ body{
     font-size: 12px;
   }
 
+  
+
   .container-icones{
     margin-top: 15px;
     display: flex;
@@ -100,7 +102,10 @@ body{
     justify-content: center;
   }
   .div-icone{
-
+    display: flex;
+    justify-content: center;
+  }
+  .div-icone-check{
     display: flex;
     justify-content: center;
   }
@@ -108,6 +113,9 @@ body{
 
   .img-icone{
     width: 160px;
+  }
+  .img-icone-check{
+    width: 80px;
   }
 
 
@@ -339,7 +347,7 @@ body{
     font-family: "roboto", Sans-serif;
 
   }
-
+  /* Botões */
   .btn-saiba-mais{
     border-radius: 25px;
     border: none;
@@ -352,6 +360,17 @@ body{
     padding: 6px 25px;
     color: whitesmoke;
   }
+  .btn-saiba-mais-green{
+    background-color: #00b495;
+    border-radius: 25px;
+    border: none;
+    padding: 6px 25px;
+    color: whitesmoke;
+    transition: all .4s;
+  }
+  .btn-saiba-mais-green:hover{
+    background-color: #08806c;
+  }
   
 
 
@@ -360,6 +379,15 @@ body{
     margin: 5em 1em;
 
   }
+
+  .texto-crm{
+    font-family: "Comfortaa", Sans-serif;
+    font-size: larger;
+    margin: 50px;
+    width: 80%;
+    text-align: center;
+  }
+
   @media only screen and (max-width: 900px) {
     .div-crm{
       margin: 0;
@@ -367,7 +395,7 @@ body{
     }
   }
   .div-img-crm{
-    max-width: 80%;
+    max-width: 10   0%;
   }
   .div-img-crm img{
     width: 100%;
@@ -379,12 +407,20 @@ body{
     padding: 20px;
 
   }
+  .texto-crm{
+    font-family: "Comfortaa", Sans-serif;
+    margin: 35px;
+    padding: 20px;
+  }
+
   .lista-crm li{
     margin: 0;
     padding: 0;
     color: #747474;
     font-weight: bold;
   }
+
+
 nav{
   background-color: #fafafa;
 }
@@ -546,6 +582,11 @@ nav{
 
 }
 
+.rodape p {
+  font-size: 18px;
+  margin: 0 100px;
+}
+
 .texto-centralizado{
   text-align: center;
 }
@@ -672,4 +713,82 @@ html:not([data-scroll='0']) .btn-receber-oferta:hover{
 
 .depoimentos-body li{
   padding: 0px;
+}
+
+.div-funcionalidades{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  row-gap: 20px;
+  margin: 0 80px;
+
+}
+
+.texto-icones-check{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  max-width: 160px;
+}
+
+
+.card-funcionalidade{
+  justify-self: center;
+}
+
+.container-check{
+  max-width: 260px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .div-funcionalidades{
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 10px;
+    row-gap: 20px;
+  }
+  
+  .container-check{
+    max-width: 460px;
+  }
+  
+  .textos-icones-check{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    max-width: 460px;
+    font-weight: bold;
+  }
+  .img-icone-check{
+    width: 120px;
+  }
+
+  
+  .texto-crm, 
+  .div-img-crm {
+    width: 100%;
+  }
+}
+
+.formulario-contato{
+  width: 100%;
+}
+
+.div-imagem-fundo-contato{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 80px;
+  background:url(img/fundo-contato.jpg) center center no-repeat;
+  height: 400px;
+}
+
+.div-imagem-fundo-contato p{
+  font-size: 48px;
+  align-content: center;
+  text-align: center;
+  color: white;
 }
