@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.btn-form{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: wheat;
+}
+.div-btn{
+    margin: 1rem 2rem;
+}
+
+/* Esconde o botão de selecionar arquivos */
+/* input[type="file"] {
+    display: none;
+} */
+
+.cabecalho-adm{
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: rgb(201, 201, 201);
+}
+.container{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid blue;
+    background-color: rgb(201, 201, 201);
+    border-radius: 40px;
+    text-align: center;
+}
+.elemento-adm{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    padding: 0 3rem;
+    border: 3px solid blue;
+    background-color: rgb(201, 201, 201);
+    border-radius: 40px;
+}
+.elemento-adm p{
+    margin: 0;
+}
