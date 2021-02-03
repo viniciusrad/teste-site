@@ -20,8 +20,8 @@
     <div class="form-contato">
 
         <div class="div-formulario formulario-contato">
-            <p>Preencha o formulário e receba uma oferta exclusiva.</p>
             <form action="">
+                <hr>
                 <div class="div-field">
                     <label for="nome">Nome Completo<span style="color: red;">*</span></label>
                     <input type="text" name="nome" id="input-nome">

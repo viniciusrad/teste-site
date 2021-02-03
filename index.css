@@ -1,7 +1,7 @@
 body{
     /* background-color: #FAFAFA; */
     font-family: "Comfortaa", Sans-serif;
-    width: fit-content;
+    /* width: fit-content; */
 
 
 }
@@ -576,9 +576,9 @@ nav{
 
 .rodape{
   background-color: lightgray;
-  height: 190px;
+  min-height: 190px;
   align-items: center;
-  padding-top: 3em;
+  padding: 3em;
 
 }
 
@@ -765,10 +765,20 @@ html:not([data-scroll='0']) .btn-receber-oferta:hover{
   .div-img-crm {
     width: 100%;
   }
+ 
 }
 
 .formulario-contato{
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .formulario-contato{
+    width: 80%;
+    margin: auto;
+  }
+
 }
 
 .div-imagem-fundo-contato{
@@ -778,12 +788,14 @@ html:not([data-scroll='0']) .btn-receber-oferta:hover{
   align-items: center;
   margin-top: 80px;
   background:url(img/fundo-contato.jpg) center center no-repeat;
-  height: 400px;
+  min-height: 400px;
 }
 
 .div-imagem-fundo-contato p{
   font-size: 48px;
+  font-weight: bold;
   align-content: center;
   text-align: center;
   color: white;
+  padding: 80px;
 }

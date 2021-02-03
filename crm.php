@@ -58,7 +58,7 @@
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Através do funil de vendas conheça e acompanhe seu cliente desde o primeiro contato até o fechamaento da venda</p>
+                <p class="textos-icones-check">Através do pipeline ou funil de vendas conheça e acompanhe seu cliente desde o primeiro contato até a conclusão da negociação.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -66,7 +66,7 @@
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Tenha todos seus imóveis em qualquer lugar através do aplicativo Midas</p>
+                <p class="textos-icones-check">Cadastre, consulte seus imóveis e acesse seus clientes atráves do aplicativo Midas instalado em seu celular.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -82,7 +82,7 @@
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Controle de fila de atendimento personalizável, estabeleça parâmetros e estratégias de bonificação para estimular sua equipe</p>
+                <p class="textos-icones-check">Distribuição automática de leads, provenientes dos principais portais, site, chatbot e Facebook/Instagram.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -90,7 +90,8 @@
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Relatórios automáticos prestando contas aos proprietários sobre o trabalho que está sendo realizado.</p>
+                <p class="textos-icones-check">E-mails automáticos prestando contas aos proprietários sobre o trabalho que está sendo realizado para negociação do imóvel.</p>
+                <p>Ganhe confiança e credibilidade</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -98,7 +99,7 @@
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Emails automáticos com novos imóveis liberados para comercialização para cada cliente de acordo com o perfil feito pela empresa no MIDAS!</p>
+                <p class="textos-icones-check">Emails automáticos com novos imóveis liberados para comercialização para cada cliente de acordo com o perfil definido pelo corretor.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -115,7 +116,7 @@
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Total segurança na liberação do acesso ao sistema fora da imobiliária, restringindo informações de forma que esta liberação não cause nenhum prejuízo</p>
+                <p class="textos-icones-check">Total segurança na liberação do acesso ao sistema fora da imobiliária, restringindo informações de forma que esta liberação não cause nenhum prejuízo.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -123,7 +124,7 @@
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Análise de retorno através de taxas de conversão</p>
+                <p class="textos-icones-check">Geração de visitas virtuais fornecidas em conjunto com o seu CRM.</p>
             </div>
         </div>
     </div>
@@ -141,7 +142,7 @@
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Integração automática e leads dos portais, Instagran e Facebook.</p>
+                <p class="textos-icones-check">Envio de imóveis e atendimento de clientes atráves do Whatsapp.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -149,7 +150,7 @@
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Divulgação de Imóveis no Facebook e Whatsapp.</p>
+                <p class="textos-icones-check">Publicação de imóveis no Facebook /Instagram.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -161,6 +162,65 @@
             </div>
         </div>
     </div>
+
+    <div class="div-fundo-verde">
+        <p>CONHEÇA NOSSOS PRODUTOS E SE DESTAQUE DA CONCORRÊNCIA</p>
+    </div>
+
+    <div class="div-funcionalidades">
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-chat.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Chatbot</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-pre-venda.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">pré-vendas</p>
+                <p class="textos-icones-check">(MQL)</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Locação digital</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Site Midas</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Administração de imóveis</p>
+                <p>(MQL)</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Integração com</p>
+                <p class="textos-icones-check">incorporadoras</p>
+            </div>
+        </div>
+    </div>
+
     <div class="div-btn-proposta">
         <button class="btn-saiba-mais-green">Quero uma demostração</button>
     </div>
