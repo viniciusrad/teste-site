@@ -384,7 +384,7 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
     <!--  -->
     <!-- Modal -->
     <div class="modal fade" id="modalBaner" tabindex="-1" role="dialog" aria-labelledby="modalBanerLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-lg" role="document" style="@media  (max-width : 576) {max-width: 97%; margin: 0 1rem;}">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="modalBanerLabel">Titulo da campanha</h5>
