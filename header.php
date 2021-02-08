@@ -12,6 +12,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/logo-fav-icon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa%7CComfortaa%7CComfortaa%7CComfortaa&amp;subset=latin-ext,cyrillic-ext,latin,vietnamese,cyrillic,greek" media="all">
+    <link rel='stylesheet' id='font-awesome-css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+
     <link rel="stylesheet" href="index.css">
 
     <title>Midas mais</title>
@@ -36,7 +38,7 @@
                         <a class="dropdown-item" href="sistemaImobiliarias.php" style="border-left: 7px solid #7434d3;margin-left: 10px;">MARKETING DIGITAL PARA IMOBLIÁRIA</a>
                         <a class="dropdown-item" href="chatbotImobiliarias.php" style="border-left: 7px solid #9c136f;margin-left: 10px;">CHATBOT</a>
                         <a class="dropdown-item" href="administracaoImoveis.php" style="border-left: 7px solid #0877ac;margin-left: 10px;">ADMINISTRACAO DE IMOVEIS</a>
-                        <a class="dropdown-item" href="#" style="border-left: 7px solid #4caa30;margin-left: 10px;">VISITA VIRTUAL</a>
+                        <a class="dropdown-item" href="visitaVirtual.php" style="border-left: 7px solid #4caa30;margin-left: 10px;">VISITA VIRTUAL</a>
                         <a class="dropdown-item" href="#" style="border-left: 7px solid #0877ac;margin-left: 10px;">QUEM SOMOS</a>
                         <a class="dropdown-item" href="#" style="border-left: 7px solid #666;margin-left: 10px;">BLOG</a>
                     </div>
