@@ -1,3 +1,35 @@
+<?php
+$myfile = fopen("telefonesWhatsapp.txt", "r") or die("Unable to open file!");
+$telefonesVindosArquivo = json_decode(fread($myfile, filesize("telefonesWhatsapp.txt")), true);
+fclose($myfile);
+
+
+$telefonesVindosArquivo = array_values($telefonesVindosArquivo);
+
+
+$quantTelefonesadastrados = count((array)$telefonesVindosArquivo);
+
+
+
+
+$indexTelefone = (date('d') % $quantTelefonesadastrados);
+
+$telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
+
+// var_dump($telefoneComercial);
+// die();
+// echo "-----------------***********-----------------";
+// echo "</br>";
+// var_dump((array)$telefonesVindosArquivo[$indexTelefone]);
+// echo "</br>";
+// echo "-----------------***********-----------------";
+// die();
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -336,6 +368,15 @@
         </div>
     </div>
 
+    <!-- whatsappp link -->
+
+    <!-- <div class="container-whatsapp">
+        <a class="contato-telefone-whatsapp" href="http://api.whatsapp.com/send?1=pt_BR&phone=55<?php echo $telefoneComercial; ?>" target="_blank">
+            <i class="fa fa-whatsapp icone-whatsapp"></i>
+        </a>
+    </div> -->
+
+
 
 
     <!--  -->
@@ -352,7 +393,103 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img src="img/fundo2.jpg" alt="">
+                    <!-- <img src="img/fundo2.jpg" alt=""> -->
+                    <div id="div-promo">
+                        <!-- ////////////////// -->
+                        <!-- FORMULARIO DESKTOP - INICIO -->
+                        <!-- ////////////////// -->
+                        <div id="form-container">
+                            <div id="div-form">
+                                <form action="/enviar-contato" id="formulario-contato" method="post" class="form-group">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="input-form" style='
+                                        border: none;
+                                        '>
+                                                <input type="hidden" name="origem_formulario" id="origem-form">
+                                                <input type="hidden" name="redireciona_expresso" id="redireciona-expresso" value="N">
+                                                <label for="nome"> Seu Nome / Nome Imobiliária *</label>
+                                                <input type="text" name="nome" id="nome" class="form-control" required="required" placeholder="Informe o seu nome ou nome da empresa" onkeypress="return lettersOnly(event);" style="
+                                            background: white;
+                                            border-radius: 10px;
+                                            color: black;
+                                            margin-top: 0px;
+                                            font-size: large;
+                                            padding: 5px;" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="input-form" style='
+                                        border: none;
+                                        '>
+                                                <label for="telefone">Telefone *</label>
+                                                <input type="text" autocomplete="off" name="telefone" id="telefone" class="form-control" required="required" placeholder="Informe seu telefone, exemplo (21) 99999-9999" style="
+                                            background: white;
+                                            border-radius: 10px;
+                                            color: black;
+                                            margin-top: 0px;
+                                            font-size: large;
+                                            padding: 5px;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="input-form" style='
+                                        border: none;
+                                        '>
+                                                <label for="email">E-mail *</label>
+                                                <input type="email" name="email" id="email" class="form-control" required="required" placeholder="Informe o seu e-mail" style="
+                                            background: white;
+                                            border-radius: 10px;
+                                            color: black;
+                                            margin-top: 0px;
+                                            font-size: large;
+                                            padding: 5px;">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="input-form msg" style='
+                                        border: none;
+                                        '>
+                                                <label for="mensagem">Mensagem</label>
+                                                <textarea name="mensagem" id="mensagem" cols="30" rows="7" class="form-control" placeholder="Escreva sua mensagem" style="
+                                            background: white;
+                                            border-radius: 10px;
+                                            color: black;
+                                            margin-top: 0px;
+                                            font-size: large;
+                                            padding: 5px; 
+                                            height: auto !important;"></textarea>
+                                                <!-- <input type="text" id="evita-spammer" name="evita-spammer"> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12" style="margin: 0 auto; MARGIN-TOP: 5px; position: absolute" id='divBtn'>
+                                            <div>
+                                                <input type="text" id="evita-spammer" name="evita-spammer" style="display: none;">
+                                                <input type="submit" value="Enviar" title="Enviar formulario de contato" id="btn-submit-formulario" class="btn btn-warning" style="
+                                            background-color: #ffc107;
+                                            border-radius: 10px;
+                                            font-size: x-large;
+                                            " onmouseover="this.style.backgroundColor='#e0a800'" onmouseout="this.style.backgroundColor='#ffc107'">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-- ////////////////// -->
+                                <!-- FORMULARIO DESKTOP - FIM -->
+                                <!-- ////////////////// -->
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class=" modal-footer">
                     <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -365,9 +502,9 @@
 
     <script type="text/javascript">
         /**Ativa o modal */
-        // $(window).on('load', function() {
-        //     $('#modalBaner').modal('show');
-        // });
+        $(window).on('load', function() {
+            $('#modalBaner').modal('show');
+        });
     </script>
 </body>
 
