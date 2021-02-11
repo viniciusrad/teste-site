@@ -40,7 +40,7 @@
                 </div>
                 <div class="div-field">
                     <label for="mensagem">Mensagem<span style="color: red;">*</span></label>
-                    <textarea rows="4" name="mensagem" id="input-mensagem"></textarea>
+                    <textarea rows="4" name="mensagem" id="input-mensagem">Olá, tenho interesse em saber mais sobre o Midas. Aguardo contato.</textarea>
                 </div>
 
             </form>
