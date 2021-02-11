@@ -44,7 +44,9 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
         <div class="texto-imagem-principal">
             <h2>IMOBILIÁRIA NA NUVEM?</h2>
             <p>A Tecnologia Corporativa mais importante e inovadora disponível para Imobiliárias e Corretores.</p>
-            <button class="btn-saiba-mais">Saiba mais</button>
+            <a href="./contato.php">
+                <button class="btn-saiba-mais-black">Saiba mais</button>
+            </a>
         </div>
     </div>
     <div class="imagem-principal-mobile">
@@ -52,8 +54,9 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
         <div>
             <h3>IMOBILIÁRIA NA NUVEM?</h3>
             <p>A Tecnologia Corporativa mais importante e inovadora disponível para Imobiliárias e Corretores.</p>
-            <button class="btn-saiba-mais-black">Saiba mais</button>
-
+            <a href="./contato.php">
+                <button class="btn-saiba-mais-black">Saiba mais</button>
+            </a>
         </div>
     </div>
     <!-- espaço do crm -->
@@ -72,8 +75,9 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                 <li>Gestão total da sua Equipe;</li>
                 <li>E-mails Automáticos.</li>
             </ul>
-            <button class="btn-saiba-mais-black">Saiba mais</button>
-
+            <a href="./contato.php">
+                <button class="btn-saiba-mais-black">Saiba mais</button>
+            </a>
         </div>
     </div>
 
@@ -157,7 +161,9 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
     <!-- fim do container de Cards de seriços -->
 
     <div class="div-btn-proposta">
-        <button class="btn-saiba-mais-black">Quero receber uma proposta</button>
+        <a href="./contato.php">
+            <button class="btn-saiba-mais-black">Quero receber uma proposta</button>
+        </a>
     </div>
 
     <div class="div-fundo-verde">
@@ -175,7 +181,9 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                 <li>Usabilidade e Aparência;</li>
                 <li>Autonomia e Flexibilidade no Gerenciamento do Conteúdo!</li>
             </ul>
-            <button class="btn-saiba-mais-black">Saiba mais</button>
+            <a href="./contato.php">
+                <button class="btn-saiba-mais-black">Saiba mais</button>
+            </a>
         </div>
         <div class="div-img-crm">
             <img src="img/site-responsivo.jpg" alt="">

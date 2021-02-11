@@ -37,11 +37,11 @@
                     <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                         <a class="dropdown-item" href="crm.php" style="border-left: 7px solid #d93117;margin-left: 10px;">SISTEMA PARA IMOBILIÁRIA</a>
                         <a class="dropdown-item" href="siteImobiliarias.php" style="border-left: 7px solid #ffb017;margin-left: 10px;"> SITE PARA IMOBILIÁRIA</a>
-                        <a class="dropdown-item" href="sistemaImobiliarias.php" style="border-left: 7px solid #7434d3;margin-left: 10px;">MARKETING DIGITAL PARA IMOBLIÁRIA</a>
-                        <a class="dropdown-item" href="chatbotImobiliarias.php" style="border-left: 7px solid #9c136f;margin-left: 10px;">CHATBOT</a>
+                        <a class="dropdown-item" href="chatbot.php" style="border-left: 7px solid #9c136f;margin-left: 10px;">CHATBOT</a>
                         <a class="dropdown-item" href="administracaoImoveis.php" style="border-left: 7px solid #0877ac;margin-left: 10px;">ADMINISTRACAO DE IMOVEIS</a>
                         <a class="dropdown-item" href="visitaVirtual.php" style="border-left: 7px solid #4caa30;margin-left: 10px;">VISITA VIRTUAL</a>
-                        <a class="dropdown-item" href="#" style="border-left: 7px solid #0877ac;margin-left: 10px;">QUEM SOMOS</a>
+                        <a class="dropdown-item" href="remanescentesLancamentos.php" style="border-left: 7px solid #0877ac;margin-left: 10px;">REMANESCENTE DE LANCAMENTOS</a>
+                        <a class="dropdown-item" href="mqlQualificaLead.php" style="border-left: 7px solid #7434d3;margin-left: 10px;">MARKETING QUALIFICA LEAD</a>
                         <a class="dropdown-item" href="#" style="border-left: 7px solid #666;margin-left: 10px;">BLOG</a>
                     </div>
                 </div>

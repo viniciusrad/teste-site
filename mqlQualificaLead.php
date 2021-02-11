@@ -10,260 +10,150 @@
 
 
     <div class="div-fundo-verde">
-        <p>SURPREENDA OS SEUS CLIENTES COM UM ATENDIMENTO AUTOMÁTICO E EFICIENTE!</p>
+        <p>SE SUA EMPRESA SOFRE COM ESSES PROBLEMAS:</p>
     </div>
 
     <div class="div-crm">
-        <div class="div-img-crm">
-            <img src="img/chatbot_imobiliaria.png" style="max-width: 600px;" alt="">
+        <div class="div-img-crm div-img-mql">
+            <img src="img/imagem-leads.png" style="max-width: 600px;" alt="">
         </div>
-        <div class="texto-crm">
-            <p>O Chatbot é um assistente virtual com inteligência artificial, capaz de qualificar os clientes que visitam o seu site e realizar o atendimento!</p>
-            </br>
-            <p>Plataforma de chatbot para automação do atendimento, vendas e relacionamento, baseada em assistentes virtuais e inteligência artificial para criar uma nova experiência de diálogo.</p>
-            </br>
-            <p>Auxilia na busca de imóveis, automatizando o atendimento e qualificando os leads antes de passar para o corretor.</p>
-            </br>
-            <p><strong>As vantagens são inúmeras!</strong></p>
-            </br>
-            <ul class='text-align-left bullet'>
-                <li><strong>+ 50 % Dos atendimentos comuns podem ser automatizados.</strong></li>
-                <li><strong>24 h Ativos nos canais digitais, sem fila de espera.</strong></li>
-                <li><strong>2 x Mais potente na geração de leads.</strong></li>
-                <li><strong>90 % Em redução de custos em atendimento.</strong></li>
-                <li><strong>10 x Mais veloz na resolução do atendimento.</strong></li>
-            </ul>
-
-        </div>
-    </div>
-    <div class="div-fundo-verde">
-        <p>Aplicações do Chatbot para o Mercado Imobiliário</p>
-    </div>
-
-    <div class="div-check-dupla">
-        <div>
-
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/icone-check-verde.png" alt="">
-                    </div>
+        <div class="div-mql-flex">
+            <div class="card-funcionalidade">
+                <div class="div-icone-check">
+                    <img class="" src="img/icone-negativo.png" alt="Avatar">
                 </div>
-                <div class="texto-check-site">
-                    <p>Desenvolvido por profissionais experientes, pensado para o uso exclusivo de Imobiliárias e Corretores de Imóveis.</p>
+                <div class="container container-check">
+                    <p class="textos-icones-check">Os leads não qualificados são descartados.</p>
                 </div>
             </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/icone-check-verde.png" alt="">
-                    </div>
+            <div class="card-funcionalidade">
+                <div class="div-icone-check">
+                    <img class="" src="img/icone-negativo.png" alt="Avatar">
                 </div>
-                <div class="texto-check-site">
-                    <p>Otimizado para o Google com as mais avançadas técnicas de SEO. Chances reais de ser bem ranqueado nas buscas orgânicas.</p>
+                <div class="container container-check">
+                    <p class="textos-icones-check">Não possui um setor para qualificação dos leads.</p>
                 </div>
             </div>
-
-        </div>
-        <div>
-
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/icone-check-verde.png" alt="">
-                    </div>
+            <div class="card-funcionalidade">
+                <div class="div-icone-check">
+                    <img class="" src="img/icone-negativo.png" alt="Avatar">
                 </div>
-                <div class="texto-check-site">
-                    <p>Boa performance e usabilidade.</p>
+                <div class="container container-check">
+                    <p class="textos-icones-check">Cada corretor atua de maneira que acha mais conveniente.</p>
                 </div>
             </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/icone-check-verde.png" alt="">
-                    </div>
+            <div class="card-funcionalidade">
+                <div class="div-icone-check">
+                    <img class="" src="img/icone-negativo.png" alt="Avatar">
                 </div>
-                <div class="texto-check-site">
-                    <p>Integração com Redes Sociais, Portais Imobiliários e Whatsapp, propagação rápida e fácil de anúncios.</p>
+                <div class="container container-check">
+                    <p class="textos-icones-check">Sua imobiliária não possui um processo de vendas padronizado.</p>
                 </div>
             </div>
-
+            <div class="card-funcionalidade">
+                <div class="div-icone-check">
+                    <img class="" src="img/icone-negativo.png" alt="Avatar">
+                </div>
+                <div class="container container-check">
+                    <p class="textos-icones-check">Clientes super qualificados são entregues a corretores inexperientes através da fila de plantão.</p>
+                </div>
+            </div>
+            <div class="card-funcionalidade">
+                <div class="div-icone-check">
+                    <img class="" src="img/icone-negativo.png" alt="Avatar">
+                </div>
+                <div class="container container-check">
+                    <p class="textos-icones-check">Grande quantidade de leads descartados já no primeiro contato.</p>
+                </div>
+            </div>
+            <div class="card-funcionalidade">
+                <div class="div-icone-check">
+                    <img class="" src="img/icone-negativo.png" alt="Avatar">
+                </div>
+                <div class="container container-check">
+                    <p class="textos-icones-check">Seus corretores campeões, ao receber um lead não qualificado vão para o final da fila de plantão.</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="div-fundo-verde">
-        <p>Excelente ranqueamento no Google. Resultados comprovados!</p>
+        <p>O USO DE MQL LHE PROPORCIONARÁ</p>
+    </div>
+    <hr />
+    <hr />
+
+    <!-- area de funcionalidades -->
+    <div class="div-funcionalidades-flex">
+        <div class="card-funcionalidade-margin">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Seus leads serão encaminhados a uma equipe de pré vendas que irá qualifica-los e encaminhá-los ao melhor corretor mais indicado a realizar o atendimento.</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade-margin">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Você irá dispor de um padrão de atendimento e qualificação de leads. (Scripts personalizados)</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade-margin">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Leads não qualificados ficarão sendo nutridos até o momento em que se qualifiquem.</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade-margin">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Leads já cadastrados, seu profissional de pré vendas terá acesso a todos histórico de atendimentos que tenham sido realizados por sua equipe de corretores.</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade-margin">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Os corretores receberão todo o histórico do atendimento realizado pelo pré vendas para melhor orientá-lo no atendimento do lead.</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade-margin">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Uma equipe de corretores composta apenas de campeões, já que apenas leads qualificados serão entregues.</p>
+            </div>
+        </div>
+        <div class="card-funcionalidade-margin">
+            <div class="div-icone-check">
+                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+            </div>
+            <div class="container container-check">
+                <p class="textos-icones-check">Seus negócios fechados irão crescer e sua equipe de corretores será melhor remunerada garantindo a retenção de talentos.</p>
+            </div>
+        </div>
+
     </div>
 
-    <div class="div-check-tripla">
-        <div>
-
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Inteligência Artificial</p>
-                </div>
-            </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Cadastro de Contatos</p>
-                </div>
-            </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Interface Customizada</p>
-                </div>
-            </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Responsividade 100%</p>
-                </div>
-            </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Validação de Dados%</p>
-                </div>
-            </div>
-        </div>
-        <!-- divisão entre divs -->
-        <div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Módulo Aprendizado</p>
-                </div>
-            </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>IPerguntas e Respostas</p>
-                </div>
-            </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Relatórios Análiticos</p>
-                </div>
-            </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Histórico de Conversas</p>
-                </div>
-            </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Responsividade 100%</p>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Grade de Horários</p>
-                </div>
-            </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Desambiguação</p>
-                </div>
-            </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Disponibilidade 24 h</p>
-                </div>
-            </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Envio de e-mail</p>
-                </div>
-            </div>
-            <div class="item-check-list-site">
-                <div class="div-img-check-dupla">
-                    <div class="    ">
-                        <img src="./img/check-icon.png" alt="">
-                    </div>
-                </div>
-                <div class="texto-check-site">
-                    <p>Exportação de Dados</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
+    <!-- FIM da area de funcionalidades -->
 
     <div class="div-texto-centralizado">
-        <button class="btn-saiba-mais-green-grande">TENHO INTERESSE</button>
+        <button class="btn-saiba-mais-green-grande">SABER MAIS</button>
+
+        <hr />
     </div>
 
 
     <!-- area de depoimentos -->
-    <hr />
 
     <div class="area-depoimentos">
 
