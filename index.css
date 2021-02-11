@@ -379,7 +379,7 @@ body{
   }
   .btn-saiba-mais-green, .btn-saiba-mais-green-grande{
     background-color: #00b495;
-    border-radius: 25px;
+    border-radius: 15px;
     border: none;
     padding: 6px 25px;
     color: whitesmoke;
@@ -756,6 +756,13 @@ html:not([data-scroll='0']) .btn-receber-oferta:hover{
   margin: 0 80px;
 
 }
+.div-funcionalidades-flex{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
 
 .texto-icones-check{
   text-align: center;
@@ -892,7 +899,7 @@ input[type=text],
 input[type=email],
 textarea {
   /* width: 400px; */
-  height: 50px;
+  min-height: 50px;
   margin-bottom: 20px;
 
 }
