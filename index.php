@@ -319,27 +319,59 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
             <p>O FUTURO DA SUA IMOBILIÁRIA COMEÇA AGORA!</p>
         </div>
         <div class="div-formulario">
-            <p>Preencha o formulário e receba uma oferta exclusiva.</p>
-            <form action="">
-                <div class="div-field">
-                    <label for="nome">Nome Completo<span style="color: red;">*</span></label>
-                    <input type="text" name="nome" id="input-nome">
+            <div class="">
+                <div class="cabecalho-formulario">
+                    <h3>Entre em contato</h3>
                 </div>
+                <p class="text-align-left"><span style="color: red;">(*)Campos Obrigatórios</span></p>
+                <p class="text-align-left"><span style="color: red;">(**)Pelo menos um campo deve serpreenchido</span></p>
+            </div>
+            <p class="subtitulo-formulario">Preencha os Campos abaixo</p>
+            <form method="post" action="enviaEmail.php">
                 <div class="div-field">
+                    <!-- <label for="nome">Nome Completo<span style="color: red;">*</span></label> -->
+                    <div style="display: flex;">
+
+                        <input type="text" name="nome" id="input-nome" placeholder="Digite seu nome"><span class="spam-obrigatorio" style="color: red;">(*)</span>
+                    </div>
+                </div>
+                <!-- <div class="div-field">
                     <label for="imobiliaria">Imobiliária<span style="color: red;">*</span></label>
                     <input type="text" name="imobiliaria" id="input-imobiliaria">
+                </div> -->
+                <div class="div-field">
+                    <!-- <label for="e-mail">E-mail<span style="color: red;">*</span></label> -->
+                    <div style="display: flex;">
+                        <input type="text" name="e-mail" id="input-e-mail" placeholder="Digite seu email"><span class="spam-obrigatorio" style="color: red;">(**)</span>
+                    </div>
                 </div>
                 <div class="div-field">
-                    <label for="e-mail">E-mail<span style="color: red;">*</span></label>
-                    <input type="text" name="e-mail" id="input-e-mail">
+                    <!-- <label for="telefone">Telefone<span style="color: red;">*</span></label> -->
+                    <div style="display: flex;">
+                        <input type="text" name="telefone" id="input-telefone" placeholder="Digite seu telefone"><span class="spam-obrigatorio" style="color: red;">(**)</span>
+                    </div>
                 </div>
                 <div class="div-field">
-                    <label for="telefone">Telefone<span style="color: red;">*</span></label>
-                    <input type="text" name="telefone" id="input-telefone">
+                    <!-- <label for="mensagem">Mensagem<span style="color: red;">*</span></label> -->
+                    <textarea rows="4" cols="3" name="mensagem" id="input-mensagem" placeholder="">Olá, tenho interesse em saber mais sobre o Midas. Aguardo contato.</textarea>
                 </div>
                 <div class="div-field">
-                    <label for="mensagem">Mensagem<span style="color: red;">*</span></label>
-                    <textarea rows="4" cols="3" name="mensagem" id="input-mensagem" placeholder="Olá, tenho interesse em saber mais sobre o Midas. Aguardo contato."></textarea>
+                    <label for="contato"><span style="color: gray">Desejo receber contato por:</span></label>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="radio" id="whatsapp" name="forma-contato" value="whatsapp">
+                            <label for="whatsapp">Whatsapp</label><br>
+                        </div>
+                        <div>
+                            <input type="radio" id="telefone" name="forma-contato" value="telefone">
+                            <label for="telefone">telefone</label><br>
+                        </div>
+                    </div>
+
+                </div>
+                <div style="display: flex; justify-content: center;">
+
+                    <button type="submit" class="btn-enviar-formulario">Enviar</button>
                 </div>
 
             </form>
