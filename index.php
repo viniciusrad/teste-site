@@ -329,30 +329,22 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
             <p class="subtitulo-formulario">Preencha os Campos abaixo</p>
             <form method="post" action="enviaEmail.php">
                 <div class="div-field">
-                    <!-- <label for="nome">Nome Completo<span style="color: red;">*</span></label> -->
                     <div style="display: flex;">
 
                         <input type="text" name="nome" id="input-nome" placeholder="Digite seu nome"><span class="spam-obrigatorio" style="color: red;">(*)</span>
                     </div>
                 </div>
-                <!-- <div class="div-field">
-                    <label for="imobiliaria">Imobiliária<span style="color: red;">*</span></label>
-                    <input type="text" name="imobiliaria" id="input-imobiliaria">
-                </div> -->
                 <div class="div-field">
-                    <!-- <label for="e-mail">E-mail<span style="color: red;">*</span></label> -->
                     <div style="display: flex;">
                         <input type="text" name="e-mail" id="input-e-mail" placeholder="Digite seu email"><span class="spam-obrigatorio" style="color: red;">(**)</span>
                     </div>
                 </div>
                 <div class="div-field">
-                    <!-- <label for="telefone">Telefone<span style="color: red;">*</span></label> -->
                     <div style="display: flex;">
                         <input type="text" name="telefone" id="input-telefone" placeholder="Digite seu telefone"><span class="spam-obrigatorio" style="color: red;">(**)</span>
                     </div>
                 </div>
                 <div class="div-field">
-                    <!-- <label for="mensagem">Mensagem<span style="color: red;">*</span></label> -->
                     <textarea rows="4" cols="3" name="mensagem" id="input-mensagem" placeholder="">Olá, tenho interesse em saber mais sobre o Midas. Aguardo contato.</textarea>
                 </div>
                 <div class="div-field">
@@ -367,16 +359,16 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                             <label for="telefone">telefone</label><br>
                         </div>
                     </div>
-
                 </div>
                 <div style="display: flex; justify-content: center;">
 
                     <button type="submit" class="btn-enviar-formulario">Enviar</button>
                 </div>
-
             </form>
         </div>
     </div>
+    <!-- FIM da area de contato -->
+
 
     <div class="rodape">
         <div>
