@@ -102,9 +102,23 @@ body{
   display: flex;
   justify-content: center;
 }
+/* .div-icone-check{
+  display: flex;
+  justify-content: center;
+} */
 .div-icone-check{
   display: flex;
   justify-content: center;
+  max-width: 80px;
+  margin: 0 auto;
+}
+
+.img-icone-check-alt{
+  display: flex;
+  justify-content: center;
+  width: 250%;
+  margin: -3rem;
+  
 }
 
 
@@ -557,13 +571,13 @@ html:not([data-scroll='0']) #img-logo {
   background-color: #cfcfcf;
   color: black;
   width: 25%;
-  padding: 2em;
+  /* padding: 2em; */
   border-radius: 5px;
   margin: 6em;
 }
-.div-formulario p{
+/* .div-formulario p{
   text-align: center;
-}
+} */
 
 .div-field{
   display: flex;
@@ -898,9 +912,8 @@ padding-bottom: 0px;
 label {}
 
 input[type=text],
-input[type=email],
-textarea {
-  /* width: 400px; */
+input[type=email] {
+  width: 100%;
   min-height: 50px;
   margin-bottom: 20px;
 
@@ -1128,4 +1141,44 @@ li.check {
     justify-content: center;
     flex-wrap: wrap;
     max-width: 600px;
+}
+
+.text-align-left{
+  text-align: left;
+  font-size: .7rem;
+  margin-left: 1rem;
+}
+
+.cabecalho-formulario{
+  background-color: rgb(123, 123, 123);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+.cabecalho-formulario h3{
+  margin: 0;
+}
+
+.subtitulo-formulario{
+  font-weight: 800;
+  margin: 1rem;
+  margin-bottom: -1rem;
+}
+
+.spam-obrigatorio{
+  height: 50px;color: red;background-color: white;padding: .6rem 1rem;
+}
+
+.btn-enviar-formulario{
+  margin: 1rem;
+  width: 14rem;
+  border-radius: 15px;
+  background-color: #ffcd38;
+  border: 1px solid;
+  transition: all .3s;
+}
+
+.btn-enviar-formulario:hover{
+  background-color: #d5a412;
+
 }

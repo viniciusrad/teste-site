@@ -139,7 +139,7 @@
     <div class="div-funcionalidades">
         <div class="card-funcionalidade">
             <div class="div-icone-check">
-                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+                <img class="img-icone-check-alt" src="img/icone-envio-imoveis.png" alt="Avatar">
             </div>
             <div class="container container-check">
                 <p class="textos-icones-check">Envio de imóveis e atendimento de clientes atráves do Whatsapp.</p>
@@ -147,7 +147,7 @@
         </div>
         <div class="card-funcionalidade">
             <div class="div-icone-check">
-                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+                <img class="img-icone-check-alt" src="img/icone-publicacao-imoveis-facebook.png" alt="Avatar">
             </div>
             <div class="container container-check">
                 <p class="textos-icones-check">Publicação de imóveis no Facebook /Instagram.</p>
@@ -155,7 +155,7 @@
         </div>
         <div class="card-funcionalidade">
             <div class="div-icone-check">
-                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+                <img class="img-icone-check-alt" src="img/icone-integracao-portais.png" alt="Avatar">
             </div>
             <div class="container container-check">
                 <p class="textos-icones-check">Integração com mais de 40 portais em apenas um clique.</p>
@@ -170,7 +170,7 @@
     <div class="div-funcionalidades">
         <div class="card-funcionalidade">
             <div class="div-icone-check">
-                <img class="img-icone-check" src="img/icone-chat.png" alt="Avatar">
+                <img class="img-icone-check" src="img/icone-chat-bot.png" alt="Avatar">
             </div>
             <div class="container container-check">
                 <p class="textos-icones-check">Chatbot</p>
@@ -187,7 +187,7 @@
         </div>
         <div class="card-funcionalidade">
             <div class="div-icone-check">
-                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+                <img class="img-icone-check-alt" src="img/icone-locacao-digital.png" alt="Avatar">
             </div>
             <div class="container container-check">
                 <p class="textos-icones-check">Locação digital</p>
@@ -195,7 +195,7 @@
         </div>
         <div class="card-funcionalidade">
             <div class="div-icone-check">
-                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+                <img class="img-icone-check-alt" src="img/icone-site-midas.png" alt="Avatar">
             </div>
             <div class="container container-check">
                 <p class="textos-icones-check">Site Midas</p>
@@ -203,7 +203,7 @@
         </div>
         <div class="card-funcionalidade">
             <div class="div-icone-check">
-                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+                <img class="img-icone-check-alt" src="img/icone-adm-imoveis.png" alt="Avatar">
             </div>
             <div class="container container-check">
                 <p class="textos-icones-check">Administração de imóveis</p>
@@ -212,7 +212,7 @@
         </div>
         <div class="card-funcionalidade">
             <div class="div-icone-check">
-                <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
+                <img class="img-icone-check-alt" src="img/icone-integracao-incorporadora.png" alt="Avatar">
             </div>
             <div class="container container-check">
                 <p class="textos-icones-check">Integração com</p>
@@ -329,38 +329,62 @@
 
     <!-- fimm da area de depoimentos -->
 
+
     <!-- area de contato -->
     <div class="form-contato">
         <div class="div-texto-formulario">
             <p>O FUTURO DA SUA IMOBILIÁRIA COMEÇA AGORA!</p>
         </div>
         <div class="div-formulario">
-            <p>Preencha o formulário e receba uma oferta exclusiva.</p>
-            <form action="">
-                <div class="div-field">
-                    <label for="nome">Nome Completo<span style="color: red;">*</span></label>
-                    <input type="text" name="nome" id="input-nome">
+            <div class="">
+                <div class="cabecalho-formulario">
+                    <h3>Entre em contato</h3>
                 </div>
+                <p class="text-align-left"><span style="color: red;">(*)Campos Obrigatórios</span></p>
+                <p class="text-align-left"><span style="color: red;">(**)Pelo menos um campo deve serpreenchido</span></p>
+            </div>
+            <p class="subtitulo-formulario">Preencha os Campos abaixo</p>
+            <form method="post" action="enviaEmail.php">
                 <div class="div-field">
-                    <label for="imobiliaria">Imobiliária<span style="color: red;">*</span></label>
-                    <input type="text" name="imobiliaria" id="input-imobiliaria">
-                </div>
-                <div class="div-field">
-                    <label for="e-mail">E-mail<span style="color: red;">*</span></label>
-                    <input type="text" name="e-mail" id="input-e-mail">
-                </div>
-                <div class="div-field">
-                    <label for="telefone">Telefone<span style="color: red;">*</span></label>
-                    <input type="text" name="telefone" id="input-telefone">
-                </div>
-                <div class="div-field">
-                    <label for="mensagem">Mensagem<span style="color: red;">*</span></label>
-                    <textarea rows="4" name="mensagem" id="input-mensagem"></textarea>
-                </div>
+                    <div style="display: flex;">
 
+                        <input type="text" name="nome" id="input-nome" placeholder="Digite seu nome"><span class="spam-obrigatorio" style="color: red;">(*)</span>
+                    </div>
+                </div>
+                <div class="div-field">
+                    <div style="display: flex;">
+                        <input type="text" name="e-mail" id="input-e-mail" placeholder="Digite seu email"><span class="spam-obrigatorio" style="color: red;">(**)</span>
+                    </div>
+                </div>
+                <div class="div-field">
+                    <div style="display: flex;">
+                        <input type="text" name="telefone" id="input-telefone" placeholder="Digite seu telefone"><span class="spam-obrigatorio" style="color: red;">(**)</span>
+                    </div>
+                </div>
+                <div class="div-field">
+                    <textarea rows="4" cols="3" name="mensagem" id="input-mensagem" placeholder="">Olá, tenho interesse em saber mais sobre o Midas. Aguardo contato.</textarea>
+                </div>
+                <div class="div-field">
+                    <label for="contato"><span style="color: gray">Desejo receber contato por:</span></label>
+                    <div style="display: flex;">
+                        <div>
+                            <input type="radio" id="whatsapp" name="forma-contato" value="whatsapp">
+                            <label for="whatsapp">Whatsapp</label><br>
+                        </div>
+                        <div>
+                            <input type="radio" id="telefone" name="forma-contato" value="telefone">
+                            <label for="telefone">telefone</label><br>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: center;">
+
+                    <button type="submit" class="btn-enviar-formulario">Enviar</button>
+                </div>
             </form>
         </div>
     </div>
+    <!-- FIM da area de contato -->
 
     <div class="rodape">
         <div>
