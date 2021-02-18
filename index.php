@@ -89,17 +89,18 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
     <!-- Cards de seriços -->
     <div class="container container-icones">
 
-
         <div class="card-icone">
-            <a href="administracaoImoveis.php">
+            <a href="visitaImoveis.php">
                 <div class="div-icone">
-                    <img class="img-icone" src="img/icone-locacao-digital.png" alt="Avatar">
+                    <img class="img-icone" src="img/icone-360.png" alt="Avatar">
                 </div>
                 <div class="container">
-                    <p class="textos-icones">Locação digital</p>
+                    <p class="textos-icones">Visita virtual</p>
                 </div>
             </a>
         </div>
+
+
 
         <div class="card-icone">
             <a href="administracaoImoveis.php">
@@ -107,36 +108,13 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                     <img class="img-icone" src="img/icone-administracao-imoveis.png" alt="Avatar">
                 </div>
                 <div class="container">
-                    <p class="textos-icones">administração de imóveis</p>
+                    <p class="textos-icones">Administração de imóveis</p>
                 </div>
             </a>
         </div>
 
         <div class="card-icone">
-            <a href="administracaoImoveis.php">
-                <div class="div-icone">
-                    <img class="img-icone" src="img/icone-remanescentes-de-lancamentos.png" alt="Avatar">
-                </div>
-                <div class="container">
-                    <p class="textos-icones">Remanescentes de lançamentos</p>
-                </div>
-            </a>
-        </div>
-
-        <div class="card-icone">
-            <a href="administracaoImoveis.php">
-                <div class="div-icone">
-                    <img class="img-icone" src="img/icone-mql-lancamentos-de-leads.png" alt="Avatar">
-                </div>
-                <div class="container">
-                    <p class="textos-icones">MQL Qualificação de leads</p>
-                </div>
-            </a>
-        </div>
-
-
-        <div class="card-icone">
-            <a href="chatbotImobiliarias.php">
+            <a href="chatbot.php">
                 <div class="div-icone">
                     <img class="img-icone" src="img/icone-chatbot.png" alt="Avatar">
                 </div>
@@ -147,12 +125,34 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
         </div>
 
         <div class="card-icone">
-            <a href="visitaImoveis.php">
+            <a href="locacaoDigital.php">
                 <div class="div-icone">
-                    <img class="img-icone" src="img/icone-360.png" alt="Avatar">
+                    <img class="img-icone" src="img/icone-locacao-digital-grande.png" alt="Avatar">
                 </div>
                 <div class="container">
-                    <p class="textos-icones">Visita virtual</p>
+                    <p class="textos-icones">Locação digital</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="card-icone">
+            <a href="remanescentesLancamentos.php">
+                <div class="div-icone">
+                    <img class="img-icone" src="img/icone-remanescentes-de-lancamentos.png" alt="Avatar">
+                </div>
+                <div class="container">
+                    <p class="textos-icones">Remanescentes de lançamentos</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="card-icone">
+            <a href="mqlQualificaLead.php">
+                <div class="div-icone">
+                    <img class="img-icone" src="img/icone-mql-lancamentos-de-leads.png" alt="Avatar">
+                </div>
+                <div class="container">
+                    <p class="textos-icones">MQL Qualificação de leads</p>
                 </div>
             </a>
         </div>
@@ -220,7 +220,7 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
             </ol>
 
 
@@ -251,7 +251,7 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                     <div class="div-depoimentos">
                         <div class="card-depoimentos">
                             <div class="depoimentos-header">
-                                <img src="https://via.placeholder.com/150" alt="">
+                                <img src="img/logo-solidez.jpg" alt="">
                                 <div>
                                     <p>Karine</p>
                                     <p>Solidez Imobiliária</p>
@@ -274,7 +274,7 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                     </div>
                 </div>
                 <!-- Slide 3-->
-                <div class="carousel-item">
+                <!-- <div class="carousel-item">
                     <div class="div-depoimentos">
                         <div class="card-depoimentos">
                             <div class="depoimentos-header">
@@ -290,7 +290,7 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
             <!-- indicadores laterais do carrossel de imagens -->
@@ -350,13 +350,13 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                 <div class="div-field">
                     <label for="contato"><span style="color: gray">Desejo receber contato por:</span></label>
                     <div style="display: flex;">
-                        <div>
+                        <div class="div-radio-contato">
                             <input type="radio" id="whatsapp" name="forma-contato" value="whatsapp">
-                            <label for="whatsapp">Whatsapp</label><br>
+                            <label for="whatsapp"><i class="fab fa-whatsapp fa-lg" style="color: green;"></i> Whatsapp</label><br>
                         </div>
-                        <div>
+                        <div class="div-radio-contato">
                             <input type="radio" id="telefone" name="forma-contato" value="telefone">
-                            <label for="telefone">telefone</label><br>
+                            <label for="telefone"><i class="fas fa-phone-alt fa-sm"></i> Telefone</label><br>
                         </div>
                     </div>
                 </div>
