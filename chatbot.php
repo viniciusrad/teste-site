@@ -26,7 +26,7 @@
             </br>
             <p><strong>As vantagens são inúmeras!</strong></p>
             </br>
-            <ul class='text-align-left bullet'>
+            <ul class='text-align-center bullet'>
                 <li><strong>+ 50 % Dos atendimentos comuns podem ser automatizados.</strong></li>
                 <li><strong>24 h Ativos nos canais digitais, sem fila de espera.</strong></li>
                 <li><strong>2 x Mais potente na geração de leads.</strong></li>
@@ -258,7 +258,9 @@
     </div>
 
     <div class="div-texto-centralizado">
-        <button class="btn-saiba-mais-green-grande">TENHO INTERESSE</button>
+        <a href="contato.php">
+            <button class="btn-saiba-mais-green-grande">TENHO INTERESSE</button>
+        </a>
     </div>
 
 

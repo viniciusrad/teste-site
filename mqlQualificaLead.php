@@ -80,8 +80,6 @@
     <div class="div-fundo-verde">
         <p>O USO DE MQL LHE PROPORCIONARÁ</p>
     </div>
-    <hr />
-    <hr />
 
     <!-- area de funcionalidades -->
     <div class="div-funcionalidades-flex">
@@ -147,9 +145,9 @@
     <!-- FIM da area de funcionalidades -->
 
     <div class="div-texto-centralizado">
-        <button class="btn-saiba-mais-green-grande">SABER MAIS</button>
-
-        <hr />
+        <a href="contato.php">
+            <button class="btn-saiba-mais-green-grande">SABER MAIS</button>
+        </a>
     </div>
 
 

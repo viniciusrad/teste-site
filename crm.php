@@ -19,9 +19,9 @@
         </div>
         <div class="texto-crm">
             <p><strong>O sistema MIDAS atua facilitando de forma inteligente e automática as tarefas que mais tomam tempo dos seus corretores, permitindo assim o tempo de sua Equipe seja utilizado no que ela é insubstituível:</strong></p>
-            <p><strong>o atendimento</strong></p>
+            <p><strong>O atendimento.</strong></p>
             </br>
-            <p><strong>conheça algumas caracteristicas do sistema</strong></p>
+            <p><strong>Conheça algumas caracteristicas do sistema</strong></p>
 
         </div>
     </div>
