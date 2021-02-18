@@ -14,6 +14,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/logo-fav-icon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa%7CComfortaa%7CComfortaa%7CComfortaa&amp;subset=latin-ext,cyrillic-ext,latin,vietnamese,cyrillic,greek" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;800&family=Oswald:wght@400;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
     <link rel='stylesheet' id='font-awesome-css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
 
     <link rel="stylesheet" href="index.css">
@@ -61,9 +62,11 @@
                         <a href="./contato.php">Contato</a>
 
                     </li>
-                    <li class="nav-item">
-                        Blog
-                    </li>
+                    <a href="https://www.midasmais.com.br/blog/" style="color: black;">
+                        <li class="nav-item">
+                            Blog
+                        </li>
+                    </a>
 
                 </ul>
                 <a href="./contato.php">
@@ -71,9 +74,9 @@
                 </a>
 
                 <div class="div-social-icons">
-                    <a class="" href="#"><i class="fas fa-camera"></i></a>
-                    <a class="" href="#"><i class="fab fa-facebook"></i></a>
-                    <a class="" href="#"><i class="fas fa-phone-alt"></i></a>
+                    <a class="" href="https://www.instagram.com/midas_mais/"><i class="fas fa-camera"></i></a>
+                    <a class="" href="https://www.facebook.com/MidasSoftImob"><i class="fab fa-facebook"></i></a>
+                    <a class="" href="contato.php"><i class="fas fa-phone-alt"></i></a>
 
 
                 </div>
