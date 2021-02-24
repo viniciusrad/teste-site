@@ -26,6 +26,7 @@ fclose($myfile);
     <div class="cabecalho-adm">
         <h2>pagina administrativa</h2>
     </div>
+    <!-- CONTAINER DE AJUSTES DE IMAGENS DOS BANERS -->
     <div class="container">
         <h1>Seleção de imagens para o banner</h1>
         <div class="elemento-adm">
@@ -60,13 +61,12 @@ fclose($myfile);
             </div>
         </div>
         <p>Incluir informações sobre o tipo e tamanho adequados para as imagens</p>
-
     </div>
+
+    <!-- CONTAINER DE AJUSTES TELEFONES DO WHATSAPP -->
     <div class="container">
         <h1>Telefones Ativos no whatsapp</h1>
         <div class="elemento-adm">
-
-
             <div>
                 <h3>inserir telefones</h3>
                 <form action="gerenciaTelefones.php" method="post">
