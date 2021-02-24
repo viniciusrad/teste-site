@@ -17,7 +17,7 @@
 
 
     <!-- area de contato -->
-    <div class="form-contato">
+    <!-- <div class="form-contato">
 
         <div class="div-formulario formulario-contato">
             <form action="">
@@ -45,48 +45,23 @@
 
             </form>
         </div>
-    </div>
+    </div> -->
 
-    <div class="rodape">
-        <div>
-            <h3 class="texto-centralizado">MIDAS MAIS</h3>
-            <p class="texto-centralizado">As soluções MIDAS vem deixando sua marca de sucesso em cada uma das Empresas que procuram utilizar o máximo da tecnologia em favor dos seus negócios.</p>
-        </div>
-    </div>
+    <!-- area de contato -->
 
-
-
-    <!--  -->
-    <!--  -->
-    <!--  -->
-    <!-- Modal -->
-    <div class="modal fade" id="modalBaner" tabindex="-1" role="dialog" aria-labelledby="modalBanerLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalBanerLabel">Titulo da campanha</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img src="img/fundo2.jpg" alt="">
-                </div>
-                <div class=" modal-footer">
-                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button> -->
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php
+    include('area-contato.php')
+    ?>
+    <!-- FIM da area de contato -->
 
 
-    <script type="text/javascript">
-        /**Ativa o modal */
-        // $(window).on('load', function() {
-        //     $('#modalBaner').modal('show');
-        // });
-    </script>
+    <!-- rodapé -->
+    <?php
+    include('area-rodape.php')
+    ?>
+
+
+
 </body>
 
 

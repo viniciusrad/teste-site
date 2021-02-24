@@ -1,35 +1,3 @@
-<?php
-$myfile = fopen("telefonesWhatsapp.txt", "r") or die("Unable to open file!");
-$telefonesVindosArquivo = json_decode(fread($myfile, filesize("telefonesWhatsapp.txt")), true);
-fclose($myfile);
-
-
-$telefonesVindosArquivo = array_values($telefonesVindosArquivo);
-
-
-$quantTelefonesadastrados = count((array)$telefonesVindosArquivo);
-
-
-
-
-$indexTelefone = (date('d') % $quantTelefonesadastrados);
-
-$telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
-
-// var_dump($telefoneComercial);
-// die();
-// echo "-----------------***********-----------------";
-// echo "</br>";
-// var_dump((array)$telefonesVindosArquivo[$indexTelefone]);
-// echo "</br>";
-// echo "-----------------***********-----------------";
-// die();
-
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,6 +28,30 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
         </div>
     </div>
     <!-- espaço do crm -->
+
+    <div class="div-crm">
+        <div class="lista-crm">
+            <h2>SITE EXCLUSIVO PARA IMOBILIÁRIAS E CORRETORES</h2>
+            <ul>
+                <li>SEO – Otimização para o Google;</li>
+                <li>Layouts Responsivos;</li>
+                <li>Busca de avançada de Imóveis;</li>
+                <li>Alta Performance;</li>
+                <li>Usabilidade e Aparência;</li>
+                <li>Autonomia e Flexibilidade no Gerenciamento do Conteúdo!</li>
+            </ul>
+            <a href="./contato.php">
+                <button class="btn-saiba-mais-black">Saiba mais</button>
+            </a>
+        </div>
+        <div class="div-img-crm">
+            <img src="img/site-responsivo.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="div-fundo-verde">
+        <p>SITES COMPROVADAMENTE COM OS MELHORES POSICIONAMENTOS NA BUSCA ORGÂNICA (GRATUITA) DO GOOGLE</p>
+    </div>
     <div class="div-crm">
         <div class="div-img-crm">
             <img src="img/crm-screen-shots.png" alt="">
@@ -81,8 +73,24 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
         </div>
     </div>
 
-    <hr>
 
+
+
+    <div class="div-btn-proposta">
+        <a href="./contato.php">
+            <button class="btn-saiba-mais-black">Quero receber uma proposta</button>
+        </a>
+    </div>
+
+    <div class="div-fundo-verde">
+        <p>O ÚNICO CRM COM GESTÃO DE LEADS NO MERCADO IMOBILIÁRIO</p>
+    </div>
+
+
+
+
+    <!--  -->
+    <!--  -->
     <div class="align-text">
         <h3>CONHEÇA NOSSOS OUTROS PRODUTOS</h3>
     </div>
@@ -159,238 +167,39 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
 
     </div>
     <!-- fim do container de Cards de seriços -->
+    <!--  -->
+    <!--  -->
 
-    <div class="div-btn-proposta">
-        <a href="./contato.php">
-            <button class="btn-saiba-mais-black">Quero receber uma proposta</button>
-        </a>
-    </div>
+    <div class="div-area-cinza"></div>
 
-    <div class="div-fundo-verde">
-        <p>O ÚNICO CRM COM GESTÃO DE LEADS NO MERCADO IMOBILIÁRIO</p>
-    </div>
 
-    <div class="div-crm">
-        <div class="lista-crm">
-            <h2>SITE EXCLUSIVO PARA IMOBILIÁRIAS E CORRETORES</h2>
-            <ul>
-                <li>SEO – Otimização para o Google;</li>
-                <li>Layouts Responsivos;</li>
-                <li>Busca de avançada de Imóveis;</li>
-                <li>Alta Performance;</li>
-                <li>Usabilidade e Aparência;</li>
-                <li>Autonomia e Flexibilidade no Gerenciamento do Conteúdo!</li>
-            </ul>
-            <a href="./contato.php">
-                <button class="btn-saiba-mais-black">Saiba mais</button>
-            </a>
-        </div>
-        <div class="div-img-crm">
-            <img src="img/site-responsivo.jpg" alt="">
-        </div>
-    </div>
-
-    <div class="div-fundo-verde">
-        <p>SITES COMPROVADAMENTE COM OS MELHORES POSICIONAMENTOS NA BUSCA ORGÂNICA (GRATUITA) DO GOOGLE</p>
-    </div>
+    <!--  -->
     <!-- area de depoimentos -->
-    <!-- <div class="div-depoimentos">
-        <div class="card-depoimentos">
-            <div class="depoimentos-header">
-                <img src="https://via.placeholder.com/150" alt="">
-                <div>
-                    <p>Miliete</p>
-                    <p>Corretora autônoma</p>
-                </div>
-
-            </div>
-            <div class="depoimentos-body">
-                <p>Quando comecei a trabalhar como profissional autônoma, queria me profissionalizar, no ramo Imobiliário e estar nos melhores portais. Então não tive dúvidas, escolhi o melhor! Midas. Os profissionais desse sistema, são atenciosos e realmente resolvem sempre o que precisamos. Neste ramo, não podemos perder tempo e o Midas, nós dá um excelente suporte. Parabéns a equipe Midas. </p>
-            </div>
-        </div>
-    </div> -->
-
     <!--  -->
-    <!--  -->
-    <div class="area-depoimentos">
-
-        <h3>Casos de sucesso</h3>
-
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
-            </ol>
-
-
-            <div class="carousel-inner" role="listbox">
-
-
-                <!-- Slide 1 -->
-                <div class="carousel-item active">
-                    <div class="div-depoimentos">
-                        <div class="card-depoimentos">
-                            <div class="depoimentos-header">
-                                <img src="https://via.placeholder.com/150" alt="">
-                                <div>
-                                    <p>Miliete</p>
-                                    <p>Corretora autônoma</p>
-                                </div>
-
-                            </div>
-                            <div class="depoimentos-body">
-                                <p>Quando comecei a trabalhar como profissional autônoma, queria me profissionalizar, no ramo Imobiliário e estar nos melhores portais. Então não tive dúvidas, escolhi o melhor! Midas. Os profissionais desse sistema, são atenciosos e realmente resolvem sempre o que precisamos. Neste ramo, não podemos perder tempo e o Midas, nós dá um excelente suporte. Parabéns a equipe Midas. </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Slide 2-->
-                <div class="carousel-item">
-                    <div class="div-depoimentos">
-                        <div class="card-depoimentos">
-                            <div class="depoimentos-header">
-                                <img src="img/logo-solidez.jpg" alt="">
-                                <div>
-                                    <p>Karine</p>
-                                    <p>Solidez Imobiliária</p>
-                                </div>
-
-                            </div>
-                            <div class="depoimentos-body">
-                                <p>Minhas impressões com relação ao sistema não poderia ser melhor. Elenco os pontos positivos: </p>
-                                <ul>
-                                    <li>1 - Sistema de fácil manuseio, auto explicativo.</li>
-                                    <li>2- Completo e integrado a diversos portais o que ajuda a maximiza o tempo.</li>
-                                    <li>3- Manual com passo a passo disponível 24h no campo: ajuda.</li>
-                                    <li>4- Suporte por telefone e dentro do sistema.</li>
-                                </ul>
-                                <p>Elenco pontos negativos: Nenhum!</p>
-                                <p>Enfim, o sistema é maravilhoso, o atendimento é excelente, de toda equipe como: você, Tania do administrativo e Cássio do site, estou super satisfeita com a empresa e recomendo a todos.
-                                    Muito obrigada!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slide 3-->
-                <!-- <div class="carousel-item">
-                    <div class="div-depoimentos">
-                        <div class="card-depoimentos">
-                            <div class="depoimentos-header">
-                                <img src="https://via.placeholder.com/150" alt="">
-                                <div>
-                                    <p>Miliete</p>
-                                    <p>Corretora autônoma</p>
-                                </div>
-
-                            </div>
-                            <div class="depoimentos-body">
-                                <p>Quando comecei a trabalhar como profissional autônoma, queria me profissionalizar, no ramo Imobiliário e estar nos melhores portais. Então não tive dúvidas, escolhi o melhor! Midas. Os profissionais desse sistema, são atenciosos e realmente resolvem sempre o que precisamos. Neste ramo, não podemos perder tempo e o Midas, nós dá um excelente suporte. Parabéns a equipe Midas. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-            </div>
-            <!-- indicadores laterais do carrossel de imagens -->
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="span-carrossel" aria-hidden="true">
-                    < </span>
-                        <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="span-carrossel" aria-hidden="true"> > </span>
-                <span class="sr-only">Next</span>
-            </a>
-
-
-        </div>
-    </div>
-
-    <!--  -->
-    <!--  -->
-
+    <?php
+    include('area-depoimentos.php')
+    ?>
     <!-- fimm da area de depoimentos -->
 
     <!-- area de contato -->
-    <div class="form-contato">
-        <div class="div-texto-formulario">
-            <p>O FUTURO DA SUA IMOBILIÁRIA COMEÇA AGORA!</p>
-        </div>
-        <div class="div-formulario">
-            <div class="">
-                <div class="cabecalho-formulario">
-                    <h3>Entre em contato</h3>
-                </div>
-                <p class="text-align-left"><span style="color: red;">(*)Campos Obrigatórios</span></p>
-                <p class="text-align-left"><span style="color: red;">(**)Pelo menos um campo deve serpreenchido</span></p>
-            </div>
-            <p class="subtitulo-formulario">Preencha os Campos abaixo</p>
-            <form method="post" action="enviaEmail.php">
-                <div class="div-field">
-                    <div style="display: flex;">
 
-                        <input type="text" name="nome" id="input-nome" placeholder="Digite seu nome"><span class="spam-obrigatorio" style="color: red;">(*)</span>
-                    </div>
-                </div>
-                <div class="div-field">
-                    <div style="display: flex;">
-                        <input type="text" name="e-mail" id="input-e-mail" placeholder="Digite seu email"><span class="spam-obrigatorio" style="color: red;">(**)</span>
-                    </div>
-                </div>
-                <div class="div-field">
-                    <div style="display: flex;">
-                        <input type="text" name="telefone" id="input-telefone" placeholder="Digite seu telefone"><span class="spam-obrigatorio" style="color: red;">(**)</span>
-                    </div>
-                </div>
-                <div class="div-field">
-                    <textarea rows="4" cols="3" name="mensagem" id="input-mensagem" placeholder="">Olá, tenho interesse em saber mais sobre o Midas. Aguardo contato.</textarea>
-                </div>
-                <div class="div-field">
-                    <label for="contato"><span style="color: gray">Desejo receber contato por:</span></label>
-                    <div style="display: flex;">
-                        <div class="div-radio-contato">
-                            <input type="radio" id="whatsapp" name="forma-contato" value="whatsapp">
-                            <label for="whatsapp"><i class="fab fa-whatsapp fa-lg" style="color: green;"></i> Whatsapp</label><br>
-                        </div>
-                        <div class="div-radio-contato">
-                            <input type="radio" id="telefone" name="forma-contato" value="telefone">
-                            <label for="telefone"><i class="fas fa-phone-alt fa-sm"></i> Telefone</label><br>
-                        </div>
-                    </div>
-                </div>
-                <div style="display: flex; justify-content: center;">
-
-                    <button type="submit" class="btn-enviar-formulario">Enviar</button>
-                </div>
-            </form>
-        </div>
-    </div>
+    <?php
+    include('area-contato.php')
+    ?>
     <!-- FIM da area de contato -->
 
+    <!-- rodapé -->
+    <?php
+    include('area-rodape.php')
+    ?>
 
-    <div class="rodape">
-        <div>
-            <h3 class="texto-centralizado">MIDAS MAIS</h3>
-            <p class="texto-centralizado">As soluções MIDAS vem deixando sua marca de sucesso em cada uma das Empresas que procuram utilizar o máximo da tecnologia em favor dos seus negócios.</p>
-        </div>
-    </div>
-
-    <!-- whatsappp link -->
-
-    <!-- <div class="container-whatsapp">
-        <a class="contato-telefone-whatsapp" href="http://api.whatsapp.com/send?1=pt_BR&phone=55<?php echo $telefoneComercial; ?>" target="_blank">
-            <i class="fa fa-whatsapp icone-whatsapp"></i>
-        </a>
-    </div> -->
+    <!--  -->
 
 
 
 
     <!--  -->
-    <!--  -->
-    <!--  -->
+    <!-- o modal so deverá ser exibido na pagina principal -->
     <!-- Modal -->
     <div class="modal fade" id="modalBaner" tabindex="-1" role="dialog" aria-labelledby="modalBanerLabel" aria-hidden="true">
         <div class=" modal-dialog modal-lg" role="document">

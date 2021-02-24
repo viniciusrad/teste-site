@@ -227,205 +227,30 @@
 
 
     <!-- area de depoimentos -->
-
-    <div class="area-depoimentos">
-
-        <h3>Casos de sucesso</h3>
-
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-
-
-            <div class="carousel-inner" role="listbox">
-
-
-                <!-- Slide 1 -->
-                <div class="carousel-item active">
-                    <div class="div-depoimentos">
-                        <div class="card-depoimentos">
-                            <div class="depoimentos-header">
-                                <img src="https://via.placeholder.com/150" alt="">
-                                <div>
-                                    <p>Miliete</p>
-                                    <p>Corretora autônoma</p>
-                                </div>
-
-                            </div>
-                            <div class="depoimentos-body">
-                                <p>Quando comecei a trabalhar como profissional autônoma, queria me profissionalizar, no ramo Imobiliário e estar nos melhores portais. Então não tive dúvidas, escolhi o melhor! Midas. Os profissionais desse sistema, são atenciosos e realmente resolvem sempre o que precisamos. Neste ramo, não podemos perder tempo e o Midas, nós dá um excelente suporte. Parabéns a equipe Midas. </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Slide 2-->
-                <div class="carousel-item">
-                    <div class="div-depoimentos">
-                        <div class="card-depoimentos">
-                            <div class="depoimentos-header">
-                                <img src="https://via.placeholder.com/150" alt="">
-                                <div>
-                                    <p>Karine</p>
-                                    <p>Solidez Imobiliária</p>
-                                </div>
-
-                            </div>
-                            <div class="depoimentos-body">
-                                <p>Minhas impressões com relação ao sistema não poderia ser melhor. Elenco os pontos positivos: </p>
-                                <ul>
-                                    <li>1 - Sistema de fácil manuseio, auto explicativo.</li>
-                                    <li>2- Completo e integrado a diversos portais o que ajuda a maximiza o tempo.</li>
-                                    <li>3- Manual com passo a passo disponível 24h no campo: ajuda.</li>
-                                    <li>4- Suporte por telefone e dentro do sistema.</li>
-                                </ul>
-                                <p>Elenco pontos negativos: Nenhum!</p>
-                                <p>Enfim, o sistema é maravilhoso, o atendimento é excelente, de toda equipe como: você, Tania do administrativo e Cássio do site, estou super satisfeita com a empresa e recomendo a todos.
-                                    Muito obrigada!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slide 3-->
-                <div class="carousel-item">
-                    <div class="div-depoimentos">
-                        <div class="card-depoimentos">
-                            <div class="depoimentos-header">
-                                <img src="https://via.placeholder.com/150" alt="">
-                                <div>
-                                    <p>Miliete</p>
-                                    <p>Corretora autônoma</p>
-                                </div>
-
-                            </div>
-                            <div class="depoimentos-body">
-                                <p>Quando comecei a trabalhar como profissional autônoma, queria me profissionalizar, no ramo Imobiliário e estar nos melhores portais. Então não tive dúvidas, escolhi o melhor! Midas. Os profissionais desse sistema, são atenciosos e realmente resolvem sempre o que precisamos. Neste ramo, não podemos perder tempo e o Midas, nós dá um excelente suporte. Parabéns a equipe Midas. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!-- indicadores laterais do carrossel de imagens -->
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="span-carrossel" aria-hidden="true">
-                    < </span>
-                        <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="span-carrossel" aria-hidden="true"> > </span>
-                <span class="sr-only">Next</span>
-            </a>
-
-
-        </div>
-    </div>
-
     <!--  -->
-    <!--  -->
-
+    <?php
+    include('area-depoimentos.php')
+    ?>
     <!-- fimm da area de depoimentos -->
 
-
     <!-- area de contato -->
-    <div class="form-contato">
-        <div class="div-texto-formulario">
-            <p>O FUTURO DA SUA IMOBILIÁRIA COMEÇA AGORA!</p>
-        </div>
-        <div class="div-formulario">
-            <div class="">
-                <div class="cabecalho-formulario">
-                    <h3>Entre em contato</h3>
-                </div>
-                <p class="text-align-left"><span style="color: red;">(*)Campos Obrigatórios</span></p>
-                <p class="text-align-left"><span style="color: red;">(**)Pelo menos um campo deve serpreenchido</span></p>
-            </div>
-            <p class="subtitulo-formulario">Preencha os Campos abaixo</p>
-            <form method="post" action="enviaEmail.php">
-                <div class="div-field">
-                    <div style="display: flex;">
 
-                        <input type="text" name="nome" id="input-nome" placeholder="Digite seu nome"><span class="spam-obrigatorio" style="color: red;">(*)</span>
-                    </div>
-                </div>
-                <div class="div-field">
-                    <div style="display: flex;">
-                        <input type="text" name="e-mail" id="input-e-mail" placeholder="Digite seu email"><span class="spam-obrigatorio" style="color: red;">(**)</span>
-                    </div>
-                </div>
-                <div class="div-field">
-                    <div style="display: flex;">
-                        <input type="text" name="telefone" id="input-telefone" placeholder="Digite seu telefone"><span class="spam-obrigatorio" style="color: red;">(**)</span>
-                    </div>
-                </div>
-                <div class="div-field">
-                    <textarea rows="4" cols="3" name="mensagem" id="input-mensagem" placeholder="">Olá, tenho interesse em saber mais sobre o Midas. Aguardo contato.</textarea>
-                </div>
-                <div class="div-field">
-                    <label for="contato"><span style="color: gray">Desejo receber contato por:</span></label>
-                    <div style="display: flex;">
-                        <div>
-                            <input type="radio" id="whatsapp" name="forma-contato" value="whatsapp">
-                            <label for="whatsapp">Whatsapp</label><br>
-                        </div>
-                        <div>
-                            <input type="radio" id="telefone" name="forma-contato" value="telefone">
-                            <label for="telefone">telefone</label><br>
-                        </div>
-                    </div>
-                </div>
-                <div style="display: flex; justify-content: center;">
-
-                    <button type="submit" class="btn-enviar-formulario">Enviar</button>
-                </div>
-            </form>
-        </div>
-    </div>
+    <?php
+    include('area-contato.php')
+    ?>
     <!-- FIM da area de contato -->
 
-    <div class="rodape">
-        <div>
-            <h3 class="texto-centralizado">MIDAS MAIS</h3>
-            <p class="texto-centralizado">As soluções MIDAS vem deixando sua marca de sucesso em cada uma das Empresas que procuram utilizar o máximo da tecnologia em favor dos seus negócios.</p>
-        </div>
-    </div>
-
-
-
-    <!--  -->
-    <!--  -->
-    <!--  -->
-    <!-- Modal -->
-    <div class="modal fade" id="modalBaner" tabindex="-1" role="dialog" aria-labelledby="modalBanerLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalBanerLabel">Titulo da campanha</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img src="img/fundo2.jpg" alt="">
-                </div>
-                <div class=" modal-footer">
-                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button> -->
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <!-- rodapé -->
+    <?php
+    include('area-rodape.php')
+    ?>
 
     <script type="text/javascript">
-        /**Ativa o modal */
-        // $(window).on('load', function() {
-        //     $('#modalBaner').modal('show');
-        // });
+        $(document).ready(function() {
+            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre o Midas. Aguardo contato.')
+        });
     </script>
+
 </body>
 
 

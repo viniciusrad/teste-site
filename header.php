@@ -1,3 +1,42 @@
+<?php
+
+function leNumerosTelefones()
+{
+    $myfile = fopen("telefonesWhatsapp.txt", "r") or die("Unable to open file!");
+    $telefonesVindosArquivo = json_decode(fread($myfile, filesize("telefonesWhatsapp.txt")), true);
+    fclose($myfile);
+
+    return $telefonesVindosArquivo;
+}
+
+
+$telefonesVindosArquivo = leNumerosTelefones();
+$telefonesVindosArquivo = array_values($telefonesVindosArquivo);
+
+
+$quantTelefonesadastrados = count((array)$telefonesVindosArquivo);
+
+
+
+
+$indexTelefone = (date('d') % $quantTelefonesadastrados);
+
+$telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
+
+// var_dump($telefoneComercial);
+// die();
+// echo "-----------------***********-----------------";
+// echo "</br>";
+// var_dump((array)$telefonesVindosArquivo[$indexTelefone]);
+// echo "</br>";
+// echo "-----------------***********-----------------";
+// die();
+
+
+
+?>
+
+
 <head>
     <meta charset="UTF-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
@@ -40,20 +79,26 @@
                         <a class="dropdown-item" href="siteImobiliarias.php" style="border-left: 7px solid #ffb017;margin-left: 10px;"> SITE PARA IMOBILIÁRIA</a>
                         <a class="dropdown-item" href="chatbot.php" style="border-left: 7px solid #9c136f;margin-left: 10px;">CHATBOT</a>
                         <a class="dropdown-item" href="administracaoImoveis.php" style="border-left: 7px solid #0877ac;margin-left: 10px;">ADMINISTRACAO DE IMOVEIS</a>
+                        <a class="dropdown-item" href="locacaoDigital.php" style="border-left: 7px solid #9877ac;margin-left: 10px;">LOCAÇÃO DIGITAL</a>
                         <a class="dropdown-item" href="visitaVirtual.php" style="border-left: 7px solid #4caa30;margin-left: 10px;">VISITA VIRTUAL</a>
-                        <a class="dropdown-item" href="remanescentesLancamentos.php" style="border-left: 7px solid #0877ac;margin-left: 10px;">REMANESCENTE DE LANCAMENTOS</a>
+                        <a class="dropdown-item" href="remanescentesLancamentos.php" style="border-left: 7px solid #08b7ac;margin-left: 10px;">REMANESCENTE DE LANCAMENTOS</a>
                         <a class="dropdown-item" href="mqlQualificaLead.php" style="border-left: 7px solid #7434d3;margin-left: 10px;">MARKETING QUALIFICA LEAD</a>
-                        <a class="dropdown-item" href="#" style="border-left: 7px solid #666;margin-left: 10px;">BLOG</a>
+                        <a class="dropdown-item" href="https://www.midasmais.com.br/blog/" style="border-left: 7px solid #666;margin-left: 10px;">BLOG</a>
+                        <a class="dropdown-item" href="contato.php" style="border-left: 7px solid #333;margin-left: 10px;">CONTATO</a>
                     </div>
                 </div>
                 <!-- sanduiche das paginas midas -->
 
                 <div class="pull-left"><a href="./index.php"><img id="img-logo" src="./img/logo-midas2.png" alt="Midas" title="Midas"></a></div>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+
+            <!--  -->
+            <!-- Botao a direita  -->
+            <!--  -->
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+            </button> -->
+            <!-- <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto barra-enderecos list-none" style="list-style-type: none;">
                     <li style="list-style: none;" class="nav-item">
                         <a href="./index.php">Início</a>
@@ -62,11 +107,9 @@
                         <a href="./contato.php">Contato</a>
 
                     </li>
-                    <a href="https://www.midasmais.com.br/blog/" style="color: black;">
-                        <li class="nav-item">
-                            Blog
-                        </li>
-                    </a>
+                    <li class="nav-item">
+                        <a href="https://www.midasmais.com.br/blog/">Blog</a>
+                    </li>
 
                 </ul>
                 <a href="./contato.php">
@@ -82,7 +125,11 @@
                 </div>
 
 
-            </div>
+            </div> -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+
         </div>
 
     </nav>
