@@ -14,17 +14,17 @@
     </div>
 
     <div class="div-crm">
-        <div class="div-img-crm" style="max-width: 800px">
+        <div class="div-img-crm" style="max-width: 800px; display: flex;">
             <img src="img/administracao-imoveis.jpg" alt="">
+        </div>
+        <div class="texto-crm font-14rem">
+            <p>Este sistema foi projetado tendo como princípios a facilidade de uso/entendimento, informações complexas, agilidade no manuseio e segurança das informações cadastradas. Aliado a isso temos o nosso atendimento pós-venda, um verdadeiro diferencial entre nossos concorrentes, pois utilizamos o método "escada", ou seja, um passo de cada vez, onde todo novo cadastramento feito no sistema ou novo processamento a ser ensinado terá um acompanhamento, passo a passo com nossos atendentes especializados exclusivamente em seu negócio.</p>
+
+
         </div>
     </div>
 
-    <div class="div-texto-centralizado">
-        <p><strong>Este sistema foi projetado com foco na facilidade de uso.</strong></p>
-    </div>
-    <div class="div-texto-centralizado">
-        <p><strong>Traz informações completas e muita agilidade no dia.</strong></p>
-    </div>
+
 
     <div class="div-fundo-verde">
         <p>Conheça as principais características do Sistema</p>
@@ -119,8 +119,11 @@
             </div>
         </div>
     </div>
+
+    <div class="div-texto-centralizado">Conecte-se ao seu sistema de onde estiver. <br>
+        Este sistema foi projetado com foco na facilidade de uso e está preparado para a nova realidade do mercado imobiliário onde você e sua equipe vão poder trabalhar em home-office ou presencial via internet com informações completas e mais agilidade no seu dia.</div>
     <div class="div-texto-centralizado">
-        <a href="./contato.php">
+        <a href="#div-contato">
             <button class="btn-saiba-mais-green">QUERO ADMINISTRAR MELHOR</button>
         </a>
     </div>

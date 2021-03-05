@@ -29,29 +29,7 @@
     </div>
     <!-- espaço do crm -->
 
-    <div class="div-crm">
-        <div class="lista-crm">
-            <h2>SITE EXCLUSIVO PARA IMOBILIÁRIAS E CORRETORES</h2>
-            <ul>
-                <li>SEO – Otimização para o Google;</li>
-                <li>Layouts Responsivos;</li>
-                <li>Busca de avançada de Imóveis;</li>
-                <li>Alta Performance;</li>
-                <li>Usabilidade e Aparência;</li>
-                <li>Autonomia e Flexibilidade no Gerenciamento do Conteúdo!</li>
-            </ul>
-            <a href="./contato.php">
-                <button class="btn-saiba-mais-black">Saiba mais</button>
-            </a>
-        </div>
-        <div class="div-img-crm">
-            <img src="img/site-responsivo.jpg" alt="">
-        </div>
-    </div>
 
-    <div class="div-fundo-verde">
-        <p>SITES COMPROVADAMENTE COM OS MELHORES POSICIONAMENTOS NA BUSCA ORGÂNICA (GRATUITA) DO GOOGLE</p>
-    </div>
     <div class="div-crm">
         <div class="div-img-crm">
             <img src="img/crm-screen-shots.png" alt="">
@@ -67,10 +45,38 @@
                 <li>Gestão total da sua Equipe;</li>
                 <li>E-mails Automáticos.</li>
             </ul>
-            <a href="./contato.php">
+            <a href="./crm.php">
                 <button class="btn-saiba-mais-black">Saiba mais</button>
             </a>
         </div>
+    </div>
+
+    <div class="div-fundo-verde">
+        <p>O ÚNICO CRM COM GESTÃO DE LEADS NO MERCADO IMOBILIÁRIO</p>
+    </div>
+
+    <div class="div-crm">
+        <div class="lista-crm">
+            <h2>SITE EXCLUSIVO PARA IMOBILIÁRIAS E CORRETORES</h2>
+            <ul>
+                <li>SEO – Otimização para o Google;</li>
+                <li>Layouts Responsivos;</li>
+                <li>Busca de avançada de Imóveis;</li>
+                <li>Alta Performance;</li>
+                <li>Usabilidade e Aparência;</li>
+                <li>Autonomia e Flexibilidade no Gerenciamento do Conteúdo!</li>
+            </ul>
+            <a href="./siteImobiliarias.php">
+                <button class="btn-saiba-mais-black">Saiba mais</button>
+            </a>
+        </div>
+        <div class="div-img-crm">
+            <img src="img/site-responsivo.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="div-fundo-verde">
+        <p>SITES COMPROVADAMENTE COM OS MELHORES POSICIONAMENTOS NA BUSCA ORGÂNICA (GRATUITA) DO GOOGLE</p>
     </div>
 
 
@@ -82,9 +88,7 @@
         </a>
     </div>
 
-    <div class="div-fundo-verde">
-        <p>O ÚNICO CRM COM GESTÃO DE LEADS NO MERCADO IMOBILIÁRIO</p>
-    </div>
+
 
 
 
@@ -98,7 +102,7 @@
     <div class="container container-icones">
 
         <div class="card-icone">
-            <a href="visitaImoveis.php">
+            <a href="visitaVirtual.php">
                 <div class="div-icone">
                     <img class="img-icone" src="img/icone-360.png" alt="Avatar">
                 </div>
@@ -168,10 +172,8 @@
     </div>
     <!-- fim do container de Cards de seriços -->
     <!--  -->
-    <!--  -->
 
     <div class="div-area-cinza"></div>
-
 
     <!--  -->
     <!-- area de depoimentos -->
@@ -193,6 +195,13 @@
     include('area-rodape.php')
     ?>
 
+    <!--  -->
+
+    <!-- div cookies -->
+    <div class="div-cookies div-display-none">
+        <p>Ao navegar em nosso site você concorda com nossa politica de privacidade</p>
+        <button class="btn-saiba-mais-black" id="btn-cookie">Ok, entendi</button>
+    </div>
     <!--  -->
 
 
@@ -319,9 +328,9 @@
 
 
     <script type="text/javascript">
-        /**Ativa o modal */
+        /**Ativa o modal forçadamente */
         $(window).on('load', function() {
-            $('#modalBaner').modal('show');
+            // $('#modalBaner').modal('show');
 
 
         });
@@ -330,6 +339,35 @@
         //     $('#modalBaner').modal('hide')
 
         // })
+
+
+
+        $(document).ready(function() {
+            if (!$.cookie("cookieModal")) {
+                // aciona o modal se não houver cookie
+                $('#modalBaner').modal('show');
+                // cria o cookie
+                $.cookie("cookieModal", "firstSet", {
+                    "expires": 1
+                })
+            } else {
+
+            }
+
+            //clica no botão do cookie
+            if (!$.cookie("cookiePoliticaPrivacidade")) {
+                $('.div-cookies').toggleClass("div-display-none");
+
+                $('#btn-cookie').click(() => {
+                    $('.div-cookies').toggleClass("div-cookie-aceito");
+
+                    $.cookie("cookiePoliticaPrivacidade", "clicou", {
+                        "expires": 1
+                    })
+                })
+            }
+
+        })
     </script>
 </body>
 

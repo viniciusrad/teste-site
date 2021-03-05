@@ -12,13 +12,13 @@
 // }
 
 
-var_dump($_POST);
+// var_dump($_POST);
 // die("die aqui");
 $nome = $_POST['nome'];
 $email = $_POST['e-mail'];
 $telefone = $_POST['telefone'];
 $mensagem = $_POST['mensagem'];
-$imobiliaria = $_POST['imobiliaria'];
+// $imobiliaria = $_POST['imobiliaria'];
 $formaContato = $_POST['forma-contato'];
 
 $headers = "From: vinicius@infoideias.com.br \r\n";
@@ -35,22 +35,54 @@ $mensagemFinal = "Nome do cliente: " . $nome . "<br/><br/>" .
 $to = "vinicius@infoideias.com.br";
 
 
-// var_dump($_POST);
-// echo "<br/>";
-// echo "<br/>";
-// echo "<br/>";
-
-// var_dump($mensagemFinal);
-
-
-// die();
-// $to = "viniciusrad@yahoo.com.br";
 $assunto = "Mensagem de " . $email;
+//envia o email
 if (mail($to, $assunto, $mensagemFinal, $headers, $email)) {
-    echo "email enviado com sucesso";
+    // echo "email enviado com sucesso";
 } else {
-
-    echo "Falha ao enviar email";
+    // echo "Falha ao enviar email";
 }
 
-header('Location: https://www.midasmais.com.br/novo_site2/');
+?>
+<link rel="stylesheet" href="index.css">
+
+<style>
+    body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background: red;
+    border: 5px solid white; */
+    }
+
+    .card-mensagem {
+        border: 1px solid grey;
+        border-radius: 10px;
+        padding: 2rem;
+    }
+
+    .card-mensagem h2 {
+        text-align: center;
+    }
+
+    .card-mensagem a {
+        justify-content: center;
+        display: flex;
+        padding-top: 2rem;
+    }
+</style>
+
+
+<div class="card-mensagem">
+    <h2>Obrigado!</h2>
+    <p>Sua mensagem foi encaminhada para nossos especialistas</p>
+    <a href="https://www.midasmais.com.br/novo_site2/">
+        <button class="btn-saiba-mais-black">Voltar</button>
+    </a>
+</div>
+
+<?php
+// sleep(5);
+// header('Location: https://www.midasmais.com.br/novo_site2/');

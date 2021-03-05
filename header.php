@@ -44,7 +44,7 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -56,7 +56,11 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;800&family=Oswald:wght@400;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
     <link rel='stylesheet' id='font-awesome-css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
 
+    <script src="./lib/jquery.cookie.js"></script>
+
+
     <link rel="stylesheet" href="index.css">
+
 
     <title>Midas mais</title>
 </head>
@@ -97,8 +101,8 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
             <!--  -->
             <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button> -->
-            <!-- <div class="collapse navbar-collapse" id="navbarResponsive">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto barra-enderecos list-none" style="list-style-type: none;">
                     <li style="list-style: none;" class="nav-item">
                         <a href="./index.php">Início</a>
@@ -120,12 +124,16 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                     <a class="" href="https://www.instagram.com/midas_mais/"><i class="fas fa-camera"></i></a>
                     <a class="" href="https://www.facebook.com/MidasSoftImob"><i class="fab fa-facebook"></i></a>
                     <a class="" href="contato.php"><i class="fas fa-phone-alt"></i></a>
-
-
                 </div>
 
 
             </div> -->
+
+            <div class="div-social-icons">
+                <a class="" href="https://www.instagram.com/midas_mais/"><i class="fas fa-camera"></i></a>
+                <a class="" href="https://www.facebook.com/MidasSoftImob"><i class="fab fa-facebook"></i></a>
+                <a class="" href="contato.php"><i class="fas fa-phone-alt"></i></a>
+            </div>
             <!--  -->
             <!--  -->
             <!--  -->

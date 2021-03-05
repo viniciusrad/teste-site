@@ -1,6 +1,10 @@
 <?php
 
 
+if (!$logado) {
+    // encaminha pra pagina de login
+}
+
 // lê o arquivo
 $myfile = fopen("telefonesWhatsapp.txt", "r") or die("Unable to open file!");
 $telefonesVindosArquivo = json_decode(fread($myfile, filesize("telefonesWhatsapp.txt")));

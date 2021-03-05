@@ -159,26 +159,32 @@
 
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
+                    <h2 class="titulo-modelo-site">Modelo Urano</h2>
                     <img src="img/modelo-urano.png" class="img-fluid" alt="">
                 </div>
                 <!-- Slide 2-->
                 <div class="carousel-item">
+                    <h2 class="titulo-modelo-site">Modelo Jupter</h2>
                     <img src="img/modelo-jupiter.png" class="img-fluid" alt="">
                 </div>
                 <!-- Slide 3-->
                 <div class="carousel-item">
+                    <h2 class="titulo-modelo-site">Modelo Saturno</h2>
                     <img src="img/modelo-saturno.png" class="img-fluid" alt="">
                 </div>
                 <!-- Slide 5-->
                 <div class="carousel-item">
+                    <h2 class="titulo-modelo-site">Modelo Plutão</h2>
                     <img src="img/modelo-plutao.png" class="img-fluid" alt="">
                 </div>
                 <!-- Slide 5-->
                 <div class="carousel-item">
+                    <h2 class="titulo-modelo-site">Modelo venus</h2>
                     <img src="img/modelo-venus.png" class="img-fluid" alt="">
                 </div>
                 <!-- Slide 6-->
                 <div class="carousel-item">
+                    <h2 class="titulo-modelo-site">Modelo Marte</h2>
                     <img src="img/modelo-marte.png" class="img-fluid" alt="">
                 </div>
 
@@ -196,7 +202,7 @@
 
         </div>
     </div>
- 
+
     <div class="div-area-cinza"></div>
 
 
