@@ -33,7 +33,7 @@
                 <img class="img-icone-check" src="img/icone-loc-crm.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Compátivel com nosso CRM e uso totalmente integrado.</p>
+                <p class="textos-icones-check">Integrado ao CRM Midas.</p>
             </div>
         </div>
         <div class="card-funcionalidade min-width-25percent">
@@ -87,7 +87,7 @@
     </div>
 
     <div class="div-texto-centralizado">
-        <a href="./contato.php">
+        <a href="#div-contato">
             <button class="btn-saiba-mais-green">QUERO DIGITALIZAR</button>
         </a>
     </div>

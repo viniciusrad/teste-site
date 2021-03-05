@@ -13,7 +13,7 @@
         <p>SE SUA EMPRESA SOFRE COM ESSES PROBLEMAS:</p>
     </div>
 
-    <div class="div-crm">
+    <div class="div-crm" style="max-width: 1200px;">
         <div class="div-img-crm div-img-mql">
             <img src="img/imagem-leads.png" style="max-width: 600px;" alt="">
         </div>
@@ -145,8 +145,8 @@
     <!-- FIM da area de funcionalidades -->
 
     <div class="div-texto-centralizado">
-        <a href="contato.php">
-            <button class="btn-saiba-mais-green-grande">SABER MAIS</button>
+        <a href="#div-contato">
+            <button class="btn-saiba-mais-green-grande">Solicite mais informações</button>
         </a>
     </div>
 

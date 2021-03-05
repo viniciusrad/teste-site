@@ -25,7 +25,6 @@
             <p>Auxilia na busca de imóveis, automatizando o atendimento e qualificando os leads antes de passar para o corretor.</p>
             </br>
             <p style="text-align: center; font-size: 1.4em;"><strong>As vantagens são inúmeras!</strong></p>
-            </br>
             <ul class='text-align-center bullet'>
                 <li><strong>+ 50 % Dos atendimentos comuns podem ser automatizados.</strong></li>
                 <li><strong>24 h Ativos nos canais digitais, sem fila de espera.</strong></li>
@@ -258,7 +257,7 @@
     </div>
 
     <div class="div-texto-centralizado">
-        <a href="contato.php">
+        <a href="#div-contato">
             <button class="btn-saiba-mais-green-grande">TENHO INTERESSE</button>
         </a>
     </div>

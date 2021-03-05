@@ -17,7 +17,7 @@
         <div class="div-img-crm">
             <img src="img/celular-e-desktop-com-o-sistema-midas-aberto.jpg" alt="">
         </div>
-        <div class="texto-crm">
+        <div class="texto-crm font-14rem">
             <p><strong>O sistema MIDAS atua facilitando de forma inteligente e automática as tarefas que mais tomam tempo dos seus corretores, permitindo assim o tempo de sua Equipe seja utilizado no que ela é insubstituível:</strong></p>
             <p><strong>O atendimento.</strong></p>
             </br>
@@ -222,7 +222,9 @@
     </div>
 
     <div class="div-btn-proposta">
-        <button class="btn-saiba-mais-green">Quero uma demostração</button>
+        <a href="#div-contato">
+            <button class="btn-saiba-mais-green">Quero uma demostração</button>
+        </a>
     </div>
 
 

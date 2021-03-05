@@ -83,12 +83,12 @@
     <div class="botoes-flex">
 
         <div class="div-btn-proposta">
-            <a href="https://www.sistemaparaimobiliaria.imb.br/midas360/">
+            <a href="https://www.midasmais.com.br/novo_site2/acesso360.php">
                 <button class="btn-saiba-mais-white">Saiba mais</button>
             </a>
         </div>
         <div class="div-btn-proposta">
-            <a href="contato.php">
+            <a href="#div-contato">
                 <button class="btn-saiba-mais-white">Solicite contato</button>
             </a>
         </div>
