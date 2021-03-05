@@ -17,7 +17,7 @@
                         <div class="depoimentos-header">
                             <img src="https://via.placeholder.com/150" alt="">
                             <div>
-                                <p>Miliete</p>
+                                <h3>Miliete</h3>
                                 <p>Corretora autônoma</p>
                             </div>
 
@@ -35,7 +35,7 @@
                         <div class="depoimentos-header">
                             <img src="img/logo-solidez.jpg" alt="">
                             <div>
-                                <p>Karine</p>
+                                <h3>Karine</h3>
                                 <p>Solidez Imobiliária</p>
                             </div>
 

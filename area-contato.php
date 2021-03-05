@@ -1,4 +1,4 @@
-<div class="area-contato">
+<div class="area-contato" id="div-contato">
     <div class="div-texto-formulario">
         <p>O FUTURO DA SUA IMOBILIÁRIA COMEÇA AGORA!</p>
     </div>
@@ -7,25 +7,25 @@
             <div class="cabecalho-formulario">
                 <h3>Entre em contato</h3>
             </div>
-            <p class="text-align-left"><span style="color: red;">(*)Campos Obrigatórios</span></p>
-            <p class="text-align-left"><span style="color: red;">(**)Pelo menos um campo deve serpreenchido</span></p>
+            <p class="text-align-left"><span style="color: #F97824; text-transform: uppercase;">(*)Campos Obrigatórios</span></p>
+            <p class="text-align-left"><span style="color: #F97824; text-transform: uppercase;">(**)Pelo menos um campo deve serpreenchido</span></p>
         </div>
         <p class="subtitulo-formulario">Preencha os Campos abaixo</p>
         <form method="post" action="enviaEmail.php">
             <div class="div-field">
                 <div style="display: flex;">
 
-                    <input type="text" name="nome" id="input-nome" placeholder="Digite seu nome"><span class="spam-obrigatorio" style="color: red;">(*)</span>
+                    <input type="text" name="nome" id="input-nome" placeholder="Digite seu nome"><span class="spam-obrigatorio" style="color: #F97824;">(*)</span>
                 </div>
             </div>
             <div class="div-field">
                 <div style="display: flex;">
-                    <input type="text" name="e-mail" id="input-e-mail" placeholder="Digite seu email"><span class="spam-obrigatorio" style="color: red;">(**)</span>
+                    <input type="text" name="e-mail" id="input-e-mail" placeholder="Digite seu email"><span class="spam-obrigatorio" style="color: #F97824;">(**)</span>
                 </div>
             </div>
             <div class="div-field">
                 <div style="display: flex;">
-                    <input type="text" name="telefone" id="input-telefone" placeholder="Digite seu telefone"><span class="spam-obrigatorio" style="color: red;">(**)</span>
+                    <input type="text" name="telefone" id="input-telefone" placeholder="Digite seu telefone"><span class="spam-obrigatorio" style="color: #F97824;">(**)</span>
                 </div>
             </div>
             <div class="div-field">
@@ -39,7 +39,7 @@
                         <label for="whatsapp"><i class="fab fa-whatsapp fa-lg" style="color: green;"></i> Whatsapp</label><br>
                     </div>
                     <div class="div-radio-contato">
-                        <input type="radio" id="telefone" name="forma-contato" value="telefone">
+                        <input type="radio" id="telefone" name="forma-contato" value="telefone" checked="checked">
                         <label for="telefone"><i class="fas fa-phone-alt fa-sm"></i> Telefone</label><br>
                     </div>
                 </div>
