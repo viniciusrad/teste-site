@@ -146,7 +146,7 @@
 
     <div class="div-texto-centralizado">
         <a href="#div-contato">
-            <button class="btn-saiba-mais-green-grande">Solicite mais informações</button>
+            <button class="btn-saiba-mais-green">Solicite mais informações</button>
         </a>
     </div>
 

@@ -1,8 +1,12 @@
 <?php
+session_start();
+// var_dump($_SESSION);
+// die("pagina administrativo.php");
 
-
-if (!$logado) {
+if ($_SESSION['logado'] != true) {
     // encaminha pra pagina de login
+
+    header('Location: administrativo-login.php');
 }
 
 // lê o arquivo
@@ -29,6 +33,8 @@ fclose($myfile);
 
     <div class="cabecalho-adm">
         <h2>pagina administrativa</h2>
+        <a href="logout.php">Logout</a>
+
     </div>
     <!-- CONTAINER DE AJUSTES DE IMAGENS DOS BANERS -->
     <div class="container">

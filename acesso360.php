@@ -12,7 +12,7 @@
 
         <a href="https://www.midas360.com.br/midas360/login.php">Login </a>
         |
-        <a href="https://midas360.imb.br/midas360/cadastro.phpp"> Cadastro</a>
+        <a href="https://midas360.imb.br/midas360/cadastro.php"> Cadastro</a>
     </div>
 
     <div class="logo-midas-grande">
@@ -94,7 +94,7 @@
             <iframe width="100%" height="475" src="https://midas360.imb.br/visita_virtual/visita.php?i=MTMw&amp;b=MTk5OQ&amp;t=ae69de19a42c962a1bf99627753eb71a" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
         </div>
         <div class="div-iframe-mobile">
-            <iframe width="100%" height="475" src="https://midas360.imb.br/visita_virtual/visita.php?i=MTMw&amp;b=MTk5OQ&amp;t=ae69de19a42c962a1bf99627753eb71a" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <iframe width="100%" height="540" src="https://midas360.imb.br/visita_virtual/visita.php?i=MTMw&amp;b=MTk5OQ&amp;t=ae69de19a42c962a1bf99627753eb71a" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
         </div>
     </div>
 
@@ -145,7 +145,7 @@
     <div class="div-texto-centralizado">
         <i aria-hidden="true" class="fas fa-camera" style="font-size: 4rem; margin: 2rem; color: #15ced8"></i>
         <br>
-        <p>No mercado existem diversas opções de câmeras que geram as imagens em 360 para montar o tour, registrando fotos e vídeos de todas as direções ao mesmo tempo. Os valores também são variados, mas é importante antes de investir em um modelo analisar sua funcionalidade. Como sugestão indicamos as camêras "Samsung Gear 360" e "Câmera 360 Ricoh Theta".</p>
+        <p>No mercado existem diversas opções de câmeras que geram as imagens em 360 para montar o tour, registrando fotos e vídeos de todas as direções ao mesmo tempo. Os valores também são variados, mas é importante antes de investir em um modelo analisar sua funcionalidade. Como sugestão indicamos as câmeras "Samsung Gear 360" e "Câmera 360 Ricoh Theta".</p>
     </div>
 
     <div class="logo-midas-grande">

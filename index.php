@@ -13,7 +13,7 @@
             <h2>IMOBILIÁRIA NA NUVEM?</h2>
             <p>A Tecnologia Corporativa mais importante e inovadora disponível para Imobiliárias e Corretores.</p>
             <a href="./contato.php">
-                <button class="btn-saiba-mais-black">Saiba mais</button>
+                <button class="btn-saiba-mais-black" style="margin-top: 1em;">Saiba mais</button>
             </a>
         </div>
     </div>
@@ -23,14 +23,14 @@
             <h3>IMOBILIÁRIA NA NUVEM?</h3>
             <p>A Tecnologia Corporativa mais importante e inovadora disponível para Imobiliárias e Corretores.</p>
             <a href="./contato.php">
-                <button class="btn-saiba-mais-black">Saiba mais</button>
+                <button class="btn-saiba-mais-black" style="margin-top: 1em;">Saiba mais</button>
             </a>
         </div>
     </div>
     <!-- espaço do crm -->
 
 
-    <div class="div-crm">
+    <div class=" div-crm">
         <div class="div-img-crm">
             <img src="img/crm-screen-shots.png" alt="">
         </div>
@@ -94,83 +94,12 @@
 
 
     <!--  -->
-    <!--  -->
-    <div class="align-text">
-        <h3>CONHEÇA NOSSOS OUTROS PRODUTOS</h3>
-    </div>
-    <!-- Cards de seriços -->
-    <div class="container container-icones">
+    <!-- area de servicos -->
+    <?php
+    include('area-servicos.php')
+    ?>
 
-        <div class="card-icone">
-            <a href="visitaVirtual.php">
-                <div class="div-icone">
-                    <img class="img-icone" src="img/icone-360.png" alt="Avatar">
-                </div>
-                <div class="container">
-                    <p class="textos-icones">Visita virtual</p>
-                </div>
-            </a>
-        </div>
-
-
-
-        <div class="card-icone">
-            <a href="administracaoImoveis.php">
-                <div class="div-icone">
-                    <img class="img-icone" src="img/icone-administracao-imoveis.png" alt="Avatar">
-                </div>
-                <div class="container">
-                    <p class="textos-icones">Administração de imóveis</p>
-                </div>
-            </a>
-        </div>
-
-        <div class="card-icone">
-            <a href="chatbot.php">
-                <div class="div-icone">
-                    <img class="img-icone" src="img/icone-chatbot.png" alt="Avatar">
-                </div>
-                <div class="container">
-                    <p class="textos-icones">Chatbot para imobiliária</p>
-                </div>
-            </a>
-        </div>
-
-        <div class="card-icone">
-            <a href="locacaoDigital.php">
-                <div class="div-icone">
-                    <img class="img-icone" src="img/icone-locacao-digital-grande.png" alt="Avatar">
-                </div>
-                <div class="container">
-                    <p class="textos-icones">Locação digital</p>
-                </div>
-            </a>
-        </div>
-
-        <div class="card-icone">
-            <a href="remanescentesLancamentos.php">
-                <div class="div-icone">
-                    <img class="img-icone" src="img/icone-remanescentes-de-lancamentos.png" alt="Avatar">
-                </div>
-                <div class="container">
-                    <p class="textos-icones">Remanescentes de lançamentos</p>
-                </div>
-            </a>
-        </div>
-
-        <div class="card-icone">
-            <a href="mqlQualificaLead.php">
-                <div class="div-icone">
-                    <img class="img-icone" src="img/icone-mql-lancamentos-de-leads.png" alt="Avatar">
-                </div>
-                <div class="container">
-                    <p class="textos-icones">MQL Qualificação de leads</p>
-                </div>
-            </a>
-        </div>
-
-    </div>
-    <!-- fim do container de Cards de seriços -->
+    <!-- containerde seriços -->
     <!--  -->
 
     <div class="div-area-cinza"></div>
@@ -199,7 +128,7 @@
 
     <!-- div cookies -->
     <div class="div-cookies div-display-none">
-        <p>Ao navegar em nosso site você concorda com nossa politica de privacidade</p>
+        <p>Utilizamos cookies para oferecer melhor experiência, melhorar o desempenho, analisar como você interage em nosso site e personalizar conteúdo. Ao utilizar este site, você concorda com o uso de cookies.</p>
         <button class="btn-saiba-mais-black" id="btn-cookie">Ok, entendi</button>
     </div>
     <!--  -->
@@ -366,6 +295,10 @@
                     })
                 })
             }
+
+            // esconde os cards que não devem ser exibidos
+            $('#card-site').css("display", "none")
+            $('#card-crm').css("display", "none")
 
         })
     </script>

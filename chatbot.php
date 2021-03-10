@@ -258,7 +258,7 @@
 
     <div class="div-texto-centralizado">
         <a href="#div-contato">
-            <button class="btn-saiba-mais-green-grande">TENHO INTERESSE</button>
+            <button class="btn-saiba-mais-green">TENHO INTERESSE</button>
         </a>
     </div>
 

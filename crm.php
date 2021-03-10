@@ -207,7 +207,6 @@
             </div>
             <div class="container container-check">
                 <p class="textos-icones-check">Administração de imóveis</p>
-                <p>(MQL)</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -249,7 +248,7 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre o Midas. Aguardo contato.')
+            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre o CRM Midas. Aguardo contato.')
         });
     </script>
 
