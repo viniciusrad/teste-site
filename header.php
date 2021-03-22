@@ -62,7 +62,11 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
     <link rel="stylesheet" href="index.css">
 
 
-    <title>Midas mais</title>
+    <!-- Global site tag (gtag.js) - Google Ads: 874740353 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-874740353"></script>
+
+
+    <title><?php echo $tituloPagina ?></title>
 </head>
 
 
@@ -79,10 +83,10 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                         <a href="javascript:void(0);" class="icon"><img src="./img/menu-r.png" alt="menu" title="menu" class="pull-left sanduiche"></a>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <a class="dropdown-item" href="crm.php" style="border-left: 7px solid #d93117;margin-left: 10px;">SISTEMA PARA IMOBILIÁRIA</a>
-                        <a class="dropdown-item" href="siteImobiliarias.php" style="border-left: 7px solid #ffb017;margin-left: 10px;"> SITE PARA IMOBILIÁRIA</a>
-                        <a class="dropdown-item" href="chatbot.php" style="border-left: 7px solid #9c136f;margin-left: 10px;">CHATBOT</a>
-                        <a class="dropdown-item" href="administracaoImoveis.php" style="border-left: 7px solid #0877ac;margin-left: 10px;">ADMINISTRACAO DE IMOVEIS</a>
+                        <a class="dropdown-item" href="sistema-crm.php" style="border-left: 7px solid #d93117;margin-left: 10px;">SISTEMA PARA IMOBILIÁRIA</a>
+                        <a class="dropdown-item" href="site-responsivo.php" style="border-left: 7px solid #ffb017;margin-left: 10px;"> SITE PARA IMOBILIÁRIA</a>
+                        <a class="dropdown-item" href="chat-bot.php" style="border-left: 7px solid #9c136f;margin-left: 10px;">CHATBOT</a>
+                        <a class="dropdown-item" href="administracao-imoveis.php" style="border-left: 7px solid #0877ac;margin-left: 10px;">ADMINISTRACAO DE IMOVEIS</a>
                         <a class="dropdown-item" href="locacaoDigital.php" style="border-left: 7px solid #9877ac;margin-left: 10px;">LOCAÇÃO DIGITAL</a>
                         <a class="dropdown-item" href="visitaVirtual.php" style="border-left: 7px solid #4caa30;margin-left: 10px;">VISITA VIRTUAL</a>
                         <a class="dropdown-item" href="remanescentesLancamentos.php" style="border-left: 7px solid #08b7ac;margin-left: 10px;">REMANESCENTE DE LANCAMENTOS</a>

@@ -1,7 +1,9 @@
+<?php
+$tituloPagina = "Site para Imobiliária";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
-
 
 <?php include('header.php') ?>
 
@@ -202,6 +204,15 @@
 
         </div>
     </div>
+    <!-- Fim do carrossel de modelos -->
+
+    <!--  -->
+    <!-- area de servicos -->
+    <?php
+    include('area-servicos.php')
+    ?>
+    <!-- fim area de servicos  -->
+
 
     <div class="div-area-cinza"></div>
 
@@ -227,7 +238,10 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#input-mensagem').val('Olá, tenho interesse em saber mais os sites para imobiliárias. Aguardo contato.')
+            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre os sites para imobiliárias. Aguardo contato.')
+
+            // esconde os cards que não devem ser exibidos
+            $('#card-site').css("display", "none")
         });
     </script>
 </body>

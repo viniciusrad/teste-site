@@ -1,7 +1,9 @@
+<?php
+$tituloPagina = "Chatbot para Imobiliária";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
-
 
 <?php include('header.php') ?>
 
@@ -262,6 +264,13 @@
         </a>
     </div>
 
+    <!--  -->
+    <!-- area de servicos -->
+    <?php
+    include('area-servicos.php')
+    ?>
+    <!-- fim area de servicos  -->
+
     <div class="div-area-cinza"></div>
 
     <!-- area de depoimentos -->
@@ -286,6 +295,8 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre o Chatbot. Aguardo contato.')
+            // esconde os cards que não devem ser exibidos
+            $('#card-chatbot').css("display", "none")
         });
     </script>
 </body>

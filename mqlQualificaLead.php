@@ -1,3 +1,7 @@
+<?php
+$tituloPagina = "Qualificação do lead pelo marketing";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -150,7 +154,15 @@
         </a>
     </div>
 
+
+    <!-- area de servicos -->
+    <?php
+    include('area-servicos.php')
+    ?>
+    <!-- fim area de servicos  -->
+
     <div class="div-area-cinza"></div>
+
 
     <!-- area de depoimentos -->
     <!--  -->
@@ -173,7 +185,10 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre midas e a qualificação de leads. Aguardo contato.')
+            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre o Chatbot. Aguardo contato.')
+
+            $('#card-mql').css("display", "none")
+
         });
     </script>
 </body>

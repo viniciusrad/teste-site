@@ -1,11 +1,13 @@
+<?php
+$tituloPagina = "Locação digital";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
-
-
 <?php include('header.php') ?>
 
-<body>
+<body style="background-color: #fbfbfb;">
 
     <div class="div-fundo-verde">
         <p>LOCAÇÃO DIGITAL:</p>
@@ -92,6 +94,13 @@
         </a>
     </div>
 
+
+    <!-- area de servicos -->
+    <?php
+    include('area-servicos.php')
+    ?>
+    <!-- fim area de servicos  -->
+
     <div class="div-area-cinza"></div>
 
     <!-- area de depoimentos -->
@@ -116,6 +125,9 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre a locação digital. Aguardo contato.')
+
+            $('#card-locacao').css("display", "none")
+
         });
     </script>
 </body>

@@ -1,10 +1,10 @@
-<div class="align-text">
-    <h3>CONHEÇA NOSSOS OUTROS PRODUTOS</h3>
+<div class="align-text" style="margin-top: 6rem;">
+    <h3 style="margin-bottom: 3rem;">CONHEÇA NOSSOS OUTROS PRODUTOS</h3>
 </div>
 <!-- Cards de seriços -->
 <div class="container container-icones">
     <div class="card-icone" id="card-crm">
-        <a href="crm.php">
+        <a href="sistema-crm.php">
             <div class="div-icone">
                 <img class="img-icone" src="img/icone-sistema-para-imobiliarias.png" alt="Avatar">
             </div>
@@ -15,12 +15,12 @@
     </div>
 
     <div class="card-icone" id="card-site">
-        <a href="siteImobiliarias.php">
+        <a href="site-responsivo.php">
             <div class="div-icone">
                 <img class="img-icone" src="img/icone-site-para-imobiliarias.png" alt="Avatar">
             </div>
             <div class="container">
-                <p class="textos-icones">Site para imobiliarias</p>
+                <p class="textos-icones">Sites para imobiliarias</p>
             </div>
         </a>
     </div>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="card-icone" id="card-adm">
-        <a href="administracaoImoveis.php">
+        <a href="administracao-imoveis.php">
             <div class="div-icone">
                 <img class="img-icone" src="img/icone-administracao-imoveis.png" alt="Avatar">
             </div>
@@ -48,7 +48,7 @@
     </div>
 
     <div class="card-icone" id="card-chatbot">
-        <a href="chatbot.php">
+        <a href="chat-bot.php">
             <div class="div-icone">
                 <img class="img-icone" src="img/icone-chatbot.png" alt="Avatar">
             </div>

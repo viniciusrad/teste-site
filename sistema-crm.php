@@ -1,3 +1,7 @@
+<?php
+$tituloPagina = "Sistema para Imobiliária";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +25,7 @@
             <p><strong>O sistema MIDAS atua facilitando de forma inteligente e automática as tarefas que mais tomam tempo dos seus corretores, permitindo assim o tempo de sua Equipe seja utilizado no que ela é insubstituível:</strong></p>
             <p><strong>O atendimento.</strong></p>
             </br>
-            <p><strong>Conheça algumas caracteristicas do sistema</strong></p>
+            <p style="text-align: center;"><strong>Conheça algumas caracteristicas do sistema:</strong></p>
 
         </div>
     </div>
@@ -91,7 +95,7 @@
             </div>
             <div class="container container-check">
                 <p class="textos-icones-check">E-mails automáticos prestando contas aos proprietários sobre o trabalho que está sendo realizado para negociação do imóvel.</p>
-                <p>Ganhe confiança e credibilidade</p>
+                <p class="textos-icones-check">Ganhe confiança e credibilidade</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -139,26 +143,26 @@
     <div class="div-funcionalidades">
         <div class="card-funcionalidade">
             <div class="div-icone-check">
-                <img class="img-icone-check-alt" src="img/icone-envio-imoveis.png" alt="Avatar">
+                <img class="img-icone" src="img/icone-envio-imoveis.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Envio de imóveis e atendimento de clientes atráves do Whatsapp.</p>
+                <p class="textos-icones">Envio de imóveis e atendimento de clientes atráves do Whatsapp.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
             <div class="div-icone-check">
-                <img class="img-icone-check-alt" src="img/icone-publicacao-imoveis-facebook.png" alt="Avatar">
+                <img class="img-icone" src="img/icone-publicacao-imoveis-facebook.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Publicação de imóveis no Facebook /Instagram.</p>
+                <p class="textos-icones">Publicação de imóveis no Facebook /Instagram.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
             <div class="div-icone-check">
-                <img class="img-icone-check-alt" src="img/icone-integracao-portais.png" alt="Avatar">
+                <img class="img-icone" src="img/icone-integracao-portais.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Integração com mais de 40 portais em apenas um clique.</p>
+                <p class="textos-icones">Integração com mais de 40 portais em apenas um clique.</p>
             </div>
         </div>
     </div>
@@ -167,58 +171,12 @@
         <p>CONHEÇA NOSSOS PRODUTOS E SE DESTAQUE DA CONCORRÊNCIA</p>
     </div>
 
-    <div class="div-funcionalidades">
-        <div class="card-funcionalidade">
-            <div class="div-icone-check">
-                <img class="img-icone-check" src="img/icone-chat-bot.png" alt="Avatar">
-            </div>
-            <div class="container container-check">
-                <p class="textos-icones-check">Chatbot</p>
-            </div>
-        </div>
-        <div class="card-funcionalidade">
-            <div class="div-icone-check">
-                <img class="img-icone-check" src="img/icone-pre-venda.png" alt="Avatar">
-            </div>
-            <div class="container container-check">
-                <p class="textos-icones-check">pré-vendas</p>
-                <p class="textos-icones-check">(MQL)</p>
-            </div>
-        </div>
-        <div class="card-funcionalidade">
-            <div class="div-icone-check">
-                <img class="img-icone-check-alt" src="img/icone-locacao-digital.png" alt="Avatar">
-            </div>
-            <div class="container container-check">
-                <p class="textos-icones-check">Locação digital</p>
-            </div>
-        </div>
-        <div class="card-funcionalidade">
-            <div class="div-icone-check">
-                <img class="img-icone-check-alt" src="img/icone-site-midas.png" alt="Avatar">
-            </div>
-            <div class="container container-check">
-                <p class="textos-icones-check">Site Midas</p>
-            </div>
-        </div>
-        <div class="card-funcionalidade">
-            <div class="div-icone-check">
-                <img class="img-icone-check-alt" src="img/icone-adm-imoveis.png" alt="Avatar">
-            </div>
-            <div class="container container-check">
-                <p class="textos-icones-check">Administração de imóveis</p>
-            </div>
-        </div>
-        <div class="card-funcionalidade">
-            <div class="div-icone-check">
-                <img class="img-icone-check-alt" src="img/icone-integracao-incorporadora.png" alt="Avatar">
-            </div>
-            <div class="container container-check">
-                <p class="textos-icones-check">Integração com</p>
-                <p class="textos-icones-check">incorporadoras</p>
-            </div>
-        </div>
-    </div>
+    <!--  -->
+    <!-- area de servicos -->
+    <?php
+    include('area-servicos.php')
+    ?>
+    <!-- fim area de servicos  -->
 
     <div class="div-btn-proposta">
         <a href="#div-contato">
@@ -226,6 +184,7 @@
         </a>
     </div>
 
+    <div class="div-area-cinza"></div>
 
     <!-- area de depoimentos -->
     <!--  -->
@@ -249,6 +208,9 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre o CRM Midas. Aguardo contato.')
+
+            // esconde os cards que não devem ser exibidos
+            $('#card-crm').css("display", "none")
         });
     </script>
 

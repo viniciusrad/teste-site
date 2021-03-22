@@ -31,7 +31,7 @@
             <div class="div-field">
                 <textarea rows="4" cols="3" name="mensagem" id="input-mensagem" placeholder="">Olá, tenho interesse em saber mais sobre o Midas. Aguardo contato.</textarea>
             </div>
-            <div class="div-field">
+            <div class="div-field" style="text-align: center;">
                 <label for="contato"><span style="color: gray">Fale agora com um de nossos especialistas:</span></label>
 
                 <div class="div-icone-whatsapp-centralizado">

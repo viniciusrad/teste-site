@@ -1,7 +1,9 @@
+<?php
+$tituloPagina = "Visita virtual";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
-
 
 <?php include('header.php') ?>
 
@@ -94,8 +96,16 @@
         </div>
     </div>
 
-    <div class="div-area-cinza"></div>
 
+
+
+    <!-- area de servicos -->
+    <?php
+    include('area-servicos.php')
+    ?>
+    <!-- fim area de servicos  -->
+
+    <div class="div-area-cinza"></div>
 
     <!-- area de depoimentos -->
     <!--  -->
@@ -118,7 +128,10 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre a locação digital. Aguardo contato.')
+            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre a visita virtual. Aguardo contato.')
+
+            $('#card-visita-virtual').css("display", "none")
+
         });
     </script>
 </body>

@@ -1,3 +1,7 @@
+<?php
+$tituloPagina = "Midas Mais";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,7 +49,7 @@
                 <li>Gestão total da sua Equipe;</li>
                 <li>E-mails Automáticos.</li>
             </ul>
-            <a href="./crm.php">
+            <a href="./sistema-crm.php">
                 <button class="btn-saiba-mais-black">Saiba mais</button>
             </a>
         </div>
@@ -66,7 +70,7 @@
                 <li>Usabilidade e Aparência;</li>
                 <li>Autonomia e Flexibilidade no Gerenciamento do Conteúdo!</li>
             </ul>
-            <a href="./siteImobiliarias.php">
+            <a href="./site-responsivo.php">
                 <button class="btn-saiba-mais-black">Saiba mais</button>
             </a>
         </div>
@@ -79,8 +83,13 @@
         <p>SITES COMPROVADAMENTE COM OS MELHORES POSICIONAMENTOS NA BUSCA ORGÂNICA (GRATUITA) DO GOOGLE</p>
     </div>
 
-
-
+    <!--  -->
+    <!-- area de servicos -->
+    <?php
+    include('area-servicos.php')
+    ?>
+    <!-- containerde seriços -->
+    <!--  -->
 
     <div class="div-btn-proposta">
         <a href="./contato.php">
@@ -88,19 +97,6 @@
         </a>
     </div>
 
-
-
-
-
-
-    <!--  -->
-    <!-- area de servicos -->
-    <?php
-    include('area-servicos.php')
-    ?>
-
-    <!-- containerde seriços -->
-    <!--  -->
 
     <div class="div-area-cinza"></div>
 

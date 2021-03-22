@@ -1,7 +1,9 @@
+<?php
+$tituloPagina = "Remanescente de lançamentos";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
-
 
 <?php include('header.php') ?>
 
@@ -64,6 +66,13 @@
 
     <!-- FIM da area de funcionalidades -->
 
+
+    <!-- area de servicos -->
+    <?php
+    include('area-servicos.php')
+    ?>
+    <!-- fim area de servicos  -->
+
     <div class="div-area-cinza"></div>
 
     <!-- area de depoimentos -->
@@ -87,7 +96,10 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre os lançamentos remanecentes . Aguardo contato.')
+            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre os imóveis remanescentes de lançamentos. Aguardo contato.')
+
+            $('#card-remanescentes').css("display", "none")
+
         });
     </script>
 </body>

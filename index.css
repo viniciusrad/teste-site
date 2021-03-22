@@ -48,7 +48,7 @@ h1, h2, h3 {
   padding: .5rem;
   width: 130px;
   border-radius: 20px;
-  margin: 0 1.4rem;
+  margin: 0 0.5rem;
   }
   .card-icone .container{
     padding: 0;
@@ -107,7 +107,7 @@ h1, h2, h3 {
 }
 
 .img-icone{
-  width: 160px;
+  width: 80px;
 }
 .img-icone-check{
   width: 80px;
@@ -164,7 +164,7 @@ h1, h2, h3 {
 
   }
   .img-icone{
-    width: 100px;
+    width: 60px;
   }
   
   .label-nav-icon{
@@ -174,7 +174,7 @@ h1, h2, h3 {
 }
 
 
-/* estilo referente a pagina administracaoImoveis.php */
+/* estilo referente a pagina administracao-imoveis.php */
 /******************************************************/
 .header-adm{
   margin-top: 50px;
@@ -276,7 +276,7 @@ li{
   background-position: top center;
   margin-top: 50px;
   width: 100%;
-  min-height: 600px;
+  min-height: 36vw;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -801,8 +801,12 @@ html:not([data-scroll='0']) .btn-receber-oferta:hover{
 
 .card-funcionalidade-margin-mql
  {
-  margin: 2em;
-  flex: 40%;
+  margin: .5em;
+  /* flex: 40%; */
+  max-width: 550px;
+  border: 1px solid #f1f1f1;
+  border-radius: 60px;
+  padding-bottom: 1rem;
 }
 
 .card-funcionalidade-locacao{
@@ -1080,7 +1084,7 @@ input[type=email] {
 
 .botoes-flex{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .modal-dialog {
@@ -1209,7 +1213,7 @@ input[type=email] {
 
 .div-area-cinza{
   background-color: #AFAFAF;
-  min-height: 15px;
+  min-height: 7px;
   margin-top: 2rem;
 }
 

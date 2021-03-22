@@ -1,7 +1,9 @@
+<?php
+$tituloPagina = "Administração de imóveis";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
-
 
 <?php include('header.php') ?>
 
@@ -128,6 +130,14 @@
         </a>
     </div>
 
+
+    <!--  -->
+    <!-- area de servicos -->
+    <?php
+    include('area-servicos.php')
+    ?>
+    <!-- fim area de servicos  -->
+
     <div class="div-area-cinza"></div>
 
 
@@ -152,7 +162,10 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre o Chatbot. Aguardo contato.')
+            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre a administração de imóveis. Aguardo contato.')
+
+            $('#card-adm').css("display", "none")
+
         });
     </script>
 </body>
