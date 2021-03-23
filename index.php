@@ -1,5 +1,6 @@
 <?php
-$tituloPagina = "Midas Mais";
+$tituloPagina = "Sistema e site para imobiliarias e corretores";
+$descricao = "Temos soluções para transformá-lo em uma imobiliária digital de alta performance ";
 ?>
 
 <!DOCTYPE html>
@@ -16,8 +17,20 @@ $tituloPagina = "Midas Mais";
         <div class="texto-imagem-principal">
             <h2>IMOBILIÁRIA NA NUVEM?</h2>
             <p>A Tecnologia Corporativa mais importante e inovadora disponível para Imobiliárias e Corretores.</p>
+            </br>
+            <h3>Conheça nossos produtos</h3>
+            <ul style="list-style: disc; padding-left: 3rem;">
+                <li><a href="./sistema-crm.php">Sistema para imobiliárias</a></li>
+                <li><a href="./site-responsivo.php">Sites para imobiliárias</a></li>
+                <li><a href="./visitaVirtual.php">Visita virtual</a></li>
+                <li><a href="./administracao-imoveis.php">Administração de imóveis</a></li>
+                <li><a href="./chat-bot.php">Chatbot para Imobiliária</a></li>
+                <li><a href="./locacao-digital.php">Locação Digital</a></li>
+                <li><a href="./remanescentesLancamentos.php">Remanescentes de lançamentos</a></li>
+                <li><a href="./mqlQualificaLead.php">MQL Qualificação de leads</a></li>
+            </ul>
             <a href="./contato.php">
-                <button class="btn-saiba-mais-black" style="margin-top: 1em;">Saiba mais</button>
+                <button class="btn-saiba-mais-black" style="margin-top: 1em;">Solicite contato</button>
             </a>
         </div>
     </div>
@@ -26,9 +39,22 @@ $tituloPagina = "Midas Mais";
         <div>
             <h3>IMOBILIÁRIA NA NUVEM?</h3>
             <p>A Tecnologia Corporativa mais importante e inovadora disponível para Imobiliárias e Corretores.</p>
+            </br>
+            <h3>Conheça nossos produtos</h3>
+            <ul style="list-style: disc; padding-left: 3rem;">
+                <li>Sistema para imobiliárias</li>
+                <li>Sites para imobiliárias</li>
+                <li>Visita virtual</li>
+                <li>Administração de imóveis</li>
+                <li>Chatbot para Imobiliária</li>
+                <li>Locação Digital</li>
+                <li>Remanescentes de lançamentos</li>
+                <li>MQL Qualificação de leads</li>
+            </ul>
             <a href="./contato.php">
-                <button class="btn-saiba-mais-black" style="margin-top: 1em;">Saiba mais</button>
-            </a>
+                <a href="./contato.php">
+                    <button class="btn-saiba-mais-black" style="margin-top: 1em;">Solicite contato</button>
+                </a>
         </div>
     </div>
     <!-- espaço do crm -->
@@ -56,7 +82,7 @@ $tituloPagina = "Midas Mais";
     </div>
 
     <div class="div-fundo-verde">
-        <p>O ÚNICO CRM COM GESTÃO DE LEADS NO MERCADO IMOBILIÁRIO</p>
+        <h1 style="font-size: 1.2em;">Venda mais com o melhor sistema CRM para imobiliárias e corretores</h1>
     </div>
 
     <div class="div-crm">
@@ -80,7 +106,7 @@ $tituloPagina = "Midas Mais";
     </div>
 
     <div class="div-fundo-verde">
-        <p>SITES COMPROVADAMENTE COM OS MELHORES POSICIONAMENTOS NA BUSCA ORGÂNICA (GRATUITA) DO GOOGLE</p>
+        <h2>Tenha uma imobiliária digital alta performance</h2>
     </div>
 
     <!--  -->
