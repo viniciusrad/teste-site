@@ -1398,3 +1398,37 @@ input[type=email] {
   display: flex;
   justify-content: center;
 }
+
+
+.pop-telefone{
+  width: 100px;
+  padding: .3rem;
+  position: absolute;
+  background-image: linear-gradient(135deg, rgba(2, 216, 179, 0.95), rgba(135, 149, 255, 0.95));
+  top: 60px;
+  color: #ffffff;
+  font-size: 0.9rem;
+  opacity: 1;
+  transition: all .8s;
+  text-align: center;
+  border-left: 5px solid #8a8a8a;
+  border-radius: 5px;
+  text-shadow: 1px 2px 1px rgb(119, 119, 119);
+}
+
+html:not([data-scroll='0']) .pop-telefone{
+  top: 80px;
+}
+
+
+.aux-display-none{
+  visibility: hidden;
+  height: 0px;
+  opacity: 0;
+}
+
+.texto-imagem-principal a{
+  color: white;
+}
+
+
