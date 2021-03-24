@@ -1423,7 +1423,6 @@ html:not([data-scroll='0']) .pop-telefone{
 
 .aux-display-none{
   visibility: hidden;
-  height: 0px;
   opacity: 0;
 }
 
