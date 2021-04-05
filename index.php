@@ -1,6 +1,6 @@
 <?php
 $tituloPagina = "Sistema e site para imobiliarias e corretores";
-$descricao = "Temos soluções para transformá-lo em uma imobiliária digital de alta performance ";
+$descricao = "Temos soluções para transformá-lo em uma imobiliária digital de alta performance";
 ?>
 
 <!DOCTYPE html>
@@ -119,7 +119,7 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
 
     <div class="div-btn-proposta">
         <a href="./contato.php">
-            <button class="btn-saiba-mais-black">Quero receber uma proposta</button>
+            <button class="btn-saiba-mais-black">Solicite contato</button>
         </a>
     </div>
 

@@ -215,10 +215,17 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
 
     $(document).ready(function() {
 
-        $('#btn-contato-ligar').click(() => {
+        $('#btn-contato-ligar').hover(() => {
             //alert("clicou")
             $(".pop-telefone").toggleClass('aux-display-none')
         })
+
+        // $('#btn-contato-ligar').click(() => {
+        //     if (!$(".pop-telefone").hasClass("aux-display-none")) {
+        //         $(".pop-telefone").addClass('aux-display-none')
+        //     }
+        // })
+
 
     })
 </script>

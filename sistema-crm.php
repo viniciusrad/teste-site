@@ -1,5 +1,7 @@
 <?php
 $tituloPagina = "Sistema para Imobiliária";
+$descricao = "Sistema para gestão de clientes e imóveis e equipes para imobiliárias e corretores de imóveis.";
+
 ?>
 
 <!DOCTYPE html>
@@ -14,18 +16,18 @@ $tituloPagina = "Sistema para Imobiliária";
 
 
     <div class="div-fundo-verde">
-        <p>GERENCIE SEUS CORRETORES DE FORMA INTELIGENTE E AUMENTE SUAS VENDAS</p>
+        <h1>Sua plataforma de gestão imobiliária completa</h1>
     </div>
 
     <div class="div-crm">
         <div class="div-img-crm">
             <img src="img/celular-e-desktop-com-o-sistema-midas-aberto.jpg" alt="">
         </div>
-        <div class="texto-crm font-14rem">
-            <p><strong>O sistema MIDAS atua facilitando de forma inteligente e automática as tarefas que mais tomam tempo dos seus corretores, permitindo assim o tempo de sua Equipe seja utilizado no que ela é insubstituível:</strong></p>
-            <p><strong>O atendimento.</strong></p>
+        <div class="texto-crm">
+            <p>O sistema MIDAS atua facilitando de forma inteligente e automática as tarefas que mais tomam tempo dos seus corretores, permitindo assim o tempo de sua Equipe seja utilizado no que ela é insubstituível:</p>
+            <p>O atendimento.</p>
             </br>
-            <p style="text-align: center;"><strong>Conheça algumas caracteristicas do sistema:</strong></p>
+            <p style="text-align: center;"><strong>Conheça algumas características do sistema:</strong></p>
 
         </div>
     </div>
@@ -38,7 +40,7 @@ $tituloPagina = "Sistema para Imobiliária";
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Controle e getão total da sua equipe de forma simples e rapida</p>
+                <p class="textos-icones-check">Controle e gestão total da sua equipe de forma simples e rápida</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -86,7 +88,7 @@ $tituloPagina = "Sistema para Imobiliária";
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Distribuição automática de leads, provenientes dos principais portais, site, chatbot e Facebook/Instagram.</p>
+                <p class="textos-icones-check">Distribuição automática de leads, provenientes dos principais portais, Facebook/Instagram, site e chatbot.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -111,7 +113,7 @@ $tituloPagina = "Sistema para Imobiliária";
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Análise de investimentos em publicidade.</p>
+                <p class="textos-icones-check">Análise de investimentos em publicidade. Conheça as taxas de conversão e descubra as melhores mídias</p>
                 <p class="textos-icones-check">Coneça as taxas de conversão e descubra as melhores mídias</p>
             </div>
         </div>
@@ -137,7 +139,7 @@ $tituloPagina = "Sistema para Imobiliária";
 
 
     <div class="div-fundo-verde">
-        <p>GANHE TEMPO E AUMENTE A SUA PRODUTIVIDADE COM AS NOSSAS INTEGRAÇÕES</p>
+        <p>Ganhe tempo e aumente a produtividade da sua imobiliária digital</p>
     </div>
 
     <div class="div-funcionalidades">
@@ -180,7 +182,7 @@ $tituloPagina = "Sistema para Imobiliária";
 
     <div class="div-btn-proposta">
         <a href="#div-contato">
-            <button class="btn-saiba-mais-green">Quero uma demostração</button>
+            <button class="btn-saiba-mais-black">Solicite contato</button>
         </a>
     </div>
 
