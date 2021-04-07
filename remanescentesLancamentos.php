@@ -1,5 +1,7 @@
 <?php
-$tituloPagina = "Remanescente de lançamentos";
+$tituloPagina = "Venda empreendimentos imobiliários remanescentes";
+$descricao = "Comericialize os remanescenes dos empreendimentos imobiliários das principais incorporadoras do país. ";
+
 ?>
 
 <!DOCTYPE html>
@@ -12,8 +14,9 @@ $tituloPagina = "Remanescente de lançamentos";
 
 
     <div class="div-fundo-verde">
-        <p>INCORPORE AO SEU ESTOQUE OS REMANESCENTES DOS PRINCIPAIS LANÇAMENTOS IMOBILIÁRIOS DO PAÍS</p>
+        <h1>Tenha acesso aos melhores empreendimentos imobiliários do mercado</h1>
     </div>
+    <h3 class="sub-titulo-centralizado">INCORPORE AO SEU ESTOQUE OS REMANESCENTES DOS PRINCIPAIS LANÇAMENTOS IMOBILIÁRIOS DO PAÍS</h3>
 
     <div class="div-crm">
         <div class="div-img-crm">
@@ -28,8 +31,9 @@ $tituloPagina = "Remanescente de lançamentos";
     </div>
 
     <div class="div-fundo-verde">
-        <p>AUMENTE SUAS VENDAS E RESULTADOS</p>
+        <h2>Encontre com agilidade imóveis remanescentes de lançamentos para fechar mais negócios</h2>
     </div>
+    <h3 class="sub-titulo-centralizado">AUMENTE SUAS VENDAS E RESULTADOS</h3>
 
     <!-- area de funcionalidades -->
     <div class="div-funcionalidades-flex">
@@ -59,7 +63,7 @@ $tituloPagina = "Remanescente de lançamentos";
 
     <div class="div-texto-centralizado">
         <a href="#div-contato">
-            <button class="btn-saiba-mais-green">SOLICITE MAIS INFORMAÇÕES</button>
+            <button class="btn-saiba-mais-black">Solicite contato</button>
         </a>
     </div>
 

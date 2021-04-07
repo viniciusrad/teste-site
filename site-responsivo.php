@@ -1,5 +1,7 @@
 <?php
-$tituloPagina = "Site para Imobiliária";
+$tituloPagina = "Sites para Imobiliárias - Midas";
+$descricao = "Site com o melhor SEO para imobiliárias e corretores autônomos. Site  para imobiliárias e corretores autônomos otimizado para o google / SEO.";
+
 ?>
 
 <!DOCTYPE html>
@@ -11,20 +13,23 @@ $tituloPagina = "Site para Imobiliária";
 
 
 
-    <div class="div-fundo-verde">
-        <p>Excelente ranqueamento no Google. Resultados comprovados!</p>
+    <div class="div-fundo-verde" style="margin-bottom: 0;">
+        <h1>Sites para imobiliária com otimização SEO para o Google.</h1>
     </div>
 
     <div class="div-crm">
-        <div class="div-img-crm">
-            <img src="img/modelo-urano.png" alt="">
+        <div class="div-img-crm" style="margin: auto;">
+            <img src="img/site-responsivo-body.jpg" alt="">
         </div>
         <div class="texto-crm">
             <p><strong>Se você busca escrever uma história de sucesso na web e quer que o Google conheça seu negócio, você precisa ter um site.</strong></p>
-            <p>Se você não tem um site para receber as pessoas que estão buscando pelo que você oferece, os seus potenciais clientes supõem que você não tem nome no mercado, não tem credibilidade, que é um negócio amador.</p>
+            </br>
             <p>Se você não tem um site para receber as pessoas que estão buscando pelo que você oferece, os seus potenciais clientes supõem que você não tem nome no mercado, não tem credibilidade, que é um negócio amador.</p>
             </br>
-            <p><strong>Se estiver se perguntando: “Com tantas redes sociais, ainda é importante ter um site?” Seguramente a resposta é SIM! E MUITO!</strong></p>
+            <p>Ter um site funcional, de qualidade, repleto de conteúdo atualizado e interessante é essencial para a estratégia de qualquer negócio.</p>
+            </br>
+            </br>
+            <p style="text-align: center;"><strong>Se estiver se perguntando: “Com tantas redes sociais, ainda é importante ter um site?” Seguramente a resposta é SIM! E MUITO!</strong></p>
 
         </div>
     </div>
@@ -37,7 +42,7 @@ $tituloPagina = "Site para Imobiliária";
     </div>
 
     <div class="div-fundo-verde">
-        <p>Excelente ranqueamento no Google. Resultados comprovados!</p>
+        <h2>Site imobiliário focado em resultados</h2>
     </div>
 
     <div class="div-check-dupla">
@@ -144,7 +149,7 @@ $tituloPagina = "Site para Imobiliária";
 
     <div id="area-carrosel-modelos" class="area-depoimentos">
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="max-height: 85vw;">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -166,7 +171,7 @@ $tituloPagina = "Site para Imobiliária";
                 </div>
                 <!-- Slide 2-->
                 <div class="carousel-item">
-                    <h2 class="titulo-modelo-site">Modelo Jupter</h2>
+                    <h2 class="titulo-modelo-site">Modelo Júpiter</h2>
                     <img src="img/modelo-jupiter.png" class="img-fluid" alt="">
                 </div>
                 <!-- Slide 3-->
@@ -181,7 +186,7 @@ $tituloPagina = "Site para Imobiliária";
                 </div>
                 <!-- Slide 5-->
                 <div class="carousel-item">
-                    <h2 class="titulo-modelo-site">Modelo venus</h2>
+                    <h2 class="titulo-modelo-site">Modelo Vênus</h2>
                     <img src="img/modelo-venus.png" class="img-fluid" alt="">
                 </div>
                 <!-- Slide 6-->
@@ -205,6 +210,12 @@ $tituloPagina = "Site para Imobiliária";
         </div>
     </div>
     <!-- Fim do carrossel de modelos -->
+
+    <div class="div-btn-proposta" style="margin-bottom: -2rem;">
+        <a href="#div-contato">
+            <button class="btn-saiba-mais-black">Solicite contato</button>
+        </a>
+    </div>
 
     <!--  -->
     <!-- area de servicos -->

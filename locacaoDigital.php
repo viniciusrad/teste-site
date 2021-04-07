@@ -1,5 +1,7 @@
 <?php
-$tituloPagina = "Locação digital";
+$tituloPagina = "Esteira para Locação digital de imóveis";
+$descricao = "Torne o processo de locação da sua imobiliária totalmente digital.";
+
 ?>
 
 <!DOCTYPE html>
@@ -10,8 +12,7 @@ $tituloPagina = "Locação digital";
 <body style="background-color: #fbfbfb;">
 
     <div class="div-fundo-verde">
-        <p>LOCAÇÃO DIGITAL:</p>
-        <p>dê o primeiro passo para digitalização da sua imobiliária</p>
+        <h1>Transforme seu processo com um sistema de locação digital</h1>
     </div>
 
     <div class="div-crm">
@@ -25,7 +26,7 @@ $tituloPagina = "Locação digital";
     </div>
 
     <div class=" div-fundo-verde">
-        <p>AGILIDADE NAS TRANSAÇÕES IMOBILIÁRIAS</p>
+        <h2>Ganhe agilidade nas locações imobiliárias</h2>
     </div>
 
     <!-- area de funcionalidades -->
@@ -90,7 +91,7 @@ $tituloPagina = "Locação digital";
 
     <div class="div-texto-centralizado">
         <a href="#div-contato">
-            <button class="btn-saiba-mais-green">QUERO DIGITALIZAR</button>
+            <button class="btn-saiba-mais-black">Solicite contato</button>
         </a>
     </div>
 

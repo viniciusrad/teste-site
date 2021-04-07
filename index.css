@@ -1026,7 +1026,7 @@ input[type=email] {
 }
 
 .texto-destaque{
-  font-size: 34px;
+  font-size: 28px;
   text-align: center;
   /* font-weight: bold; */
   margin: 1rem auto;
@@ -1060,7 +1060,7 @@ input[type=email] {
 }
 .item-check-list{
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: center;
   padding-bottom: 1rem;
 }
@@ -1112,7 +1112,7 @@ input[type=email] {
 @media (max-width : 500px){
   #carrossel-modelos-site,
    #area-carrosel-modelos{
-    max-height: 360px;
+    max-height: 460px;
   }
   
 }
@@ -1431,6 +1431,10 @@ html:not([data-scroll='0']) .pop-telefone{
 
 .texto-imagem-principal a{
   color: white;
+}
+
+.sub-titulo-centralizado{
+  text-align: center;
 }
 
 

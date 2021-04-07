@@ -1,5 +1,7 @@
 <?php
-$tituloPagina = "Chatbot para Imobiliária";
+$tituloPagina = "Chatbot para imobiliárias";
+$descricao = "Torne a comunicação com o seu cliente mais eficaz e dinâmica. ";
+
 ?>
 
 <!DOCTYPE html>
@@ -12,9 +14,9 @@ $tituloPagina = "Chatbot para Imobiliária";
 
 
     <div class="div-fundo-verde">
-        <p>SURPREENDA OS SEUS CLIENTES COM UM ATENDIMENTO AUTOMÁTICO E EFICIENTE!</p>
+        <h1>Completo atendimento automático em seu site imobilário</h1>
     </div>
-
+    <!-- <h3 style="text-align: center;">SURPREENDA OS SEUS CLIENTES COM UM ATENDIMENTO AUTOMÁTICO E EFICIENTE!</h3> -->
     <div class="div-crm" style="font-size: 1.3rem;">
         <div class="div-img-crm">
             <img src="img/chatbot_imobiliaria.png" alt="">
@@ -38,8 +40,9 @@ $tituloPagina = "Chatbot para Imobiliária";
         </div>
     </div>
     <div class="div-fundo-verde">
-        <p>Aplicações do Chatbot para o Mercado Imobiliário</p>
+        <h2>Aplicações de Chatbot específicas para o mercado imobilário</h2>
     </div>
+    <h3 class="sub-titulo-centralizado" style="margin-bottom: 4rem;">Aplicações do Chatbot para o Mercado Imobiliário</h3>
 
     <div class="div-check-dupla">
         <div>
@@ -61,7 +64,7 @@ $tituloPagina = "Chatbot para Imobiliária";
                     </div>
                 </div>
                 <div class="texto-check-site">
-                    <p><strong>Atendimento Imediato =</strong> Ajude seu cliente a fazer um autoatendimentooferecendo respostas imediatas e sem intervenção humana. O Chatbot oferece uma experiência única, respondendo dúvidas comuns como 2ª via de bolet</p>
+                    <p><strong>Atendimento Imediato = </strong> Ajude seu cliente a fazer um autoatendimento oferecendo respostas imediatas e sem intervenção humana. O Chatbot oferece uma experiência única, respondendo dúvidas comuns como 2ª via de boleto, documentações, endereços, horários de funcionamento.</p>
                 </div>
             </div>
 
@@ -93,7 +96,7 @@ $tituloPagina = "Chatbot para Imobiliária";
     </div>
 
     <div class="div-fundo-verde">
-        <p>Excelente ranqueamento no Google. Resultados comprovados!</p>
+        <p>Funcionalidades Incríveis!</p>
     </div>
 
     <div class="div-check-tripla">
@@ -146,7 +149,7 @@ $tituloPagina = "Chatbot para Imobiliária";
                     </div>
                 </div>
                 <div class="texto-check-site negrito">
-                    <p>Validação de Dados%</p>
+                    <p>Validação de Dados</p>
                 </div>
             </div>
         </div>
@@ -169,7 +172,7 @@ $tituloPagina = "Chatbot para Imobiliária";
                     </div>
                 </div>
                 <div class="texto-check-site negrito">
-                    <p>IPerguntas e Respostas</p>
+                    <p>Perguntas e Respostas</p>
                 </div>
             </div>
             <div class="item-check-list-site padding-0">
@@ -260,7 +263,7 @@ $tituloPagina = "Chatbot para Imobiliária";
 
     <div class="div-texto-centralizado">
         <a href="#div-contato">
-            <button class="btn-saiba-mais-green">TENHO INTERESSE</button>
+            <button class="btn-saiba-mais-black">Solicite contato</button>
         </a>
     </div>
 

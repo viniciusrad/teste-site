@@ -1,5 +1,7 @@
 <?php
-$tituloPagina = "Visita virtual";
+$tituloPagina = "Visita Virtual à imóveis - Midas";
+$descricao = "Otmize o tempo gasto em visitas utilizando a nossa visita virtual.";
+
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +12,7 @@ $tituloPagina = "Visita virtual";
 <body>
 
     <div class="div-fundo-verde">
-        <p>A VISITA VIRTUAL É A MAIS NOVA TECNOLOGIA DO MERCADO IMOBILIÁRIO</p>
+        <h1>A visita virtual fará suas visitas mais objetivas e assertivas</h1>
     </div>
 
     <div class="div-crm">
@@ -22,9 +24,14 @@ $tituloPagina = "Visita virtual";
     <p class="texto-destaque">A visita virtual vem substituindo as fotografias convencionais, pois permite que o cliente visite todas as partes de seu imóvel através de qualquer dispositivo com acesso à Internet como se estivesse fisicamente no local</p>
 
     <div class="div-fundo-verde">
-        <p>VANTAGENS DA VISITA VIRTUAL</p>
+        <h2>A visita virtual é a mais nova tecnologia do mercado imobiliário.</h2>
     </div>
-    <div class="div-check">
+    <h3 class="sub-titulo-centralizado" style="margin-bottom: 4rem">VANTAGENS DA VISITA VIRTUAL:</h3>
+    <div class="div-check" style="
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: -2rem 1rem;
+    ">
         <!-- <ul class="no_bullet">
             <li class="check">Os proprietários que ainda residem no imóvel </br>
                 não serão incomodados com visita constantes;</li>
@@ -36,8 +43,8 @@ $tituloPagina = "Visita virtual";
                 </div>
             </div>
             <div>
-                <p>Os proprietários que ainda residem no imóvel </br>
-                    não serão incomodados com visita constantes;</p>
+                <p>Os proprietários que ainda residem no imóvel</br>
+                    não serão incomodados com visitas constantes;</p>
             </div>
         </div>
         <div class="item-check-list">
@@ -47,8 +54,7 @@ $tituloPagina = "Visita virtual";
                 </div>
             </div>
             <div>
-                <p>Os proprietários que ainda residem no imóvel </br>
-                    não serão incomodados com visita constantes;</p>
+                <p>Os compradores e locatários se sentirão mais confortáveis;</p>
             </div>
         </div>
         <div class="item-check-list">
@@ -58,8 +64,8 @@ $tituloPagina = "Visita virtual";
                 </div>
             </div>
             <div>
-                <p>Os proprietários que ainda residem no imóvel </br>
-                    não serão incomodados com visita constantes;</p>
+                <p>Sua equipe só irá realizar visitas reais aos imóveis após </br>
+                    os interessados terem realizado as visitas virtuais;</p>
             </div>
         </div>
         <div class="item-check-list">
@@ -69,14 +75,13 @@ $tituloPagina = "Visita virtual";
                 </div>
             </div>
             <div>
-                <p>Os proprietários que ainda residem no imóvel </br>
-                    não serão incomodados com visita constantes;</p>
+                <p>Menos visitas com grandes chances de fechamento.</p>
             </div>
         </div>
     </div>
 
     <div class="div-fundo-verde">
-        <p>ABAIXO UM EXEMPLO DA VISITA VIRTUAL</p>
+        <h2>A visita virtual é a mais nova tecnologia do mercado imobiliário.</h2>
     </div>
 
     <div class="container-iframe">

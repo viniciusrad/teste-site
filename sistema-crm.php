@@ -1,11 +1,12 @@
 <?php
-$tituloPagina = "Sistema para Imobiliária";
+$tituloPagina = "Sistema e CRM para Imobiliária - Midas";
 $descricao = "Sistema para gestão de clientes e imóveis e equipes para imobiliárias e corretores de imóveis.";
 
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+<meta property="og:url" content="https://www.midasmais.com.br/sistema-para-imobiliaria" />
 
 
 
@@ -23,11 +24,11 @@ $descricao = "Sistema para gestão de clientes e imóveis e equipes para imobili
         <div class="div-img-crm">
             <img src="img/celular-e-desktop-com-o-sistema-midas-aberto.jpg" alt="">
         </div>
-        <div class="texto-crm">
+        <div class="texto-crm" style="font-size: 1.8rem;">
             <p>O sistema MIDAS atua facilitando de forma inteligente e automática as tarefas que mais tomam tempo dos seus corretores, permitindo assim o tempo de sua Equipe seja utilizado no que ela é insubstituível:</p>
-            <p>O atendimento.</p>
+            <p style="text-align: center;">O atendimento.</p>
             </br>
-            <p style="text-align: center;"><strong>Conheça algumas características do sistema:</strong></p>
+            <p style="text-align: center;">Conheça algumas Características do sistema:</p>
 
         </div>
     </div>
@@ -40,7 +41,7 @@ $descricao = "Sistema para gestão de clientes e imóveis e equipes para imobili
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Controle e gestão total da sua equipe de forma simples e rápida</p>
+                <p class="textos-icones-check">Controle e gestão total da sua equipe de forma simples e rápida.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -48,7 +49,7 @@ $descricao = "Sistema para gestão de clientes e imóveis e equipes para imobili
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Sua regra de negócio é aplicada ao sistema através de parâmetros</p>
+                <p class="textos-icones-check">Sua regra de negócio é aplicada ao sistema através de parâmetros.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -56,7 +57,7 @@ $descricao = "Sistema para gestão de clientes e imóveis e equipes para imobili
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Total segurança para seus dados com controles de acesso e logs de alterações</p>
+                <p class="textos-icones-check">Total segurança para seus dados com controles de acesso e logs de alterações.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -80,7 +81,7 @@ $descricao = "Sistema para gestão de clientes e imóveis e equipes para imobili
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Gestão de propostas, geração, armazenamento, negociações e contratos</p>
+                <p class="textos-icones-check">Gestão de propostas, geração, armazenamento, negociações e contratos.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -97,7 +98,7 @@ $descricao = "Sistema para gestão de clientes e imóveis e equipes para imobili
             </div>
             <div class="container container-check">
                 <p class="textos-icones-check">E-mails automáticos prestando contas aos proprietários sobre o trabalho que está sendo realizado para negociação do imóvel.</p>
-                <p class="textos-icones-check">Ganhe confiança e credibilidade</p>
+                <p class="textos-icones-check">Ganhe confiança e credibilidade.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -113,8 +114,8 @@ $descricao = "Sistema para gestão de clientes e imóveis e equipes para imobili
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">Análise de investimentos em publicidade. Conheça as taxas de conversão e descubra as melhores mídias</p>
-                <p class="textos-icones-check">Coneça as taxas de conversão e descubra as melhores mídias</p>
+                <p class="textos-icones-check">Análise de investimentos em publicidade. Conheça as taxas de conversão e descubra as melhores mídias.</p>
+                <p class="textos-icones-check">Conheça as taxas de conversão e descubra as melhores mídias.</p>
             </div>
         </div>
         <div class="card-funcionalidade">
@@ -139,7 +140,7 @@ $descricao = "Sistema para gestão de clientes e imóveis e equipes para imobili
 
 
     <div class="div-fundo-verde">
-        <p>Ganhe tempo e aumente a produtividade da sua imobiliária digital</p>
+        <h2>Ganhe tempo e aumente a produtividade da sua imobiliária digital</h2>
     </div>
 
     <div class="div-funcionalidades">
@@ -214,6 +215,9 @@ $descricao = "Sistema para gestão de clientes e imóveis e equipes para imobili
             // esconde os cards que não devem ser exibidos
             $('#card-crm').css("display", "none")
         });
+
+
+        // window.history.pushState("", "", '/sistema-para-imobiliaria');
     </script>
 
 </body>

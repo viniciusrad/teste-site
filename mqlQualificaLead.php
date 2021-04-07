@@ -1,5 +1,7 @@
 <?php
-$tituloPagina = "Qualificação do lead pelo marketing";
+$tituloPagina = "MQL - Qualificação de leads imobiliários ";
+$descricao = "Crie uma etapa para qualificar leads, antes de encaminhá-los aos corretores.";
+
 ?>
 
 <!DOCTYPE html>
@@ -14,8 +16,10 @@ $tituloPagina = "Qualificação do lead pelo marketing";
 
 
     <div class="div-fundo-verde">
-        <p>SE SUA EMPRESA SOFRE COM ESSES PROBLEMAS:</p>
+        <h1>Leads qualificados trazem mais produividade à sua equipe</h1>
     </div>
+    <h3 class="sub-titulo-centralizado">SE SUA EMPRESA SOFRE COM ESSES PROBLEMAS:</h3>
+
 
     <div class="div-crm" style="max-width: 1200px;">
         <div class="div-img-crm div-img-mql">
@@ -82,8 +86,9 @@ $tituloPagina = "Qualificação do lead pelo marketing";
     </div>
 
     <div class="div-fundo-verde">
-        <p>O USO DE MQL LHE PROPORCIONARÁ</p>
+        <h2>Equipes imobiliárias menores com alta produtividade</h2>
     </div>
+    <h3 class="sub-titulo-centralizado">O USO DE MQL LHE PROPORCIONARÁ:</h3>
 
     <!-- area de funcionalidades -->
     <div class="div-funcionalidades-flex-mql">
@@ -92,7 +97,7 @@ $tituloPagina = "Qualificação do lead pelo marketing";
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check-mql">
-                <p class="textos-icones-check">Seus leads serão encaminhados a uma equipe de pré vendas que irá qualifica-los e encaminhá-los ao melhor corretor mais indicado a realizar o atendimento.</p>
+                <p class="textos-icones-check">Seus leads serão encaminhados a uma equipe de pré-vendas que irá qualifica-los e encaminhá-los ao melhor corretor mais indicado a realizar o atendimento.</p>
             </div>
         </div>
         <div class="card-funcionalidade-margin-mql">
@@ -116,7 +121,7 @@ $tituloPagina = "Qualificação do lead pelo marketing";
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check-mql">
-                <p class="textos-icones-check">Leads já cadastrados, seu profissional de pré vendas terá acesso a todos histórico de atendimentos que tenham sido realizados por sua equipe de corretores.</p>
+                <p class="textos-icones-check">Leads já cadastrados, seu profissional de pré-vendas terá acesso a todos histórico de atendimentos que tenham sido realizados por sua equipe de corretores.</p>
             </div>
         </div>
         <div class="card-funcionalidade-margin-mql">
@@ -124,7 +129,7 @@ $tituloPagina = "Qualificação do lead pelo marketing";
                 <img class="img-icone-check" src="img/icone-check.png" alt="Avatar">
             </div>
             <div class="container container-check-mql">
-                <p class="textos-icones-check">Os corretores receberão todo o histórico do atendimento realizado pelo pré vendas para melhor orientá-lo no atendimento do lead.</p>
+                <p class="textos-icones-check">Os corretores receberão todo o histórico do atendimento realizado pelo pré-vendas para melhor orientá-lo no atendimento do lead.</p>
             </div>
         </div>
         <div class="card-funcionalidade-margin-mql">
@@ -150,7 +155,7 @@ $tituloPagina = "Qualificação do lead pelo marketing";
 
     <div class="div-texto-centralizado">
         <a href="#div-contato">
-            <button class="btn-saiba-mais-green">Solicite mais informações</button>
+            <button class="btn-saiba-mais-black">Solicite contato</button>
         </a>
     </div>
 

@@ -4,7 +4,7 @@
 <!-- Cards de seriços -->
 <div class="container container-icones">
     <div class="card-icone" id="card-crm">
-        <a href="sistema-crm.php">
+        <a href="sistema-para-imobiliairia">
             <div class="div-icone">
                 <img class="img-icone" src="img/icone-sistema-para-imobiliarias.png" alt="Avatar">
             </div>
@@ -15,7 +15,7 @@
     </div>
 
     <div class="card-icone" id="card-site">
-        <a href="site-responsivo.php">
+        <a href="site-para-imobiliaria">
             <div class="div-icone">
                 <img class="img-icone" src="img/icone-site-para-imobiliarias.png" alt="Avatar">
             </div>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="card-icone" id="card-adm">
-        <a href="administracao-imoveis.php">
+        <a href="sistema-para-locacao-de-imoveis">
             <div class="div-icone">
                 <img class="img-icone" src="img/icone-administracao-imoveis.png" alt="Avatar">
             </div>
@@ -48,7 +48,7 @@
     </div>
 
     <div class="card-icone" id="card-chatbot">
-        <a href="chat-bot.php">
+        <a href="chat-bot">
             <div class="div-icone">
                 <img class="img-icone" src="img/icone-chatbot.png" alt="Avatar">
             </div>
@@ -59,7 +59,7 @@
     </div>
 
     <div class="card-icone" id="card-locacao">
-        <a href="locacaoDigital.php">
+        <a href="sistema-para-locacao-imoveis-digital">
             <div class="div-icone">
                 <img class="img-icone" src="img/icone-locacao-digital-grande.png" alt="Avatar">
             </div>
@@ -70,7 +70,7 @@
     </div>
 
     <div class="card-icone" id="card-remanescentes">
-        <a href="remanescentesLancamentos.php">
+        <a href="venda-empreendimentos-imobiliarios-remanescentes">
             <div class="div-icone">
                 <img class="img-icone" src="img/icone-remanescentes-de-lancamentos.png" alt="Avatar">
             </div>
@@ -81,7 +81,7 @@
     </div>
 
     <div class="card-icone" id="card-mql">
-        <a href="mqlQualificaLead.php">
+        <a href="qualificacao-leads-imobiliários-mql">
             <div class="div-icone">
                 <img class="img-icone" src="img/icone-mql-lancamentos-de-leads.png" alt="Avatar">
             </div>

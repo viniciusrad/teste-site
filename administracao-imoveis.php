@@ -1,5 +1,7 @@
 <?php
-$tituloPagina = "Administração de imóveis";
+$tituloPagina = "Sistema para Locação de Imóveis";
+$descricao = "Administre a locação de imóveis de forma inteligente e ágil.";
+
 ?>
 
 <!DOCTYPE html>
@@ -12,15 +14,15 @@ $tituloPagina = "Administração de imóveis";
 
 
     <div class="div-fundo-verde">
-        <p>ADMINISTRE A LOCAÇÃO DE IMÓVEIS DE FORMA INTELIGENTE E ÁGIL</p>
+        <h1>Sistema de administração de Locação de Imóveis</h1>
     </div>
-
+    <!-- <h3 style="text-align: center;">ADMINISTRE A LOCAÇÃO DE IMÓVEIS DE FORMA INTELIGENTE E ÁGIL</h3> -->
     <div class="div-crm">
         <div class="div-img-crm" style="max-width: 800px; display: flex;">
             <img src="img/administracao-imoveis.jpg" alt="">
         </div>
         <div class="texto-crm font-14rem">
-            <p>Este sistema foi projetado tendo como princípios a facilidade de uso/entendimento, informações complexas, agilidade no manuseio e segurança das informações cadastradas. Aliado a isso temos o nosso atendimento pós-venda, um verdadeiro diferencial entre nossos concorrentes, pois utilizamos o método "escada", ou seja, um passo de cada vez, onde todo novo cadastramento feito no sistema ou novo processamento a ser ensinado terá um acompanhamento, passo a passo com nossos atendentes especializados exclusivamente em seu negócio.</p>
+            <p>Este sistema foi projetado tendo como princípios a facilidade de uso/entendimento, informações complexas, agilidade no manuseio e segurança das informações cadastradas. Aliado a isso temos o nosso atendimento pós-venda, um verdadeiro diferencial entre nossos concorrentes, pois utilizamos o método "escada", ou seja, um passo de cada vez, onde todo novo cadastramento feito no sistema ou novo processamento a ser ensinado terá um acompanhamento, passo a passo com nossos atendentes especializados exclusivamente em seu negócio. Conecte-se ao seu sistema de onde estiver. Este sistema foi projetado com foco na facilidade de uso e está preparado para a nova realidade do mercado imobiliário onde você e sua equipe vão poder trabalhar em home-office ou presencial via internet com informações completas e mais agilidade no seu dia</p>
 
 
         </div>
@@ -29,9 +31,9 @@ $tituloPagina = "Administração de imóveis";
 
 
     <div class="div-fundo-verde">
-        <p>Conheça as principais características do Sistema</p>
+        <h2>Administre a locação de imóveis de forma inteligente e ágil</h2>
     </div>
-
+    <h3 class="sub-titulo-centralizado" style="margin-bottom: 2rem;">Conheça as principais características do Sistema</h3>
     <div class="div-check-dupla">
         <div>
 
@@ -72,7 +74,7 @@ $tituloPagina = "Administração de imóveis";
                     </div>
                 </div>
                 <div class="texto-check-site negrito max-width-375px">
-                    <p>Baixe os pagtos de forma rápida através de importação do arquivo bancário.</p>
+                    <p>Baixe os pagamentos de forma rápida através de importação do arquivo bancário.</p>
                 </div>
             </div>
 
@@ -96,7 +98,7 @@ $tituloPagina = "Administração de imóveis";
                     </div>
                 </div>
                 <div class="texto-check-site negrito max-width-375px">
-                    <p>Faça o pagamento dos proprietário eletronicamente.</p>
+                    <p>Faça o pagamento dos proprietários eletronicamente.</p>
                 </div>
             </div>
             <div class="item-check-list-site">
@@ -122,11 +124,10 @@ $tituloPagina = "Administração de imóveis";
         </div>
     </div>
 
-    <div class="div-texto-centralizado">Conecte-se ao seu sistema de onde estiver. <br>
-        Este sistema foi projetado com foco na facilidade de uso e está preparado para a nova realidade do mercado imobiliário onde você e sua equipe vão poder trabalhar em home-office ou presencial via internet com informações completas e mais agilidade no seu dia.</div>
+
     <div class="div-texto-centralizado">
         <a href="#div-contato">
-            <button class="btn-saiba-mais-green">QUERO ADMINISTRAR MELHOR</button>
+            <button class="btn-saiba-mais-black">Solicite contato</button>
         </a>
     </div>
 

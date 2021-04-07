@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteRule ^(index|index/)$ index.php  [L,NC]
+
+  RewriteRule ^chat-bot/?$ chat-bot.php [NC,L]
+  RewriteRule ^site-para-imobiliaria/?$ site-responsivo.php [NC,L]
+  RewriteRule ^sistema-para-imobiliairia/?$ sistema-crm.php [NC,L]
+  RewriteRule ^sistema-para-locacao-de-imoveis/?$ administracao-imoveis.php [NC,L]
+  RewriteRule ^sistema-para-locacao-imoveis-digital/?$ locacaoDigital.php [NC,L]
+  RewriteRule ^visita-virtual/?$ visitaVirtual.php [NC,L]
+  RewriteRule ^qualificacao-leads-imobiliários-mql/?$ mqlQualificaLead.php [NC,L]
+  RewriteRule ^venda-empreendimentos-imobiliarios-remanescentes/?$ remanescentesLancamentos.php [NC,L]
+</IfModule>

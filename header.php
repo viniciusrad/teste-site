@@ -94,21 +94,21 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                         <a href="javascript:void(0);" class="icon"><img src="./img/menu-r.png" alt="menu" title="menu" class="pull-left sanduiche"></a>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <a class="dropdown-item" href="sistema-crm.php" style="border-left: 7px solid #d93117;margin-left: 10px;">SISTEMA PARA IMOBILIÁRIA</a>
-                        <a class="dropdown-item" href="site-responsivo.php" style="border-left: 7px solid #ffb017;margin-left: 10px;"> SITE PARA IMOBILIÁRIA</a>
-                        <a class="dropdown-item" href="chat-bot.php" style="border-left: 7px solid #9c136f;margin-left: 10px;">CHATBOT</a>
-                        <a class="dropdown-item" href="administracao-imoveis.php" style="border-left: 7px solid #0877ac;margin-left: 10px;">ADMINISTRACAO DE IMOVEIS</a>
-                        <a class="dropdown-item" href="locacaoDigital.php" style="border-left: 7px solid #9877ac;margin-left: 10px;">LOCAÇÃO DIGITAL</a>
-                        <a class="dropdown-item" href="visitaVirtual.php" style="border-left: 7px solid #4caa30;margin-left: 10px;">VISITA VIRTUAL</a>
-                        <a class="dropdown-item" href="remanescentesLancamentos.php" style="border-left: 7px solid #08b7ac;margin-left: 10px;">REMANESCENTE DE LANCAMENTOS</a>
-                        <a class="dropdown-item" href="mqlQualificaLead.php" style="border-left: 7px solid #7434d3;margin-left: 10px;">MARKETING QUALIFICA LEAD</a>
+                        <a class="dropdown-item" href="sistema-para-imobiliairia" style="border-left: 7px solid #d93117;margin-left: 10px;">SISTEMA PARA IMOBILIÁRIA</a>
+                        <a class="dropdown-item" href="site-para-imobiliaria" style="border-left: 7px solid #ffb017;margin-left: 10px;"> SITE PARA IMOBILIÁRIA</a>
+                        <a class="dropdown-item" href="chat-bot" style="border-left: 7px solid #9c136f;margin-left: 10px;">CHATBOT</a>
+                        <a class="dropdown-item" href="sistema-para-locacao-de-imoveis" style="border-left: 7px solid #0877ac;margin-left: 10px;">ADMINISTRACAO DE IMOVEIS</a>
+                        <a class="dropdown-item" href="sistema-para-locacao-imoveis-digital" style="border-left: 7px solid #9877ac;margin-left: 10px;">LOCAÇÃO DIGITAL</a>
+                        <a class="dropdown-item" href="visita-virtual" style="border-left: 7px solid #4caa30;margin-left: 10px;">VISITA VIRTUAL</a>
+                        <a class="dropdown-item" href="venda-empreendimentos-imobiliarios-remanescentes" style="border-left: 7px solid #08b7ac;margin-left: 10px;">REMANESCENTE DE LANCAMENTOS</a>
+                        <a class="dropdown-item" href="qualificacao-leads-imobiliários-mql" style="border-left: 7px solid #7434d3;margin-left: 10px;">MARKETING QUALIFICA LEAD</a>
                         <a class="dropdown-item" href="https://www.midasmais.com.br/blog/" style="border-left: 7px solid #666;margin-left: 10px;">BLOG</a>
                         <a class="dropdown-item" href="contato.php" style="border-left: 7px solid #333;margin-left: 10px;">CONTATO</a>
                     </div>
                 </div>
                 <!-- sanduiche das paginas midas -->
 
-                <div class="pull-left"><a href="./index.php"><img id="img-logo" src="./img/logo-midas2.png" alt="Midas" title="Midas"></a></div>
+                <div class="pull-left"><a href="./"><img id="img-logo" src="./img/logo-midas2.png" alt="Midas" title="Midas"></a></div>
             </div>
 
             <!--  -->
