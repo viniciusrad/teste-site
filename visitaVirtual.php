@@ -90,7 +90,7 @@ $descricao = "Otmize o tempo gasto em visitas utilizando a nossa visita virtual.
     <div class="botoes-flex">
 
         <div class="div-btn-proposta">
-            <a href="https://www.midasmais.com.br/novo_site2/acesso360.php">
+            <a href="acesso-360">
                 <button class="btn-saiba-mais-white">Saiba mais</button>
             </a>
         </div>

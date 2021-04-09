@@ -26,7 +26,7 @@
     </div>
 
     <div class="card-icone" id="card-visita-virtual">
-        <a href="visitaVirtual.php">
+        <a href="visita-virtual">
             <div class="div-icone">
                 <img class="img-icone" src="img/icone-360.png" alt="Avatar">
             </div>

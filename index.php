@@ -20,16 +20,16 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
             </br>
             <h3>Conheça nossos produtos</h3>
             <ul style="list-style: disc; padding-left: 3rem;">
-                <li><a href="./sistema-crm.php">Sistema para imobiliárias</a></li>
-                <li><a href="./site-responsivo.php">Sites para imobiliárias</a></li>
-                <li><a href="./visitaVirtual.php">Visita virtual</a></li>
-                <li><a href="./administracao-imoveis.php">Administração de imóveis</a></li>
-                <li><a href="./chat-bot.php">Chatbot para Imobiliária</a></li>
-                <li><a href="./locacao-digital.php">Locação Digital</a></li>
-                <li><a href="./remanescentesLancamentos.php">Remanescentes de lançamentos</a></li>
-                <li><a href="./mqlQualificaLead.php">MQL Qualificação de leads</a></li>
+                <li><a href="sistema-para-imobiliairia">Sistema para imobiliárias</a></li>
+                <li><a href="site-para-imobiliaria">Sites para imobiliárias</a></li>
+                <li><a href="visita-virtual">Visita virtual</a></li>
+                <li><a href="sistema-para-locacao-de-imoveisp">Administração de imóveis</a></li>
+                <li><a href="chat-bot">Chatbot para Imobiliária</a></li>
+                <li><a href="sistema-para-locacao-imoveis-digital">Locação Digital</a></li>
+                <li><a href="venda-empreendimentos-imobiliarios-remanescentes">Remanescentes de lançamentos</a></li>
+                <li><a href="qualificacao-leads-imobiliários-mql">MQL Qualificação de leads</a></li>
             </ul>
-            <a href="./contato.php">
+            <a href="#contato">
                 <button class="btn-saiba-mais-black" style="margin-top: 1em;">Solicite contato</button>
             </a>
         </div>
@@ -51,10 +51,9 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
                 <li>Remanescentes de lançamentos</li>
                 <li>MQL Qualificação de leads</li>
             </ul>
-            <a href="./contato.php">
-                <a href="./contato.php">
-                    <button class="btn-saiba-mais-black" style="margin-top: 1em;">Solicite contato</button>
-                </a>
+            <a href="contato">
+                <button class="btn-saiba-mais-black" style="margin-top: 1em;">Solicite contato</button>
+            </a>
         </div>
     </div>
     <!-- espaço do crm -->
@@ -75,7 +74,7 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
                 <li>Gestão total da sua Equipe;</li>
                 <li>E-mails Automáticos.</li>
             </ul>
-            <a href="./sistema-crm.php">
+            <a href="sistema-para-imobiliairia">
                 <button class="btn-saiba-mais-black">Saiba mais</button>
             </a>
         </div>
@@ -96,7 +95,7 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
                 <li>Usabilidade e Aparência;</li>
                 <li>Autonomia e Flexibilidade no Gerenciamento do Conteúdo!</li>
             </ul>
-            <a href="./site-responsivo.php">
+            <a href="site-para-imobiliaria">
                 <button class="btn-saiba-mais-black">Saiba mais</button>
             </a>
         </div>
@@ -118,7 +117,7 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
     <!--  -->
 
     <div class="div-btn-proposta">
-        <a href="./contato.php">
+        <a href="contato">
             <button class="btn-saiba-mais-black">Solicite contato</button>
         </a>
     </div>
