@@ -11,4 +11,6 @@
   RewriteRule ^visita-virtual/?$ visitaVirtual.php [NC,L]
   RewriteRule ^qualificacao-leads-imobiliários-mql/?$ mqlQualificaLead.php [NC,L]
   RewriteRule ^venda-empreendimentos-imobiliarios-remanescentes/?$ remanescentesLancamentos.php [NC,L]
+  RewriteRule ^contato/?$ contato.php [NC,L]
+  RewriteRule ^acesso-360/?$ acesso360.php [NC,L]
 </IfModule>
