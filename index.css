@@ -257,9 +257,7 @@ ul {
 .fa-check::before {
   color: green;
 }
-li{
-  /* padding: 6px; */
-}
+
 /******************************************************/
 /**************inicio do novo site*********************/
 /******************************************************/
@@ -1004,9 +1002,7 @@ input[type=email] {
   bottom: 40px;
 }
 
-.contato-telefone-whatsapp{
 
-}
 
 .icone-whatsapp{
   display: flex;
@@ -1241,7 +1237,7 @@ input[type=email] {
   height: auto;
   padding: 25px;
   align-items: center;
-  transition: all .5s;
+  transition: all 1s;
 }
 .div-cookies p{
   margin-right: 3rem;
@@ -1250,7 +1246,7 @@ input[type=email] {
   font-size: .9em
 }
 .div-cookie-aceito{
-  bottom: -70px;
+  bottom: -400px;
 }
 .div-display-none{
   display: none;
@@ -1386,10 +1382,7 @@ input[type=email] {
     justify-content: center;
     /* overflow: hidden; */
   }
-  .div-iframe-mobile iframe{
-    /* height: 400px;
-    width: 95%; */
-  }
+
 }
 
 .titulo-modelo-site{

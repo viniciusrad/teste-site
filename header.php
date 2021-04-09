@@ -52,7 +52,7 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/logo-fav-icon.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa%7CComfortaa%7CComfortaa%7CComfortaa&amp;subset=latin-ext,cyrillic-ext,latin,vietnamese,cyrillic,greek" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.co/css?family=Comfortaa%7CComfortaa%7CComfortaa%7CComfortaa&amp;subset=latin-ext,cyrillic-ext,latin,vietnamese,cyrillic,greek&display=swap" media="all">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;800&family=Oswald:wght@400;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
     <link rel='stylesheet' id='font-awesome-css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
 
@@ -101,9 +101,9 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                         <a class="dropdown-item" href="sistema-para-locacao-imoveis-digital" style="border-left: 7px solid #9877ac;margin-left: 10px;">LOCAÇÃO DIGITAL</a>
                         <a class="dropdown-item" href="visita-virtual" style="border-left: 7px solid #4caa30;margin-left: 10px;">VISITA VIRTUAL</a>
                         <a class="dropdown-item" href="venda-empreendimentos-imobiliarios-remanescentes" style="border-left: 7px solid #08b7ac;margin-left: 10px;">REMANESCENTE DE LANCAMENTOS</a>
-                        <a class="dropdown-item" href="qualificacao-leads-imobiliários-mql" style="border-left: 7px solid #7434d3;margin-left: 10px;">MARKETING QUALIFICA LEAD</a>
+                        <a class="dropdown-item" href="qualificacao-leads-imobiliários-mql" style="border-left: 7px solid #7434d3;margin-left: 10px;">MQL - QUALIFICAÇÃO DE LEADS</a>
                         <a class="dropdown-item" href="https://www.midasmais.com.br/blog/" style="border-left: 7px solid #666;margin-left: 10px;">BLOG</a>
-                        <a class="dropdown-item" href="contato.php" style="border-left: 7px solid #333;margin-left: 10px;">CONTATO</a>
+                        <a class="dropdown-item" href="contato" style="border-left: 7px solid #333;margin-left: 10px;">CONTATO</a>
                     </div>
                 </div>
                 <!-- sanduiche das paginas midas -->

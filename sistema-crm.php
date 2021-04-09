@@ -24,11 +24,11 @@ $descricao = "Sistema para gestão de clientes e imóveis e equipes para imobili
         <div class="div-img-crm">
             <img src="img/celular-e-desktop-com-o-sistema-midas-aberto.jpg" alt="">
         </div>
-        <div class="texto-crm" style="font-size: 1.8rem;">
-            <p>O sistema MIDAS atua facilitando de forma inteligente e automática as tarefas que mais tomam tempo dos seus corretores, permitindo assim o tempo de sua Equipe seja utilizado no que ela é insubstituível:</p>
+        <div class="texto-crm" style="font-size: 1.8rem; text-align: justify;">
+            <p>O sistema MIDAS atua facilitando de forma inteligente e automática as tarefas que mais tomam tempo dos seus corretores, permitindo assim o tempo de sua equipe seja utilizado no que ela é insubstituível:</p>
             <p style="text-align: center;">O atendimento.</p>
             </br>
-            <p style="text-align: center;">Conheça algumas Características do sistema:</p>
+            <p style="text-align: center;">Conheça algumas características do sistema:</p>
 
         </div>
     </div>

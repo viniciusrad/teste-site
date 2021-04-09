@@ -1,14 +1,17 @@
+<?php
+$tituloPagina = "Visita Virtual à imóveis - Midas";
+$descricao = "Otmize o tempo gasto em visitas utilizando a nossa visita virtual.";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
-
 
 <?php include('header.php') ?>
 
 <body>
     <!--  -->
     <!--  -->
-    <div class="area-acesso-midas360">
+    <div class="area-acesso-midas360" style="background-color: #00b495;">
 
         <a href="https://www.midas360.com.br/midas360/login.php">Login </a>
         |
@@ -23,7 +26,7 @@
         <img src="img/imagem-topo-360.jpg" alt="Imagem simulação tour virtual">
     </div>
 
-    <div class="div-cinza-grande">
+    <div class="div-fundo-verde">
         Ofereça visitas online 24 horas.
     </div>
 
