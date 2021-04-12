@@ -190,7 +190,7 @@ $descricao = "Crie uma etapa para qualificar leads, antes de encaminhá-los aos 
 
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre o Chatbot. Aguardo contato.')
+            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre a quualificação dos leads. Aguardo contato.')
 
             $('#card-mql').css("display", "none")
 

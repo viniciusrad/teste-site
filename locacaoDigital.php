@@ -21,9 +21,9 @@ $descricao = "Torne o processo de locação da sua imobiliária totalmente digit
         </div>
     </div>
 
-    <div class="div-texto-centralizado">
+    <!-- <div class="div-texto-centralizado">
         <p><strong style="font-size: 1.4em;">Um processo de locação sem desgastes. O locador sabe exatamente em que etapa o processo se encontra. O locatário consegue enviar documentos pelo celular ou computador. A imobiliária tem maior controle sobre tudo e consegue cortar gastos.</strong></p>
-    </div>
+    </div> -->
 
     <div class=" div-fundo-verde">
         <h2>Ganhe agilidade nas locações imobiliárias</h2>

@@ -52,8 +52,13 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/logo-fav-icon.png">
+
+    <!-- Fonts do google -->
     <link rel="stylesheet" href="https://fonts.googleapis.co/css?family=Comfortaa%7CComfortaa%7CComfortaa%7CComfortaa&amp;subset=latin-ext,cyrillic-ext,latin,vietnamese,cyrillic,greek&display=swap" media="all">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;800&family=Oswald:wght@400;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel='stylesheet' id='font-awesome-css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
 
     <script src="./lib/jquery.cookie.js"></script>
@@ -97,10 +102,10 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                         <a class="dropdown-item" href="sistema-para-imobiliairia" style="border-left: 7px solid #d93117;margin-left: 10px;">SISTEMA PARA IMOBILIÁRIA</a>
                         <a class="dropdown-item" href="site-para-imobiliaria" style="border-left: 7px solid #ffb017;margin-left: 10px;"> SITE PARA IMOBILIÁRIA</a>
                         <a class="dropdown-item" href="chat-bot" style="border-left: 7px solid #9c136f;margin-left: 10px;">CHATBOT</a>
-                        <a class="dropdown-item" href="sistema-para-locacao-de-imoveis" style="border-left: 7px solid #0877ac;margin-left: 10px;">ADMINISTRACAO DE IMOVEIS</a>
+                        <a class="dropdown-item" href="sistema-para-locacao-de-imoveis" style="border-left: 7px solid #0877ac;margin-left: 10px;">ADMINISTRACÃO DE IMÓVEIS</a>
                         <a class="dropdown-item" href="sistema-para-locacao-imoveis-digital" style="border-left: 7px solid #9877ac;margin-left: 10px;">LOCAÇÃO DIGITAL</a>
                         <a class="dropdown-item" href="visita-virtual" style="border-left: 7px solid #4caa30;margin-left: 10px;">VISITA VIRTUAL</a>
-                        <a class="dropdown-item" href="venda-empreendimentos-imobiliarios-remanescentes" style="border-left: 7px solid #08b7ac;margin-left: 10px;">REMANESCENTE DE LANCAMENTOS</a>
+                        <a class="dropdown-item" href="venda-empreendimentos-imobiliarios-remanescentes" style="border-left: 7px solid #08b7ac;margin-left: 10px;">REMANESCENTE DE LANÇAAMENTOS</a>
                         <a class="dropdown-item" href="qualificacao-leads-imobiliários-mql" style="border-left: 7px solid #7434d3;margin-left: 10px;">MQL - QUALIFICAÇÃO DE LEADS</a>
                         <a class="dropdown-item" href="https://www.midasmais.com.br/blog/" style="border-left: 7px solid #666;margin-left: 10px;">BLOG</a>
                         <a class="dropdown-item" href="contato" style="border-left: 7px solid #333;margin-left: 10px;">CONTATO</a>

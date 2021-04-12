@@ -10,6 +10,12 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
 
 <?php include('header.php') ?>
 
+<style>
+    body {
+        font-family: 'Barlow', sans-serif;
+    }
+</style>
+
 <body>
 
     <!-- Imagem principal -->

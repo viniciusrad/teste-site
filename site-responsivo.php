@@ -55,7 +55,7 @@ $descricao = "Site com o melhor SEO para imobiliárias e corretores autônomos. 
                     </div>
                 </div>
                 <div class="texto-check-site">
-                    <p>Desenvolvido por profissionais experientes, pensado para o uso exclusivo de Imobiliárias e Corretores de Imóveis.</p>
+                    <p>Desenvolvido por profissionais experientes, pensado para o uso exclusivo de imobiliárias e corretores de imóveis.</p>
                 </div>
             </div>
             <div class="item-check-list-site">
@@ -85,7 +85,7 @@ $descricao = "Site com o melhor SEO para imobiliárias e corretores autônomos. 
                     </div>
                 </div>
                 <div class="texto-check-site">
-                    <p>Modelos Responsivos, com visual contemporâneo que valoriza seu anúncio.</p>
+                    <p>Modelos responsivos, com visual contemporâneo que valoriza seus anúncios.</p>
                 </div>
             </div>
         </div>

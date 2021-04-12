@@ -13,11 +13,12 @@ body{
     width: 100%;
     box-sizing: border-box;
     /* overflow-x: hidden; */
-    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Signika Negative', sans-serif;
 }
 
 h1, h2, h3 {
-  font-family: 'Oswald', sans-serif;
+  /*font-family: 'Oswald', sans-serif;*/
 }
 
 .carousel-item {
@@ -412,6 +413,7 @@ display: none;
 .div-img-crm img{
   width: 100%;
   text-align: center;
+  margin: 1rem;
 }
 
 .lista-crm{
@@ -422,7 +424,7 @@ display: none;
 }
 
 .texto-crm{
-  font-family: 'Barlow', sans-serif;
+  /* font-family: 'Barlow', sans-serif; */
   font-size: 1.4rem;
   margin: 35px;
   padding: 20px;
@@ -494,7 +496,7 @@ html:not([data-scroll='0']) #img-logo {
   font-size: larger;
   font-weight: bold;
   font-size: 1.7rem;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Pragati Narrow', sans-serif;
   text-transform: uppercase;
   padding: 40px;
   margin: 4rem 0;
@@ -1115,6 +1117,7 @@ input[type=email] {
 
 .texto-check-site{
   align-self: center;
+  font-weight: bold;
 }
 
 .text-align-left{

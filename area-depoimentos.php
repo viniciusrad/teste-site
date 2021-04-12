@@ -4,9 +4,9 @@
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <!--  deverá haver um item de lista para cada item do carrossel -->
+            <!--  DEVERÁ HAVER UM ITEM DE LISTA PARA CADA ITEM DO CARROSSEL -->
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> -->
         </ol>
 
         <div class="carousel-inner" role="listbox">
@@ -29,7 +29,7 @@
                 </div>
             </div>
             <!-- Slide 2-->
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
                 <div class="div-depoimentos">
                     <div class="card-depoimentos">
                         <div class="depoimentos-header">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
         <!-- indicadores laterais do carrossel de imagens -->

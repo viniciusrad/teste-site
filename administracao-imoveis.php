@@ -33,7 +33,7 @@ $descricao = "Administre a locação de imóveis de forma inteligente e ágil.";
     <div class="div-fundo-verde">
         <h2>Administre a locação de imóveis de forma inteligente e ágil</h2>
     </div>
-    <h3 class="sub-titulo-centralizado" style="margin-bottom: 2rem;">Conheça as principais características do Sistema</h3>
+    <h3 class="sub-titulo-centralizado" style="margin-bottom: 2rem;">Conheça as principais características do sistema</h3>
     <div class="div-check-dupla">
         <div>
 

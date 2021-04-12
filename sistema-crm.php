@@ -28,7 +28,7 @@ $descricao = "Sistema para gestão de clientes e imóveis e equipes para imobili
             <p>O sistema MIDAS atua facilitando de forma inteligente e automática as tarefas que mais tomam tempo dos seus corretores, permitindo assim o tempo de sua equipe seja utilizado no que ela é insubstituível:</p>
             <p style="text-align: center;">O atendimento.</p>
             </br>
-            <p style="text-align: center;">Conheça algumas características do sistema:</p>
+            <p style="text-align: center;"><strong>Conheça algumas características do sistema:</strong></p>
 
         </div>
     </div>
