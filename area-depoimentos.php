@@ -5,8 +5,9 @@
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <!--  DEVERÁ HAVER UM ITEM DE LISTA PARA CADA ITEM DO CARROSSEL -->
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> -->
+            <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
 
         <div class="carousel-inner" role="listbox">
@@ -15,7 +16,7 @@
                 <div class="div-depoimentos">
                     <div class="card-depoimentos">
                         <div class="depoimentos-header">
-                            <img src="https://via.placeholder.com/150" alt="">
+                            <img src="img/depoimento-feminino1.png" alt="imagem icone depoimento feminino">
                             <div>
                                 <h3>Miliete</h3>
                                 <p>Corretora autônoma</p>
@@ -28,33 +29,63 @@
                     </div>
                 </div>
             </div>
+
             <!-- Slide 2-->
-            <!-- <div class="carousel-item">
+            <div class="carousel-item">
                 <div class="div-depoimentos">
                     <div class="card-depoimentos">
                         <div class="depoimentos-header">
-                            <img src="img/logo-solidez.jpg" alt="">
+                            <img src="img/depoimento-masculino1.png" alt="">
                             <div>
-                                <h3>Karine</h3>
-                                <p>Solidez Imobiliária</p>
+                                <h3>Geraldo Chagas Junior</h3>
+                                <p>Diretor Comercial | Grupo Mocambo</p>
                             </div>
 
                         </div>
                         <div class="depoimentos-body">
-                            <p>Minhas impressões com relação ao sistema não poderia ser melhor. Elenco os pontos positivos: </p>
-                            <ul>
-                                <li>1 - Sistema de fácil manuseio, auto explicativo.</li>
-                                <li>2- Completo e integrado a diversos portais o que ajuda a maximiza o tempo.</li>
-                                <li>3- Manual com passo a passo disponível 24h no campo: ajuda.</li>
-                                <li>4- Suporte por telefone e dentro do sistema.</li>
-                            </ul>
-                            <p>Elenco pontos negativos: Nenhum!</p>
-                            <p>Enfim, o sistema é maravilhoso, o atendimento é excelente, de toda equipe como: você, Tania do administrativo e Cássio do site, estou super satisfeita com a empresa e recomendo a todos.
-                                Muito obrigada!</p>
+                            <p>Integrado ao sistema Midas implementamos a metodologia do uso de MQL (Pré atendimento). Iniciamos em nosso setor de locação cujos resultados foram surpreendentes, obtivemos um aumento de 30% na locação de imóveis, além da equipe estar mais motivada, pois recebe apenas leads qualificados. Agora começamos a adotar o sistema no setor de vendas. Obtendo o mesmo resultado será fantástico.</p>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
+
+            <!-- Slide 3-->
+            <div class="carousel-item">
+                <div class="div-depoimentos">
+                    <div class="card-depoimentos">
+                        <div class="depoimentos-header">
+                            <img src="img/depoimento-masculino1.png" alt="" style="max-width: 150px; max-height: 150px">
+                            <div>
+                                <h3>Wagner Pimentel</h3>
+                                <p>Imobiliária Pimentel</p>
+                            </div>
+
+                        </div>
+                        <div class="depoimentos-body">
+                            <p>Sou dono da Imobiliária Pimentel e antigamente eu usava um sistema muito conhecido e popular no mercado imobiliário, mas recentemente migrei para o sistema Midas e o principal fator dessa mudança é porque eu não tinha suporte para as minhas necessidades diárias com o sistema anterior. Hoje no Midas, tenho um suporte e um atendimento muito bom, a empresa dá atenção total para as nossas necessidades. Passei por uma situação de urgência e a equipe se desdobrou em me ajudar e me atender, nesses momentos atuais a questão de atendimento é fundamental e nesse quesito o Midas é fantástico e tem me ajudo bastante. O atendimento e o suporte são fantásticos e recomendo o sistema Midas e torço para que nossa parceria seja duradoura.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4-->
+            <div class="carousel-item">
+                <div class="div-depoimentos">
+                    <div class="card-depoimentos">
+                        <div class="depoimentos-header">
+                            <img src="img/depoimento-feminino1.png" alt="" style="max-width: 150px; max-height: 150px">
+                            <div>
+                                <h3>Leila Milhazes</h3>
+                                <p>Cema Imobiliária</p>
+                            </div>
+
+                        </div>
+                        <div class="depoimentos-body">
+                            <p>Integrado ao sistema Midas implementamos a esteira digital de locação na qual todas as etapas da nossa atividade de locação de imóveis são realizadas digitalmente. Todos meus processos ficaram organizados e controláveis. Foi uma solução perfeita na integração de informações e na praticidade do uso aos clientes e usuários.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
         <!-- indicadores laterais do carrossel de imagens -->

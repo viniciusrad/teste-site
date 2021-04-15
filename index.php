@@ -35,7 +35,7 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
                 <li><a href="venda-empreendimentos-imobiliarios-remanescentes">Remanescentes de lançamentos</a></li>
                 <li><a href="qualificacao-leads-imobiliários-mql">MQL Qualificação de leads</a></li>
             </ul>
-            <a href="#contato">
+            <a href="#div-contato">
                 <button class="btn-saiba-mais-black" style="margin-top: 1em;">Solicite contato</button>
             </a>
         </div>
@@ -57,7 +57,7 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
                 <li>Remanescentes de lançamentos</li>
                 <li>MQL Qualificação de leads</li>
             </ul>
-            <a href="contato">
+            <a href="#div-contato">
                 <button class="btn-saiba-mais-black" style="margin-top: 1em;">Solicite contato</button>
             </a>
         </div>

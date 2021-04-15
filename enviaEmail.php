@@ -1,25 +1,10 @@
 <?php
-// $nome = "vinicius";
-// $email = "viniciusrad@yahoo.com.br";
-// $mensagem = "Mensagem de teste de envio de email de contato do site midas";
-// $to = "viniciusrad@yahoo.com.br";
-// $assunto = "Mensagem de " . $email;
-// if (mail($to, $assunto, $mensagem)) {
-//     echo "email enviado com sucesso";
-// } else {
-
-//     echo "Falha ao enviar email";
-// }
-
-
-// var_dump($_POST);
-// die("die aqui");
 $nome = $_POST['nome'];
 $email = $_POST['e-mail'];
 $telefone = $_POST['telefone'];
 $mensagem = $_POST['mensagem'];
 // $imobiliaria = $_POST['imobiliaria'];
-$formaContato = $_POST['forma-contato'];
+//$formaContato = $_POST['forma-contato'];
 
 $headers = "From: vinicius@infoideias.com.br \r\n";
 $headers .= "Reply-To: vinicius@infoideias.com.br \r\n";
@@ -30,18 +15,48 @@ $headers .= "Return-Path: vinicius@infoideias.com.br \r\n"; // return-path
 $mensagemFinal = "Nome do cliente: " . $nome . "<br/><br/>" .
     // "Imobiliaria do cliente: " . $imobiliaria  . "<br/><br/>" .
     "Telefone do cliente: " . $telefone  . "<br/><br/>" .
-    "Formna de contato preferencial: " . $formaContato  . "<br/><br/>" .
+    //"Formna de contato preferencial: " . $formaContato  . "<br/><br/>" .
     "Mensagem do cliente: " . $mensagem;
-$to = "vinicius@infoideias.com.br";
+
+//ENDEREÇO DE ENVIO DE EMAIL
+$to = "comercial@infoideias.com.br";
 
 
 $assunto = "Mensagem de " . $email;
-//envia o email
+//ENVIA O EMAIL
 if (mail($to, $assunto, $mensagemFinal, $headers, $email)) {
     // echo "email enviado com sucesso";
 } else {
     // echo "Falha ao enviar email";
 }
+
+
+/**********************************/
+//FAZ A INSERÇÃO NO BANCO COMERCIAL
+//parametros de conexão
+$servidor = '168.0.134.82';
+$usuario = 'comerc_site';
+$senha = 'LoP4@35fGTh!2';
+$banco = 'comercial';
+// Conecta-se ao banco de dados MySQL
+$mysqli = new mysqli($servidor, $usuario, $senha, $banco);
+
+// Caso algo tenha dado errado, exibe uma mensagem de erro
+if (mysqli_connect_errno()) trigger_error(mysqli_connect_error());
+
+$sql = "INSERT INTO mov_retorno_leads (origem, data_retorno, nome_empresa, nome_contato, email_contato, observacao_mensagem)
+VALUES ('S', NOW(), '$nome', '$nome', '$email', '$mensagem')";
+
+// var_dump($sql);
+// die();
+
+if ($mysqli->query($sql)) {
+    // echo "<pre> INSERIDO NO BANCO COM SUCESSO </pre>";
+} else {
+    // echo "<pre>FALHOU MISERAVELMENTE:</pre><pre>$mysqli->error</pre>";
+}
+
+
 
 ?>
 <link rel="stylesheet" href="index.css">

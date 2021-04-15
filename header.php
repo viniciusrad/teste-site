@@ -47,9 +47,12 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/logo-fav-icon.png">
 
@@ -62,7 +65,6 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
     <link rel='stylesheet' id='font-awesome-css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
 
     <script src="./lib/jquery.cookie.js"></script>
-
 
     <link rel="stylesheet" href="index.css">
 
@@ -102,10 +104,10 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                         <a class="dropdown-item" href="sistema-para-imobiliairia" style="border-left: 7px solid #d93117;margin-left: 10px;">SISTEMA PARA IMOBILIÁRIA</a>
                         <a class="dropdown-item" href="site-para-imobiliaria" style="border-left: 7px solid #ffb017;margin-left: 10px;"> SITE PARA IMOBILIÁRIA</a>
                         <a class="dropdown-item" href="chat-bot" style="border-left: 7px solid #9c136f;margin-left: 10px;">CHATBOT</a>
-                        <a class="dropdown-item" href="sistema-para-locacao-de-imoveis" style="border-left: 7px solid #0877ac;margin-left: 10px;">ADMINISTRACÃO DE IMÓVEIS</a>
+                        <a class="dropdown-item" href="sistema-para-locacao-de-imoveis" style="border-left: 7px solid #0877ac;margin-left: 10px;">ADMINISTRAÇÃO DE IMÓVEIS</a>
                         <a class="dropdown-item" href="sistema-para-locacao-imoveis-digital" style="border-left: 7px solid #9877ac;margin-left: 10px;">LOCAÇÃO DIGITAL</a>
                         <a class="dropdown-item" href="visita-virtual" style="border-left: 7px solid #4caa30;margin-left: 10px;">VISITA VIRTUAL</a>
-                        <a class="dropdown-item" href="venda-empreendimentos-imobiliarios-remanescentes" style="border-left: 7px solid #08b7ac;margin-left: 10px;">REMANESCENTE DE LANÇAAMENTOS</a>
+                        <a class="dropdown-item" href="venda-empreendimentos-imobiliarios-remanescentes" style="border-left: 7px solid #08b7ac;margin-left: 10px;">REMANESCENTE DE LANÇAMENTOS</a>
                         <a class="dropdown-item" href="qualificacao-leads-imobiliários-mql" style="border-left: 7px solid #7434d3;margin-left: 10px;">MQL - QUALIFICAÇÃO DE LEADS</a>
                         <a class="dropdown-item" href="https://www.midasmais.com.br/blog/" style="border-left: 7px solid #666;margin-left: 10px;">BLOG</a>
                         <a class="dropdown-item" href="contato" style="border-left: 7px solid #333;margin-left: 10px;">CONTATO</a>

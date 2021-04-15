@@ -21,9 +21,9 @@ $descricao = "Torne o processo de locação da sua imobiliária totalmente digit
         </div>
     </div>
 
-    <!-- <div class="div-texto-centralizado">
-        <p><strong style="font-size: 1.4em;">Um processo de locação sem desgastes. O locador sabe exatamente em que etapa o processo se encontra. O locatário consegue enviar documentos pelo celular ou computador. A imobiliária tem maior controle sobre tudo e consegue cortar gastos.</strong></p>
-    </div> -->
+    <div class="div-texto-centralizado">
+        <p style="font-size: 1.4em;">Um processo de locação sem desgastes. O locador sabe exatamente em que etapa o processo se encontra. O locatário consegue enviar documentos pelo celular ou computador. A imobiliária tem maior controle sobre tudo e consegue cortar gastos.</p>
+    </div>
 
     <div class=" div-fundo-verde">
         <h2>Ganhe agilidade nas locações imobiliárias</h2>
@@ -52,7 +52,7 @@ $descricao = "Torne o processo de locação da sua imobiliária totalmente digit
                 <img class="img-icone-check" src="img/icone-loc-analise.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">A análise de crédito é sempre um momento decisivo, e a experiência do cliente vale</p>
+                <p class="textos-icones-check">A análise de crédito é sempre um momento decisivo, e a experiência do cliente vale muitos pontos nesse sentido.</p>
             </div>
         </div>
         <div class="card-funcionalidade min-width-25percent">
@@ -76,7 +76,7 @@ $descricao = "Torne o processo de locação da sua imobiliária totalmente digit
                 <img class="img-icone-check" src="img/icone-loc-contrato.png" alt="Avatar">
             </div>
             <div class="container container-check">
-                <p class="textos-icones-check">A análise de crédito é sempre um momento decisivo, e a experiência do cliente vale muitos pontos nesse sentido.</p>
+                <p class="textos-icones-check">Realize a assinatura digital dos seus contratos.</p>
             </div>
         </div>
         <div class="card-funcionalidade min-width-25percent">

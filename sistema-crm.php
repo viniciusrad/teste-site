@@ -115,7 +115,6 @@ $descricao = "Sistema para gestão de clientes e imóveis e equipes para imobili
             </div>
             <div class="container container-check">
                 <p class="textos-icones-check">Análise de investimentos em publicidade. Conheça as taxas de conversão e descubra as melhores mídias.</p>
-                <p class="textos-icones-check">Conheça as taxas de conversão e descubra as melhores mídias.</p>
             </div>
         </div>
         <div class="card-funcionalidade">

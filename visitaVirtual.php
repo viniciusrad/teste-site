@@ -21,7 +21,7 @@ $descricao = "Otmize o tempo gasto em visitas utilizando a nossa visita virtual.
         </div>
     </div>
 
-    <p class="texto-destaque">A visita virtual vem substituindo as fotografias convencionais, pois permite que o cliente visite todas as partes de seu imóvel através de qualquer dispositivo com acesso à Internet como se estivesse fisicamente no local</p>
+    <p class="texto-destaque">A visita virtual vem substituindo as fotografias convencionais, pois permite que o cliente visite todas as partes de seu imóvel através de qualquer dispositivo com acesso à Internet como se estivesse fisicamente no local.</p>
 
     <div class="div-fundo-verde">
         <h2>A visita virtual é a mais nova tecnologia do mercado imobiliário.</h2>

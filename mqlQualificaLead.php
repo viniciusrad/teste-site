@@ -16,7 +16,7 @@ $descricao = "Crie uma etapa para qualificar leads, antes de encaminhá-los aos 
 
 
     <div class="div-fundo-verde">
-        <h1>Leads qualificados trazem mais produividade à sua equipe</h1>
+        <h1>Leads qualificados trazem mais produtividade à sua equipe</h1>
     </div>
     <h3 class="sub-titulo-centralizado">SE SUA EMPRESA SOFRE COM ESSES PROBLEMAS:</h3>
 
@@ -190,7 +190,7 @@ $descricao = "Crie uma etapa para qualificar leads, antes de encaminhá-los aos 
 
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre a quualificação dos leads. Aguardo contato.')
+            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre a qualificação dos leads. Aguardo contato.')
 
             $('#card-mql').css("display", "none")
 

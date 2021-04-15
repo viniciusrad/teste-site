@@ -50,7 +50,7 @@ $descricao = "Site com o melhor SEO para imobiliárias e corretores autônomos. 
 
             <div class="item-check-list-site">
                 <div class="div-img-check-dupla">
-                    <div class="    ">
+                    <div class="">
                         <img src="./img/check-icon.png" alt="">
                     </div>
                 </div>
@@ -60,7 +60,7 @@ $descricao = "Site com o melhor SEO para imobiliárias e corretores autônomos. 
             </div>
             <div class="item-check-list-site">
                 <div class="div-img-check-dupla">
-                    <div class="    ">
+                    <div class="">
                         <img src="./img/check-icon.png" alt="">
                     </div>
                 </div>
@@ -70,7 +70,7 @@ $descricao = "Site com o melhor SEO para imobiliárias e corretores autônomos. 
             </div>
             <div class="item-check-list-site">
                 <div class="div-img-check-dupla">
-                    <div class="    ">
+                    <div class="">
                         <img src="./img/check-icon.png" alt="">
                     </div>
                 </div>
@@ -80,7 +80,7 @@ $descricao = "Site com o melhor SEO para imobiliárias e corretores autônomos. 
             </div>
             <div class="item-check-list-site">
                 <div class="div-img-check-dupla">
-                    <div class="    ">
+                    <div class="">
                         <img src="./img/check-icon.png" alt="">
                     </div>
                 </div>
@@ -93,7 +93,7 @@ $descricao = "Site com o melhor SEO para imobiliárias e corretores autônomos. 
 
             <div class="item-check-list-site">
                 <div class="div-img-check-dupla">
-                    <div class="    ">
+                    <div class="">
                         <img src="./img/check-icon.png" alt="">
                     </div>
                 </div>
@@ -103,7 +103,7 @@ $descricao = "Site com o melhor SEO para imobiliárias e corretores autônomos. 
             </div>
             <div class="item-check-list-site">
                 <div class="div-img-check-dupla">
-                    <div class="    ">
+                    <div class="">
                         <img src="./img/check-icon.png" alt="">
                     </div>
                 </div>
@@ -113,22 +113,22 @@ $descricao = "Site com o melhor SEO para imobiliárias e corretores autônomos. 
             </div>
             <div class="item-check-list-site">
                 <div class="div-img-check-dupla">
-                    <div class="    ">
+                    <div class="">
                         <img src="./img/check-icon.png" alt="">
                     </div>
                 </div>
                 <div class="texto-check-site">
-                    <p>Acompanhamento de Resultados através do Google Analytics</p>
+                    <p>Acompanhamento de Resultados através do Google Analytics.</p>
                 </div>
             </div>
             <div class="item-check-list-site">
                 <div class="div-img-check-dupla">
-                    <div class="    ">
+                    <div class="">
                         <img src="./img/check-icon.png" alt="">
                     </div>
                 </div>
                 <div class="texto-check-site">
-                    <p>Certificado SSL incluso</p>
+                    <p>Certificado SSL incluso.</p>
                 </div>
             </div>
         </div>

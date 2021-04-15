@@ -178,7 +178,7 @@ $descricao = "Otmize o tempo gasto em visitas utilizando a nossa visita virtual.
 
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre o Chatbot. Aguardo contato.')
+            $('#input-mensagem').val('Olá, tenho interesse em saber mais sobre o midas 360. Aguardo contato.')
         });
     </script>
 </body>
