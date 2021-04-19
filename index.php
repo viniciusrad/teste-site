@@ -26,7 +26,7 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
             </br>
             <h3>Conheça nossos produtos</h3>
             <ul style="list-style: disc; padding-left: 3rem;">
-                <li><a href="sistema-para-imobiliairia">Sistema para imobiliárias</a></li>
+                <li><a href="sistema-para-imobiliaria">Sistema para imobiliárias</a></li>
                 <li><a href="site-para-imobiliaria">Sites para imobiliárias</a></li>
                 <li><a href="visita-virtual">Visita virtual</a></li>
                 <li><a href="sistema-para-locacao-de-imoveisp">Administração de imóveis</a></li>
@@ -80,7 +80,7 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
                 <li>Gestão total da sua Equipe;</li>
                 <li>E-mails Automáticos.</li>
             </ul>
-            <a href="sistema-para-imobiliairia">
+            <a href="sistema-para-imobiliaria">
                 <button class="btn-saiba-mais-black">Saiba mais</button>
             </a>
         </div>
@@ -170,7 +170,7 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
         <div class=" modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalBanerLabel">Titulo da campanha</h5>
+                    <!-- <h5 class="modal-title" id="modalBanerLabel">Titulo da campanha</h5> -->
                     <button id="hide_modal" type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -183,8 +183,8 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
                         <!-- ////////////////// -->
                         <div id="form-container">
                             <div id="div-form">
-                                <form action="/enviar-contato" id="formulario-contato" method="post" class="form-group">
-                                    <div class="row">
+                                <form action="enviaEmail.php" id="formulario-contato" method="post" class="form-group">
+                                    <div class="">
                                         <div class="col-xs-12">
                                             <div class="input-form" style='
                                         border: none;
@@ -202,7 +202,7 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="">
                                         <div class="col-xs-12">
                                             <div class="input-form" style='
                                         border: none;
@@ -218,7 +218,7 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="">
                                         <div class="col-xs-12">
                                             <div class="input-form" style='
                                         border: none;
@@ -235,13 +235,13 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
                                         </div>
                                     </div>
 
-                                    <div class="row">
+                                    <div class="">
                                         <div class="col-xs-12">
                                             <div class="input-form msg" style='
                                         border: none;
                                         '>
                                                 <label for="mensagem">Mensagem</label>
-                                                <textarea name="mensagem" id="mensagem" cols="30" rows="7" class="form-control" placeholder="Olá, tenho interesse em saber mais sobre o Midas. Aguardo contato." style="
+                                                <textarea name="mensagem" id="mensagem" cols="30" s="7" class="form-control" placeholder="Olá, tenho interesse em saber mais sobre o Midas. Aguardo contato." style="
                                             background: white;
                                             border-radius: 10px;
                                             color: black;
@@ -253,7 +253,7 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="">
                                         <div class="col-xs-12" style="margin: 0 auto; MARGIN-TOP: 5px; position: absolute" id='divBtn'>
                                             <div>
                                                 <input type="text" id="evita-spammer" name="evita-spammer" style="display: none;">
@@ -298,14 +298,17 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
 
 
 
+        $('#modalBaner').modal('show');
+
+        //mostra uma vez por dia baseado no cookie
         $(document).ready(function() {
             if (!$.cookie("cookieModal")) {
                 // aciona o modal se não houver cookie
-                $('#modalBaner').modal('show');
-                // cria o cookie
-                $.cookie("cookieModal", "firstSet", {
-                    "expires": 1
-                })
+                // $('#modalBaner').modal('show');
+                // CRIA O COOKIE do banner
+                // $.cookie("cookieModal", "firstSet", {
+                //     "expires": 1
+                // })
             } else {
 
             }
@@ -327,7 +330,36 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
             $('#card-site').css("display", "none")
             $('#card-crm').css("display", "none")
 
+
         })
+    </script>
+
+    <!-- Permite a verificação do mouse deixando a janela para disparar novamente o banner -->
+    <script type="text/javascript">
+        function addEvent(obj, evt, fn) {
+            if (obj.addEventListener) {
+                obj.addEventListener(evt, fn, false);
+            } else if (obj.attachEvent) {
+                obj.attachEvent("on" + evt, fn);
+            }
+        }
+        let saiuJanela = 0
+        addEvent(window, "load", function(e) {
+            addEvent(document, "mouseout", function(e) {
+                e = e ? e : window.event;
+                var from = e.relatedTarget || e.toElement;
+                if (!from || from.nodeName == "HTML") {
+                    if (saiuJanela < 1) {
+                        saiuJanela++
+                        $('#modalBaner').modal('show');
+                        // setTimeout(function() {
+                        //     saiuJanela = false
+                        // }, 2000);
+
+                    }
+                }
+            });
+        });
     </script>
 </body>
 
