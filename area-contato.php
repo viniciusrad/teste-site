@@ -40,21 +40,10 @@
                 </div>
 
 
-                <!-- <div style="display: flex;">
-                    <div class="div-radio-contato">
-                        <input type="radio" id="whatsapp" name="forma-contato" value="whatsapp">
-                        <label for="whatsapp"><i class="fab fa-whatsapp fa-lg" style="color: green;"></i> Whatsapp</label><br>
-                    </div>
-                    <div class="div-radio-contato">
-                        <input type="radio" id="telefone" name="forma-contato" value="telefone" checked="checked">
-                        <label for="telefone"><i class="fas fa-phone-alt fa-sm"></i> Telefone</label><br>
-                    </div>
-                </div> -->
             </div>
             <div style="display: flex; justify-content: center;">
 
                 <button type="submit" onclick="return gtag_report_conversion('https://www.midasmais.com.br/')" class="btn-enviar-formulario">Enviar</button>
-                <!-- <button type="submit" class="btn-enviar-formulario">Enviar</button> -->
             </div>
         </form>
     </div>
