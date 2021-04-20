@@ -1,3 +1,7 @@
+
+ErrorDocument 404 /404.php
+
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
@@ -5,7 +9,7 @@
 
   RewriteRule ^chat-bot/?$ chat-bot.php [NC,L]
   RewriteRule ^site-para-imobiliaria/?$ site-responsivo.php [NC,L]
-  RewriteRule ^sistema-para-imobiliairia/?$ sistema-crm.php [NC,L]
+  RewriteRule ^sistema-para-imobiliaria/?$ sistema-crm.php [NC,L]
   RewriteRule ^sistema-para-locacao-de-imoveis/?$ administracao-imoveis.php [NC,L]
   RewriteRule ^sistema-para-locacao-imoveis-digital/?$ locacaoDigital.php [NC,L]
   RewriteRule ^visita-virtual/?$ visitaVirtual.php [NC,L]

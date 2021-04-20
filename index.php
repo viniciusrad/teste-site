@@ -296,9 +296,14 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
 
         // })
 
-
-
+        // console.log("teste")
+        // console.log(window.history.state)
         $('#modalBaner').modal('show');
+        if (window.history.state.url != 'enviaEmail.php' || window.history.state == null) {
+            $('#modalBaner').modal('show');
+        } else {
+            let retornouContato = true
+        }
 
         //mostra uma vez por dia baseado no cookie
         $(document).ready(function() {
@@ -349,7 +354,7 @@ $descricao = "Temos soluções para transformá-lo em uma imobiliária digital d
                 e = e ? e : window.event;
                 var from = e.relatedTarget || e.toElement;
                 if (!from || from.nodeName == "HTML") {
-                    if (saiuJanela < 1) {
+                    if (saiuJanela < 1 && retornouContato == false) {
                         saiuJanela++
                         $('#modalBaner').modal('show');
                         // setTimeout(function() {

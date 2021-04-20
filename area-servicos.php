@@ -4,7 +4,7 @@
 <!-- Cards de seriços -->
 <div class="container container-icones">
     <div class="card-icone" id="card-crm">
-        <a href="sistema-para-imobiliairia">
+        <a href="sistema-para-imobiliaria">
             <div class="div-icone">
                 <img class="img-icone" src="img/icone-sistema-para-imobiliarias.png" alt="icone-crm">
             </div>

@@ -934,8 +934,8 @@ padding-bottom: 0px;
   margin: 0 auto;
   left: 340px;
   position: relative;
-  transform: scale(0.54);
-  top: -71px;
+  transform: scale(0.73);
+  top: 10px;
   color: white;
   padding: 0;
   margin: 0;
@@ -967,9 +967,9 @@ input[type=email] {
   /* Styles */
   #div-promo {
       background-image: url('./uploads/baner-mobile.jpg');
-      height: 2585px;
+      height: 870px;
       background-size: 100%;
-      width: 100%;
+      width: 300px;
       padding: 7px;
       /* background-size: cover; */
   }
@@ -977,10 +977,10 @@ input[type=email] {
   #form-container {
     max-width: 450px;
     margin: 0 auto;
+    margin-left: -50px;
     left: 0px;
     position: relative;
-    transform: scale(1.2);
-    top: 1630px;
+    top: 450px;
     color: white;
   }
 

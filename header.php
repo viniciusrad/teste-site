@@ -101,7 +101,7 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                         <a href="javascript:void(0);" class="icon"><img src="./img/menu-r.png" alt="menu" title="menu" class="pull-left sanduiche"></a>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <a class="dropdown-item" href="sistema-para-imobiliairia" style="border-left: 7px solid #d93117;margin-left: 10px;">SISTEMA PARA IMOBILIÁRIA</a>
+                        <a class="dropdown-item" href="sistema-para-imobiliaria" style="border-left: 7px solid #d93117;margin-left: 10px;">SISTEMA PARA IMOBILIÁRIA</a>
                         <a class="dropdown-item" href="site-para-imobiliaria" style="border-left: 7px solid #ffb017;margin-left: 10px;"> SITE PARA IMOBILIÁRIA</a>
                         <a class="dropdown-item" href="chat-bot" style="border-left: 7px solid #9c136f;margin-left: 10px;">CHATBOT</a>
                         <a class="dropdown-item" href="sistema-para-locacao-de-imoveis" style="border-left: 7px solid #0877ac;margin-left: 10px;">ADMINISTRAÇÃO DE IMÓVEIS</a>
