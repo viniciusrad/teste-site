@@ -1,5 +1,22 @@
 <?php
 
+
+
+
+// echo "<pre>";
+// print_r($_SERVER);
+// echo "</pre>";
+// die();
+// if ($_SERVER['HTTP_HOST'] == "www.sistemaparaimobiliaria.imb.br" || $_SERVER['HTTP_HOST'] = "sistemaparaimobiliaria.imb.br") {
+if ($_SERVER['SERVER_NAME'] != "www.midasmais.com.br" . $_SERVER['REQUEST_URI'] || $_SERVER['SERVER_NAME'] != "midasmais.com.br/" || $_SERVER['SERVER_NAME'] != "midasmais.com.br" || $_SERVER['SERVER_NAME'] != "www.midasmais.com.br") {
+    //Header('HTTP/1.1 301 Moved Permanently');
+    Header('Location: www.midasmais.com.br' . $_SERVER['REQUEST_URI']);
+
+    exit;
+}
+
+
+
 function leNumerosTelefones()
 {
     $myfile = fopen("telefonesWhatsapp.txt", "r") or die("Unable to open file!");
@@ -33,6 +50,14 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
 // die();
 
 
+
+
+// echo $_SERVER['SERVER_NAME'];
+// echo "</br>";
+// echo $_SERVER['REQUEST_URI'];
+// echo "</br>";
+// echo $_SERVER['HTTP_HOST'];
+// die();
 
 ?>
 
@@ -118,38 +143,7 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                 <div class="pull-left"><a href="./"><img id="img-logo" src="./img/logo-midas2.png" alt="Midas" title="Midas"></a></div>
             </div>
 
-            <!--  -->
-            <!-- Botao a direita  -->
-            <!--  -->
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto barra-enderecos list-none" style="list-style-type: none;">
-                    <li style="list-style: none;" class="nav-item">
-                        <a href="./index.php">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./contato.php">Contato</a>
 
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://www.midasmais.com.br/blog/">Blog</a>
-                    </li>
-
-                </ul>
-                <a href="./contato.php">
-                    <button class="btn-receber-oferta">Receber oferta</button>
-                </a>
-
-                <div class="div-social-icons">
-                    <a class="" href="https://www.instagram.com/midas_mais/"><i class="fas fa-camera"></i></a>
-                    <a class="" href="https://www.facebook.com/MidasSoftImob"><i class="fab fa-facebook"></i></a>
-                    <a class="" href="contato.php"><i class="fas fa-phone-alt"></i></a>
-                </div>
-
-
-            </div> -->
 
             <div class="div-social-icons">
                 <a class="" href="https://www.instagram.com/midas_mais/"><i class="fas fa-camera"></i></a>
@@ -160,9 +154,7 @@ $telefoneComercial = $telefonesVindosArquivo[$indexTelefone];
                     <p> (21) 2214-0113</p>
                 </div>
             </div>
-            <!--  -->
-            <!--  -->
-            <!--  -->
+
 
         </div>
 
